@@ -3,8 +3,8 @@ Daily Brief — fetch & summarize
 --------------------------------
 Pulls a quote, recent news, and analyst price targets for every ticker in
 companies.json, asks Claude to write a short, plain-English "what's going on"
-summary for each one, and saves the result to reports/<date>.json (and
-reports/latest.json, which the dashboard reads).
+summary for each one (with explicit price-vs-target comparison), and saves the
+result to reports/<date>.json (and reports/latest.json, which the dashboard reads).
 
 Run manually:
     python fetch_report.py
@@ -106,32 +106,46 @@ def get_price_target(ticker):
 def summarize(client, ticker, quote, news, price_target):
     headlines = "\n".join(f"- {n.get('headline','')}" for n in news[:5]) or "No recent news found."
 
-    target_line = "Not available."
-    if price_target:
-        target_line = (
-            f"Mean target ${price_target['mean']} (range ${price_target['low']}-"
-            f"${price_target['high']}, {price_target['numAnalysts']} analysts, "
-            f"consensus rating: {price_target['recommendation']})"
-        )
+    current_price = quote.get("c")
+    price_change = quote.get("d")
+    price_change_pct = quote.get("dp")
+
+    # Build target comparison section
+    target_comparison = ""
+    if price_target and price_target.get("mean"):
+        target = price_target["mean"]
+        diff = current_price - target
+        diff_pct = (diff / target * 100) if target else 0
+        
+        if abs(diff_pct) < 2:
+            comparison = f"trading near its analyst target of ${target:.2f}"
+        elif diff > 0:
+            comparison = f"trading ${diff:.2f} ({diff_pct:.1f}%) ABOVE its analyst target of ${target:.2f}"
+        else:
+            comparison = f"trading ${abs(diff):.2f} ({abs(diff_pct):.1f}%) BELOW its analyst target of ${target:.2f}"
+        
+        target_comparison = f"\nPrice vs. Analyst Target: {comparison} ({price_target['numAnalysts']} analysts, consensus: {price_target['recommendation']})"
 
     prompt = f"""You're writing one short paragraph for a daily investing brief about {ticker}.
 
-Price data:
-- Current price: {quote.get('c')}
-- Change: {quote.get('d')} ({quote.get('dp')}%)
+TODAY'S MOVEMENT:
+- Current price: ${current_price}
+- Change: ${price_change:+.2f} ({price_change_pct:+.2f}%)
 - Day range: {quote.get('l')} - {quote.get('h')}
-- Previous close: {quote.get('pc')}
 
-Analyst price target consensus: {target_line}
+ANALYST TARGET DATA:{target_comparison}
 
-Recent headlines:
+RECENT HEADLINES:
 {headlines}
 
-Write 2-3 plain-English sentences: what's notable today, and why it might matter to someone
-tracking this stock. If there's an analyst price target, mention how the current price compares
-to it. Mention both upside and downside considerations if relevant. Do NOT phrase this as a
-directive ("buy"/"sell") recommendation — describe what's happening and the considerations, and
-let the reader draw their own conclusion. No preamble, just the paragraph."""
+Write 2-3 sentences that answer these questions in order:
+1. How is the stock trading TODAY relative to the analyst target price? Is it above, below, or near the target?
+   What does that positioning mean?
+2. What happened today or recently (from the news) that moved it?
+3. What's the overall picture for someone tracking this stock?
+
+Do NOT say "buy" or "sell" — just describe the situation and let the reader decide. Make the 
+price-vs-target comparison explicit and prominent."""
 
     msg = client.messages.create(
         model="claude-sonnet-4-6",
@@ -167,11 +181,14 @@ def main():
             results.append(
                 {
                     "ticker": ticker,
-                    "name": name,
+                    "company_name": name,
                     "price": quote.get("c"),
+                    "previous_close": quote.get("pc"),
                     "change": quote.get("d"),
                     "changePercent": quote.get("dp"),
-                    "priceTarget": price_target,
+                    "target_price": price_target.get("mean") if price_target else None,
+                    "number_analysts": price_target.get("numAnalysts") if price_target else None,
+                    "rating": price_target.get("recommendation") if price_target else None,
                     "summary": ai_summary,
                     "news": [
                         {"title": n.get("headline"), "url": n.get("url"), "site": n.get("source")}
