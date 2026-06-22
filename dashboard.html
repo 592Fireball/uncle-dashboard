@@ -258,7 +258,14 @@ async function loadReport() {
 
       const pt = c.priceTarget;
       const targetHtml = pt
-        ? `<div class="target"><span class="label">Analyst Target</span>$${pt.mean} avg (${pt.numAnalysts || '?'} analysts, ${pt.recommendation || 'n/a'})</div>`
+        ? `<div class="target">
+            <span class="label">Analyst Target</span>
+            $${(+pt.mean).toFixed(2)} avg
+            &nbsp;·&nbsp; H&nbsp;$${(+pt.high).toFixed(2)}
+            &nbsp;·&nbsp; L&nbsp;$${(+pt.low).toFixed(2)}
+            &nbsp;·&nbsp; ${pt.numAnalysts || '?'} analysts
+            &nbsp;·&nbsp; ${pt.recommendation || 'n/a'}
+          </div>`
         : '';
 
       return `
