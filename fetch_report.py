@@ -210,24 +210,36 @@ price-vs-target comparison explicit and prominent."""
 
 
 def main():
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+    log_path = os.path.join(REPORTS_DIR, "run.log")
+    log_lines = []
+
+    def log(msg):
+        print(msg)
+        log_lines.append(msg)
+
     if not FINNHUB_API_KEY or not ANTHROPIC_API_KEY:
-        sys.exit(
-            "Missing API keys. Set FINNHUB_API_KEY and ANTHROPIC_API_KEY as environment "
-            "variables (see .env.example)."
-        )
+        missing = []
+        if not FINNHUB_API_KEY:
+            missing.append("FINNHUB_API_KEY")
+        if not ANTHROPIC_API_KEY:
+            missing.append("ANTHROPIC_API_KEY")
+        sys.exit(f"Missing API keys: {', '.join(missing)}")
 
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     companies = load_companies()
+    log(f"Loaded {len(companies)} companies: {companies}")
     results = []
 
     for ticker in companies:
-        print(f"Fetching {ticker}...")
+        log(f"Fetching {ticker}...")
         try:
             quote = get_quote(ticker)
             time.sleep(0.5)  # pause between Finnhub calls to stay under rate limit
             if not quote:
-                print(f"  no quote data for {ticker}, skipping")
+                log(f"  no quote data for {ticker}, skipping")
                 continue
+            log(f"  quote ok: {quote.get('c')}")
             name = get_company_name(ticker)
             time.sleep(0.5)
             # Finnhub gives company-specific news; Google RSS gives diverse sources.
@@ -263,9 +275,11 @@ def main():
                 }
             )
         except Exception as e:
-            print(f"  error on {ticker}: {e}")
-            traceback.print_exc()
+            log(f"  ERROR on {ticker}: {e}")
+            log(traceback.format_exc())
         time.sleep(1.1)  # Finnhub free tier: 60 calls/min, stay comfortably under that
+
+    log(f"\nDone. {len(results)} companies processed.")
 
     report = {
         "date": str(date.today()),
@@ -273,7 +287,8 @@ def main():
         "companies": results,
     }
 
-    os.makedirs(REPORTS_DIR, exist_ok=True)
+    with open(log_path, "w") as f:
+        f.write("\n".join(log_lines))
     dated_path = os.path.join(REPORTS_DIR, f"{report['date']}.json")
     latest_path = os.path.join(REPORTS_DIR, "latest.json")
 
