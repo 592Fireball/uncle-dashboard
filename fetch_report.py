@@ -24,7 +24,9 @@ import json
 import os
 import sys
 import time
+import xml.etree.ElementTree as ET
 from datetime import date, timedelta
+from urllib.parse import quote as urlquote
 
 import requests
 import anthropic
@@ -103,6 +105,32 @@ def get_price_target(ticker):
         return None
 
 
+def get_news_google(ticker, name="", limit=4):
+    """
+    Fetches news from Google News RSS feed — no API key needed.
+    Returns articles from diverse sources like Reuters, CNBC, MarketWatch, Bloomberg.
+    Each item has: title, url, site.
+    """
+    try:
+        query = urlquote(f"{ticker} {name} stock".strip())
+        url = f"https://news.google.com/rss/search?q={query}&hl=en-US&gl=US&ceid=US:en"
+        resp = requests.get(url, timeout=10, headers={"User-Agent": "Mozilla/5.0"})
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+        items = root.findall(".//item")[:limit]
+        news = []
+        for item in items:
+            title = item.findtext("title", "").split(" - ")[0].strip()  # strip appended source from title
+            link = item.findtext("link", "")
+            source_el = item.find("source")
+            site = source_el.text if source_el is not None else ""
+            if title:
+                news.append({"title": title, "url": link, "site": site})
+        return news
+    except Exception:
+        return []
+
+
 def get_analyst_actions(ticker, limit=5):
     """Recent analyst upgrades/downgrades with firm names, via Yahoo Finance."""
     try:
@@ -126,7 +154,10 @@ def get_analyst_actions(ticker, limit=5):
 
 
 def summarize(client, ticker, quote, news, price_target):
-    headlines = "\n".join(f"- {n.get('headline','')}" for n in news[:5]) or "No recent news found."
+    # news items may come from Finnhub (headline key) or Google RSS (title key)
+    headlines = "\n".join(
+        f"- {n.get('title') or n.get('headline', '')}" for n in news[:5]
+    ) or "No recent news found."
 
     current_price = quote.get("c")
     price_change = quote.get("d")
@@ -196,10 +227,19 @@ def main():
                 print(f"  no quote data for {ticker}, skipping")
                 continue
             name = get_company_name(ticker)
-            news = get_news(ticker)
+            # Finnhub gives company-specific news; Google RSS gives diverse sources.
+            # We normalize both to {title, url, site} and merge them.
+            finnhub_news = [
+                {"title": n.get("headline", ""), "url": n.get("url", ""), "site": n.get("source", "")}
+                for n in get_news(ticker)
+                if n.get("headline")
+            ]
+            google_news = get_news_google(ticker, name)
+            # Take up to 2 from Finnhub + up to 3 from Google, total ~5
+            merged_news = finnhub_news[:2] + google_news[:3]
             price_target = get_price_target(ticker)
             analyst_actions = get_analyst_actions(ticker)
-            ai_summary = summarize(client, ticker, quote, news, price_target)
+            ai_summary = summarize(client, ticker, quote, merged_news, price_target)
 
             results.append(
                 {
@@ -211,10 +251,7 @@ def main():
                     "priceTarget": price_target,
                     "analystActions": analyst_actions,
                     "summary": ai_summary,
-                    "news": [
-                        {"title": n.get("headline"), "url": n.get("url"), "site": n.get("source")}
-                        for n in news[:3]
-                    ],
+                    "news": merged_news[:5],
                 }
             )
         except Exception as e:
