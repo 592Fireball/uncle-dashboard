@@ -1,0 +1,37 @@
+name: Daily Brief
+
+on:
+  schedule:
+    # Runs at 11:00 UTC = 7:00am Eastern Time (adjust the hour if you want a different time)
+    - cron: '0 11 * * *'
+  workflow_dispatch:  # lets you trigger it manually from the GitHub Actions tab too
+
+permissions:
+  contents: write
+
+jobs:
+  update-report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run the daily report
+        run: python fetch_report.py
+        env:
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Save the updated report back to the repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/
+          git commit -m "Daily report update" || echo "Nothing new to commit"
+          git push
