@@ -5,9 +5,9 @@
     {
       "ticker": "AAPL",
       "name": "Apple Inc",
-      "price": 300.65,
-      "change": 2.64,
-      "changePercent": 0.8859,
+      "price": 300.71,
+      "change": 2.7,
+      "changePercent": 0.906,
       "priceTarget": {
         "mean": 314.4238,
         "high": 400.0,
@@ -15,21 +15,21 @@
         "numAnalysts": 42,
         "recommendation": "buy"
       },
-      "summary": "Apple edged up about 0.9% today to $300.65, trading within a fairly tight intraday range and holding comfortably above its previous close. The stock sits roughly 4.5% below the analyst consensus price target of $314.42, suggesting Wall Street still sees some room to run \u2014 though that average masks a wide range of views, from a bear case of $215 to a bull case of $400. On the cautious side, at least one analyst issued a downgrade today and a recent piece questions whether Apple's impressive margin story is starting to fade, so investors may want to keep an eye on upcoming earnings commentary around profitability trends.",
+      "summary": "Apple edged up about 0.9% today, trading in a tight range and closing near $301 \u2014 still roughly 4.5% below the analyst consensus price target of $314, suggesting the street sees modest room to run from here, though that consensus spans a wide range from $215 to $400. On the downside, a reported cyber breach at Tata Electronics \u2014 a key Apple supplier \u2014 has raised questions about supply chain security and potential exposure of trade secrets, which is worth watching even if the immediate impact on operations is unclear. Adding some caution, at least one Wall Street analyst issued a downgrade on Apple today, which could weigh on sentiment even as the broader market held up reasonably well.",
       "news": [
         {
-          "title": "SpaceX initiation, Apple downgrade among today's top calls on Wall Street",
-          "url": "https://finnhub.io/api/news?id=e93d39adac500f864dcddfcbf0ab8b2e460896114110468e7c9022761f1367b4",
+          "title": "India's Tata Electronics hit by cyber breach claiming to expose Apple, Tesla trade secrets",
+          "url": "https://finnhub.io/api/news?id=c8b0fddb72459fef86e393846d2f52556187d6572c2679bc95f7eba825d70be2",
           "site": "Yahoo"
         },
         {
-          "title": "Micron and Western Digital Rise 6%, SanDisk Gains 5% as Memory Stocks Rally Into Micron\u2019s Earnings",
-          "url": "https://finnhub.io/api/news?id=c66778cfd654731eadd8bca00b91c10b3830f6e06bf7426dd60892c7d13c9c49",
+          "title": "Stock Market Today: Dow Up As Bessent Makes Iran Move; Microsoft Falls After Nadella Says This (Live Coverage)",
+          "url": "https://finnhub.io/api/news?id=f803f5ff3cd9fe096d287ff9054cb7284ce01182381750b0de013b1f7055bdb2",
           "site": "Yahoo"
         },
         {
-          "title": "Microsoft, Satya Nadella And The Most Polite Admission in Tech",
-          "url": "https://finnhub.io/api/news?id=1f518eaca95d9a90dcc2a297ba08dad692fa65bda08c35332fc967d888b63885",
+          "title": "Google Stock: The Price Of A Juggernaut",
+          "url": "https://finnhub.io/api/news?id=811990da756b0086666393d93d40bad28e9a611d210c80adc82300bb5fdce75e",
           "site": "Yahoo"
         }
       ]
@@ -37,9 +37,9 @@
     {
       "ticker": "MSFT",
       "name": "Microsoft Corp",
-      "price": 370.71,
-      "change": -8.69,
-      "changePercent": -2.2905,
+      "price": 369.09,
+      "change": -10.31,
+      "changePercent": -2.7174,
       "priceTarget": {
         "mean": 561.38763,
         "high": 870.0,
@@ -47,21 +47,21 @@
         "numAnalysts": 55,
         "recommendation": "strong_buy"
       },
-      "summary": "Microsoft slipped 2.3% today to $370.71, closing well below its prior session and near the bottom of its intraday range, which may reflect broader market pressure or some caution following CEO Satya Nadella's public warnings about AI concentration risks \u2014 a notable signal given how central AI growth is to the bull case for the stock. At the same time, a new data center power venture involving Microsoft and GE Vernova underscores the ongoing infrastructure buildout behind that AI ambition. The analyst community remains broadly optimistic, with a consensus \"strong buy\" rating and a mean price target of $561, suggesting the street sees significant long-term upside from current levels \u2014 though the wide target range ($400\u2013$870 across 55 analysts) reflects genuine uncertainty about how quickly and profitably that AI opportunity materializes.",
+      "summary": "Microsoft shares fell 2.7% today to $369.09, closing well below the prior session's $379.40 and touching lows near the day's floor \u2014 a notable pullback with no clearly company-specific headline driving the move. Analyst sentiment remains broadly bullish, with a consensus \"strong buy\" rating and a mean price target of $561, suggesting the street sees substantial long-term upside from current levels, though the wide target range ($400\u2013$870 across 55 analysts) reflects real uncertainty about how AI tailwinds ultimately translate to earnings. On that front, broader AI momentum \u2014 underscored by headlines noting engineers shipping code at 8x the previous rate \u2014 could be a long-term positive for Microsoft's Copilot and Azure AI offerings, though investors will want to watch whether today's weakness is a routine dip or an early signal of broader tech rotation.",
       "news": [
         {
-          "title": "Microsoft CEO Satya Nadella warns of AI concentration risks",
-          "url": "https://finnhub.io/api/news?id=e2d5750b53ad3c0b0671cd61b5ce1cf67d12020c2f312dba767c0853fdd427f9",
+          "title": "Top Midday Stories: Treasury Authorizes Sale of Iranian Oil; SpaceX launches First Inaugural Bond Issuance",
+          "url": "https://finnhub.io/api/news?id=cf927366051b9be9de10bf2c924b9159fd7dfd9f13e751998bfbc6ad17403758",
           "site": "Yahoo"
         },
         {
-          "title": "Scales Tip to Small Business from Large Enterprise in IT Spend: Pax8 CEO Scott Chasin,\u202fLive from Pax8 Beyond 2026",
-          "url": "https://finnhub.io/api/news?id=200f7f7ed2b0c6d0c841fb725ab922325b32ef7e9c230a137e71662082c0bd9f",
+          "title": "3 Cheap Artificial Intelligence Stocks to Buy Right Now",
+          "url": "https://finnhub.io/api/news?id=45457f4530d065e9b63c5a3aada0bff2ec0addfc44170684dbba55205476656d",
           "site": "Yahoo"
         },
         {
-          "title": "Sector Update: Energy Stocks Decline Premarket Monday",
-          "url": "https://finnhub.io/api/news?id=fe59f712a171ae483645216edf51ffbde5e2decf4d8f6210ec40a00a811abeda",
+          "title": "IREN Stock Set for 92% Surge",
+          "url": "https://finnhub.io/api/news?id=b0e10bb03db0817adb192a38b0f1d8e50a3d3e442da26cda6360f3d8c80a185e",
           "site": "Yahoo"
         }
       ]
@@ -69,9 +69,9 @@
     {
       "ticker": "GOOGL",
       "name": "Alphabet Inc",
-      "price": 346.18,
-      "change": -21.85,
-      "changePercent": -5.937,
+      "price": 345.56,
+      "change": -22.47,
+      "changePercent": -6.1055,
       "priceTarget": {
         "mean": 432.83453,
         "high": 515.0,
@@ -79,21 +79,21 @@
         "numAnalysts": 53,
         "recommendation": "strong_buy"
       },
-      "summary": "Alphabet (GOOGL) is sliding nearly 6% today to $346, making it one of the more notable gaps lower in the S&P 500 this session, with the stock trading well off its previous close of $368. The drop comes even as the company makes aggressive moves in the AI chip space, reportedly backing a $3.2 billion push to develop alternatives to Nvidia \u2014 a bet that could reduce long-term costs but faces execution risk in a competitive landscape. With the analyst consensus sitting at a strong buy and a mean price target of $433, the stock is trading at a roughly 25% discount to where Wall Street collectively thinks it should be, which some may see as an opportunity, though today's sharp selloff is a reminder that near-term pressure can persist regardless of longer-term targets.",
+      "summary": "Alphabet (GOOGL) is sliding more than 6% today to around $345.56, dragged down by concerns over AI talent departures and broader tech sector pressure, leaving the stock near the low end of its analyst target range of $340\u2013$515 \u2014 well below the consensus mean target of $432.83, implying significant upside if those estimates prove accurate. The AI brain drain narrative is a meaningful concern worth watching, as Alphabet's competitive positioning in the AI race is central to its long-term growth story, and losing key talent to rivals could weigh on that thesis. On the other hand, the company's continued involvement in high-profile funding rounds like AppsFlyer's $1B raise signals it remains active in the AI ecosystem, and a strong buy consensus from 53 analysts suggests the Street views today's selloff as more of a sentiment-driven dip than a fundamental breakdown.",
       "news": [
         {
-          "title": "Which S&P500 stocks are gapping on Monday?",
-          "url": "https://finnhub.io/api/news?id=d87acd74c04d614915e0556acd6295b5a279a4101d5029f9b927e866ae241dbc",
-          "site": "ChartMill"
-        },
-        {
-          "title": "Stock Market Today: Dow Rises Amid U.S.-Iran Peace Talks; SpaceX Stock Sells Off (Live Coverage)",
-          "url": "https://finnhub.io/api/news?id=46fc4a82758e526416bc3a88cbe2ea52719ac9f29ff64f62e58adbebeb59cac3",
+          "title": "Alphabet slides over 6% as AI brain drain and SpaceX slump converge",
+          "url": "https://finnhub.io/api/news?id=64baa9d6dbc8e5b3358da81f66906ef3b349f3b5ff388d081bdc544c9cbad311",
           "site": "Yahoo"
         },
         {
-          "title": "Google Backs $3.2B AI Chip Push Against Nvidia",
-          "url": "https://finnhub.io/api/news?id=0e52315f4b2554fbcd3114009314c3f30fc3341755eac4b91f297be0ba27f915",
+          "title": "Exclusive: AppsFlyer raises $1B from Moloco, Google, Meta and Unity",
+          "url": "https://finnhub.io/api/news?id=fc644ba3179e8e3a7a034d177c06f3448bbc62616fe493ebd0f06d223fd06200",
+          "site": "Yahoo"
+        },
+        {
+          "title": "Anthropic Technical Expert: \u2018Coding Is No Longer the Bottleneck\u2019 as Engineers Ship 8x More Code Per Quarter",
+          "url": "https://finnhub.io/api/news?id=79766806137d78f38cf043e7a5a32b978cf261f9ad6630fcaa76d6daabf357ff",
           "site": "Yahoo"
         }
       ]
@@ -101,9 +101,9 @@
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "price": 233.6,
-      "change": -10.79,
-      "changePercent": -4.4151,
+      "price": 233.05,
+      "change": -11.34,
+      "changePercent": -4.6401,
       "priceTarget": {
         "mean": 312.98715,
         "high": 370.0,
@@ -111,21 +111,21 @@
         "numAnalysts": 63,
         "recommendation": "strong_buy"
       },
-      "summary": "Amazon shares dropped 4.4% today to $233.60, a notable pullback that comes as Prime Day headlines dominate the news cycle \u2014 the annual sales event is expected to generate record online spending, making it a key real-time gauge of U.S. consumer health, with early signals suggesting shoppers are gravitating toward essentials rather than discretionary splurges. The current price sits well below the analyst consensus target of $313, implying significant upside in the eyes of the Street, where 63 analysts collectively rate the stock a strong buy and some see a path to Amazon joining the $3 trillion market cap club by late summer. On the downside, today's selloff and the \"shift to basics\" narrative around Prime Day could raise questions about consumer spending resilience and whether Amazon's retail margins can hold up if demand stays cautious.",
+      "summary": "Amazon shares fell sharply today, dropping over 4.6% to close around $233, well below the previous session's $244 close. Despite the selloff, the stock trades at a significant discount to the analyst consensus price target of roughly $313 \u2014 representing potential upside of about 34% \u2014 with 63 analysts collectively rating it a strong buy. On the positive side, Prime Day forecasts are pointing to record sales, which could act as a near-term catalyst, though broader market pressure and macro uncertainty appear to be weighing on the stock for now, and investors will want to watch whether the Prime Day momentum is enough to reverse recent weakness.",
       "news": [
         {
-          "title": "Amazon Prime Day Puts Retail Demand in Focus",
-          "url": "https://finnhub.io/api/news?id=fdc567e65f6ea8db40b6d59c677060f16d5904c0891c84ba1ca49578170ec80f",
+          "title": "Amazon Prime Day Forecast Is For Record Sales. Can It Revive Amazon Stock?",
+          "url": "https://finnhub.io/api/news?id=741f6794548ba8c90b11d6b84084dab243dd57881a31107e9e044e4638f174f6",
           "site": "Yahoo"
         },
         {
-          "title": "Amazon Prime Day Set to Generate Record Online Spending as Retailers Compete for Shoppers (AMZN)",
-          "url": "https://finnhub.io/api/news?id=d77dbe9bfba16c45836afaa1a2af5f20cd14dd2768f3255feefa5a3b376a2d2c",
+          "title": "Stock Market Today: Dow Up As Bessent Makes Iran Move; Microsoft Falls After Nadella Says This (Live Coverage)",
+          "url": "https://finnhub.io/api/news?id=f803f5ff3cd9fe096d287ff9054cb7284ce01182381750b0de013b1f7055bdb2",
           "site": "Yahoo"
         },
         {
-          "title": "Prediction: Amazon Will Surpass Microsoft's Market Cap and Join the $3 Trillion Club By the End of Summer",
-          "url": "https://finnhub.io/api/news?id=e6d39190e36aa91c6efd43881bfa23a4f42284647a3add6633fc85977b651cdc",
+          "title": "Berkshire Hathaway (BRK.A) Backs Greg Abel As Alphabet Bet And Deals Reshape Berkshire",
+          "url": "https://finnhub.io/api/news?id=d3fa7f98a929dad77f01d967834e42f9f133994280242a4bf97543338b4cc352",
           "site": "Yahoo"
         }
       ]
@@ -133,9 +133,9 @@
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corp",
-      "price": 209.72,
-      "change": -0.97,
-      "changePercent": -0.4604,
+      "price": 209.57,
+      "change": -1.12,
+      "changePercent": -0.5316,
       "priceTarget": {
         "mean": 298.9322,
         "high": 500.0,
@@ -143,21 +143,21 @@
         "numAnalysts": 59,
         "recommendation": "strong_buy"
       },
-      "summary": "NVDA slipped about 0.5% today, closing near $209.72 after trading in a tight range, a relatively quiet session with no major company-specific headlines driving the move. The 59-analyst consensus carries a \"strong buy\" rating with a mean price target of roughly $299 \u2014 implying about 42% upside from current levels \u2014 though the wide target range ($180 to $500) reflects genuine disagreement about how the AI infrastructure buildout will ultimately play out. Bulls point to sustained data center demand as a long-term catalyst, while bears may note the stock has already had a significant run and remains sensitive to any shifts in AI spending sentiment or macro conditions.",
+      "summary": "Nvidia slipped about half a percent today, settling around $209.57 after touching an intraday high near $214, a modest pullback that keeps the stock well below the analyst consensus price target of roughly $299 \u2014 implying significant upside if that consensus proves correct, though the wide target range ($180 to $500 across 59 analysts) reflects genuine uncertainty about where the stock heads from here. On the positive side, broader commentary suggests AI momentum remains a strong tailwind, with a chief economist noting it's outweighing macro concerns like Fed policy and geopolitical risks. That said, today's quiet news cycle for Nvidia specifically, combined with ongoing questions about its 2029 trajectory, is a reminder that much of the current valuation is built on long-horizon expectations \u2014 meaning the story hinges heavily on whether AI infrastructure spending holds up over time.",
       "news": [
         {
-          "title": "Platinum Is Down 6% While Gold Hit Record Highs and One Quiet ETF Sits at the Bottom of a Setup Most Investors Are Missing",
-          "url": "https://finnhub.io/api/news?id=5d498f1a757598ae690242be1eeab26f5454e8bd8bbb2ef23c8bd07f4ab9f93c",
+          "title": "Top Midday Stories: Treasury Authorizes Sale of Iranian Oil; SpaceX launches First Inaugural Bond Issuance",
+          "url": "https://finnhub.io/api/news?id=cf927366051b9be9de10bf2c924b9159fd7dfd9f13e751998bfbc6ad17403758",
           "site": "Yahoo"
         },
         {
-          "title": "How Tesla Investors Are Generating Weekly Income With TSLW Without Selling a Share of TSLA",
-          "url": "https://finnhub.io/api/news?id=14509ecdce58c76ecdfa7a2b148874c176e350e0460de78d44879f5e7ed23097",
+          "title": "AI Momentum Outweighs Iran Risks and Fed Concerns, Says Chief Economist",
+          "url": "https://finnhub.io/api/news?id=d5c34bd40ac1d78b559bb93a48f1c4f9d05069fc23fc1f62c61aaf1f0ea8bb88",
           "site": "Yahoo"
         },
         {
-          "title": "Is The Trade Desk Due for a Comeback?",
-          "url": "https://finnhub.io/api/news?id=a857cafc90281ab83f731372d723fa53d91e3390a69e35a6f9b646e93004d298",
+          "title": "Why Alamos Gold Stock Is Plummeting Today",
+          "url": "https://finnhub.io/api/news?id=efdaaaf44f682ac8b2f67e3f5333a99a3e93762a699a648b6e13b7ad399147db",
           "site": "Yahoo"
         }
       ]
@@ -165,9 +165,9 @@
     {
       "ticker": "META",
       "name": "Meta Platforms Inc",
-      "price": 562.93,
-      "change": -14.29,
-      "changePercent": -2.4757,
+      "price": 561.38,
+      "change": -15.84,
+      "changePercent": -2.7442,
       "priceTarget": {
         "mean": 827.3183,
         "high": 1015.0,
@@ -175,21 +175,21 @@
         "numAnalysts": 59,
         "recommendation": "strong_buy"
       },
-      "summary": "Meta shares slipped about 2.5% today to close near $563, pulling back from a previous close above $577. The most notable development is Meta's $900 million investment in Indian fintech firm CRED, paired with a leadership shakeup at WhatsApp \u2014 moves that signal an aggressive push into India's massive digital payments and messaging market, which could be a meaningful long-term growth avenue but also represents significant capital deployment with uncertain near-term returns. Analysts remain broadly bullish, with a consensus \"strong buy\" rating and a mean price target around $827 \u2014 roughly 47% above today's price \u2014 though the wide target range ($664 to $1,015) reflects genuine uncertainty about how bets like the India expansion will ultimately pay off.",
+      "summary": "Meta shares slipped 2.7% today to $561.38, pulling back from a previous close near $577, though the stock remains well below the analyst consensus price target of $827 \u2014 suggesting analysts see meaningful room to run if the company executes. On the strategic front, Meta is making moves in its messaging and app ecosystem, tapping CRED founder Kunal Shah to lead WhatsApp and investing $900M in his startup, while also participating in a $1B funding round for mobile measurement firm AppsFlyer alongside Google and others \u2014 signaling continued appetite for AI and app-economy infrastructure bets. Bears might point to today's broad pullback and the gap between current prices and where the stock has been trading as reasons for caution, while bulls could view the $266 discount to the analyst mean target, paired with active strategic investments, as an attractive long-term setup.",
       "news": [
         {
-          "title": "Meta's WhatsApp to be led by Indian startup founder Kunal Shah",
-          "url": "https://finnhub.io/api/news?id=5520f2650fe89ba7b9e2cd2dcf46fa7601a5768fb0d364028d8bc828a66611c5",
+          "title": "Top Midday Stories: Treasury Authorizes Sale of Iranian Oil; SpaceX launches First Inaugural Bond Issuance",
+          "url": "https://finnhub.io/api/news?id=cf927366051b9be9de10bf2c924b9159fd7dfd9f13e751998bfbc6ad17403758",
           "site": "Yahoo"
         },
         {
-          "title": "Indian fintech firm CRED to raise $900 million from Meta at $4.5 billion valuation",
-          "url": "https://finnhub.io/api/news?id=69c0633f8b02d78e1150c7ac242cdd38b60a40f9dac73fe6a0f044cb7f787bc5",
+          "title": "3 Cheap Artificial Intelligence Stocks to Buy Right Now",
+          "url": "https://finnhub.io/api/news?id=45457f4530d065e9b63c5a3aada0bff2ec0addfc44170684dbba55205476656d",
           "site": "Yahoo"
         },
         {
-          "title": "OfferUp Honors Small Businesses by Spotlighting Entrepreneurs Who Built Their Companies Using the Platform",
-          "url": "https://finnhub.io/api/news?id=4856837057bf2438204b147a00468ebce1ca96218929bb727ca4d6f25c862164",
+          "title": "Stripe names Eileen O'Mara as vice chair",
+          "url": "https://finnhub.io/api/news?id=4368eb9aad3380ba977fd2c0c170eb0a77efe8c3f0132412837d399d630b4233",
           "site": "Yahoo"
         }
       ]
@@ -197,9 +197,9 @@
     {
       "ticker": "TSLA",
       "name": "Tesla Inc",
-      "price": 408.41,
-      "change": 7.92,
-      "changePercent": 1.9776,
+      "price": 407.37,
+      "change": 6.88,
+      "changePercent": 1.7179,
       "priceTarget": {
         "mean": 420.54633,
         "high": 600.0,
@@ -207,21 +207,21 @@
         "numAnalysts": 41,
         "recommendation": "buy"
       },
-      "summary": "Tesla shares rose roughly 2% today, closing near $408 after trading as high as $414.75, and sit just modestly below the analyst consensus price target of around $421 \u2014 suggesting limited upside on a pure price-target basis, though the wide target range ($123 to $600) reflects how sharply divided Wall Street remains on the stock's valuation. On the bullish side, speculation around a potential SpaceX-Tesla merger is drawing attention, which could reshape the investment thesis significantly if it gains traction. On the cautious side, Jefferies flagged the risk that Tesla increasingly trades as a SpaceX proxy \u2014 meaning its valuation may depend more on Musk's broader ventures than on core auto fundamentals \u2014 while questions about the Optimus robotics timeline suggest execution risk remains a live concern for investors pricing in the AI and robotics story.",
+      "summary": "Tesla gained 1.7% today, closing at $407.37 after trading in a wide $394\u2013$415 range, and sits modestly below the analyst consensus price target of $420.55, suggesting limited upside by that measure \u2014 though targets span a wide $123\u2013$600 range, reflecting deep disagreement about the stock's fair value. On the positive side, Cathie Wood's ARK continued adding to its Tesla position, and the stock's recent momentum points to operational progress; on the other hand, Jefferies flagged that a potential SpaceX merger could weigh on shares, and analysts are noting a growing gap between Tesla's robotaxi ambitions and actual execution. A reported cyber breach at Tata Electronics \u2014 a supplier tied to both Apple and Tesla \u2014 is also worth watching, as supply chain security incidents can carry operational and reputational implications.",
       "news": [
         {
-          "title": "How Tesla Investors Are Generating Weekly Income With TSLW Without Selling a Share of TSLA",
-          "url": "https://finnhub.io/api/news?id=14509ecdce58c76ecdfa7a2b148874c176e350e0460de78d44879f5e7ed23097",
+          "title": "India's Tata Electronics hit by cyber breach claiming to expose Apple, Tesla trade secrets",
+          "url": "https://finnhub.io/api/news?id=c8b0fddb72459fef86e393846d2f52556187d6572c2679bc95f7eba825d70be2",
           "site": "Yahoo"
         },
         {
-          "title": "Did Elon Musk Just Hint a SpaceX-Tesla Merger Is Imminent?",
-          "url": "https://finnhub.io/api/news?id=cfca0d75738425162b40dfe908048860fec565ef4c82a910e5ac574cc02fca3b",
+          "title": "Anthropic Technical Expert: \u2018Coding Is No Longer the Bottleneck\u2019 as Engineers Ship 8x More Code Per Quarter",
+          "url": "https://finnhub.io/api/news?id=79766806137d78f38cf043e7a5a32b978cf261f9ad6630fcaa76d6daabf357ff",
           "site": "Yahoo"
         },
         {
-          "title": "Tesla's Missing 10,000: Is Optimus Falling Behind The Robotics Pack?",
-          "url": "https://finnhub.io/api/news?id=2542281f4d8e63105c3b4c42f920ac14c5f90478c053e7d8bb3fc470d4c8962a",
+          "title": "SpaceX Merger Would Hurt Tesla Stock, Jefferies Says. Cathie Wood Adds Tesla.",
+          "url": "https://finnhub.io/api/news?id=968899a8f5bd7a75c3caef215afe92494cd63d484ed2445508c12b0c566b7c6c",
           "site": "Yahoo"
         }
       ]
@@ -229,11 +229,11 @@
     {
       "ticker": "BRK.B",
       "name": "Berkshire Hathaway Inc",
-      "price": 489.04,
-      "change": -0.42,
-      "changePercent": -0.0858,
+      "price": 488.98,
+      "change": -0.48,
+      "changePercent": -0.0981,
       "priceTarget": null,
-      "summary": "BRK.B edged slightly lower today, slipping $0.42 to close at $489.04 after trading in a fairly tight range between $487.88 and $492.48. The most notable headline involves NetJets \u2014 Berkshire's wholly owned private aviation subsidiary \u2014 which experienced its first fatal crash, killing a prominent Texas venture capital founder; while a single incident doesn't necessarily signal operational problems, it could draw regulatory scrutiny and raises reputational questions for a premium brand that markets heavily on safety and reliability. No analyst price target consensus is available for comparison, so investors will likely be watching for any further details on the NetJets incident and whether it generates meaningful liability exposure or affects demand for the company's fractional jet ownership services.",
+      "summary": "Berkshire Hathaway Class B shares are trading essentially flat, down less than a tenth of a percent near $489, after drifting in a relatively tight intraday range. The more notable development is a fatal crash involving NetJets, Berkshire's fractional private aviation subsidiary, which killed a prominent Texas venture capital founder \u2014 an incident that could draw regulatory scrutiny and reputational attention to that business unit, even if its financial impact on a conglomerate of Berkshire's scale would likely be minimal. Investors tracking the stock will want to watch whether the NetJets story gains wider coverage, as headline risk around safety incidents can occasionally weigh on sentiment even when the underlying financials remain largely unaffected.",
       "news": [
         {
           "title": "NetJets' first fatal crash kills influential Texas VC founder",
@@ -245,9 +245,9 @@
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase & Co",
-      "price": 331.09,
-      "change": 5.87,
-      "changePercent": 1.8049,
+      "price": 331.86,
+      "change": 6.64,
+      "changePercent": 2.0417,
       "priceTarget": {
         "mean": 342.0,
         "high": 391.0,
@@ -255,21 +255,21 @@
         "numAnalysts": 21,
         "recommendation": "buy"
       },
-      "summary": "JPMorgan shares gained nearly 1.8% today to $331.09, recovering from yesterday's close and trading near the top of the day's range, though still roughly 3% below the analyst consensus price target of $342. The bull case is supported by Morningstar flagging the stock as increasingly attractive at recent levels and JPM's own strategic positioning in agentic AI for banking, which could be a meaningful longer-term differentiator. On the cautious side, the wide analyst target range ($295\u2013$391) reflects genuine uncertainty about the macro environment, and the stock's recent premarket slip suggests some hesitation among investors weighing near-term headwinds against the recovery potential.",
+      "summary": "JPMorgan shares rose about 2% today, closing near $332, as the stock continues to trade below the analyst consensus price target of $342 \u2014 suggesting modest upside according to the average estimate, though targets range widely from $295 to $391. On the constructive side, JPM's own research desk is flagging consumer sectors for a second-half rebound, which could reflect internal confidence in the broader economic backdrop that supports bank earnings. That said, the firm itself is warning of a potential wave of market selling, and while JPM analysts suggest it may not be consequential, the combination of macro uncertainty and a wide analyst target range points to meaningful disagreement about where the stock goes from here.",
       "news": [
         {
-          "title": "JPM identifies consumer sectors to buy for a 2H rebound",
-          "url": "https://finnhub.io/api/news?id=a8be93913aa387b7957fef33c7fb6a471a02f147fe4bedfc518e17413be26ad3",
+          "title": "Massive Wave of Selling Is Coming, Says JPMorgan. Here\u2019s Why It Probably Won\u2019t Matter",
+          "url": "https://finnhub.io/api/news?id=d09888a5b2e047c4773641615fe7bc316aa88929a153ae1f122d6a21654d2b1f",
           "site": "Yahoo"
         },
         {
-          "title": "JPMorgan Lifts PT on Western Digital Corporation (WDC)",
-          "url": "https://finnhub.io/api/news?id=905332078522c2ce09c34636676203e3debdf93cd0f1f82294c91d4750de7070",
+          "title": "Is Bank of America Stock's Low Valuation a Bargain or a Warning Sign?",
+          "url": "https://finnhub.io/api/news?id=fed833e46eb8feda3a89931e62e2e5367aeeaab04bc882afcd31ae681dadb686",
           "site": "Yahoo"
         },
         {
-          "title": "JPMorgan Chase (JPM) Is Putting Agentic AI To Work In Banking",
-          "url": "https://finnhub.io/api/news?id=efd66af02d137ce433c094271f4611291d91c6aeb5d7b5e97ab7830c2ef66868",
+          "title": "BoE Unveils Private Market Stress Test to Assess Systemic Risks",
+          "url": "https://finnhub.io/api/news?id=a728aa04019f6bd51cfe9997902729bc608b921f346ba9ef4f4adc37323ea0fe",
           "site": "Yahoo"
         }
       ]
@@ -277,9 +277,9 @@
     {
       "ticker": "V",
       "name": "Visa Inc",
-      "price": 330.88,
-      "change": 3.64,
-      "changePercent": 1.1123,
+      "price": 330.21,
+      "change": 2.97,
+      "changePercent": 0.9076,
       "priceTarget": {
         "mean": 398.83362,
         "high": 450.0,
@@ -287,8 +287,13 @@
         "numAnalysts": 36,
         "recommendation": "strong_buy"
       },
-      "summary": "Visa climbed about 1.1% today to $330.88, bouncing off a session low near $327.77 and briefly touching $333, suggesting some underlying buying interest after recent consolidation. The stock's current price sits roughly 17% below the analyst consensus target of $398.83, with 36 analysts carrying a strong buy rating and targets ranging as high as $450 \u2014 though the low end of that range at $330 is essentially where shares are trading now, a reminder that not everyone sees significant near-term upside. On the news front, Visa continues to generate headlines around AI-powered commerce and international partnerships, including a new cashback program in the UAE, which speaks to its ongoing expansion in digital payments, though investors will want to watch whether these initiatives translate into meaningful revenue growth given the stock's premium valuation.",
+      "summary": "Visa climbed about 0.9% today to $330.21, recovering from yesterday's close and trading within a $327.77\u2013$333 intraday range, as the stock continues to attract investor attention amid broader interest in payments infrastructure. The analyst consensus among 36 analysts remains a strong buy, with a mean price target of $398.83, suggesting roughly 21% upside from current levels \u2014 though the low end of that target range sits right around today's price, indicating some analysts see limited room from here. On the positive side, Visa and Mastercard appear to be successfully defending against fee-related regulatory pressure, and new AI-powered partnership programs in markets like the UAE point to ongoing expansion of its payments ecosystem, while the core risk remains that regulatory scrutiny around interchange fees could cap growth or compress margins over time.",
       "news": [
+        {
+          "title": "Visa Inc. (V) is Attracting Investor Attention: Here is What You Should Know",
+          "url": "https://finnhub.io/api/news?id=966267cb429b825eac2d84d8c9af5c7a5ffe31a4bd36af91366ebe7934fbc865",
+          "site": "Yahoo"
+        },
         {
           "title": "This Week In Digital Payment - Enhancing Nordic Bank Security Through CGI Entersekt Partnership",
           "url": "https://finnhub.io/api/news?id=06b610e23ca634429a5f6071e7ed1c1fbdcf937b8dfd668fd4c4b2c428f10caa",
@@ -298,20 +303,15 @@
           "title": "Is Visa Inc. (V) A Good Stock To Buy Now?",
           "url": "https://finnhub.io/api/news?id=2bb4917fa3eacff02fd534b3a9fb8bbab34ad1bb2f8793f0e49c7cbdb330292a",
           "site": "Yahoo"
-        },
-        {
-          "title": "Rezolve Ai Powers New Mashreq and Visa Everyday Cashback Program, Bringing AI-Enabled Card Linked Offers to UAE Cardholders",
-          "url": "https://finnhub.io/api/news?id=bf1f2ce64abc488a8ed23cb8713bbc1e629af3febfd062c60addf764d52bedf7",
-          "site": "Yahoo"
         }
       ]
     },
     {
       "ticker": "JNJ",
       "name": "Johnson & Johnson",
-      "price": 231.11,
-      "change": 2.72,
-      "changePercent": 1.1909,
+      "price": 231.26,
+      "change": 2.87,
+      "changePercent": 1.2566,
       "priceTarget": {
         "mean": 252.86957,
         "high": 285.0,
@@ -319,21 +319,21 @@
         "numAnalysts": 23,
         "recommendation": "buy"
       },
-      "summary": "Johnson & Johnson rose about 1.2% today, closing near its intraday high of $231.11 after opening from a previous close of $228.39 \u2014 a solid move that suggests some buying momentum. The analyst consensus price target of roughly $253 implies meaningful upside of around 9% from current levels, with the broader range stretching from $155 to $285, reflecting a wide spread of opinion on the stock's fair value. On the positive side, JNJ's healthcare staple status and dividend profile offer defensive appeal, though investors will want to keep an eye on ongoing litigation risks and competitive pressures in its pharmaceutical segment as factors that could weigh on the higher end of those price target estimates.",
+      "summary": "Johnson & Johnson gained about 1.3% today, closing near its session high of $231.33 after opening from a previous close of $228.39 \u2014 a solid move, though no JNJ-specific catalysts are evident in today's headlines, which skewed toward peers AbbVie and Merck. With a consensus analyst mean price target of roughly $252.87 across 23 analysts, the stock sits about 9% below that target, suggesting the analyst community sees room to run \u2014 though the wide target range ($155 to $285) signals real disagreement about the company's trajectory. Investors tracking JNJ will want to keep an eye on how competitive dynamics play out in the broader pharma space, particularly as rivals pursue aggressive acquisitions and new drug pipelines that could pressure JNJ's own growth story.",
       "news": [
         {
-          "title": "The Portfolio That Quietly Pays For Your Gasoline Forever",
-          "url": "https://finnhub.io/api/news?id=088ffc6727d90ce5c9759331624458c3c08f64645289cad52932a487f3a69cb3",
+          "title": "Merck Stock\u2019s New Drugs Were Already Answering The Big Question",
+          "url": "https://finnhub.io/api/news?id=52cff7ec1098ae14406a3080b9e86f2a3739519ce6c8c3378d3ce8cb40cc2eb7",
           "site": "Yahoo"
         },
         {
-          "title": "Nanobiotix (NBTX) Provides Update on Operational Progress",
-          "url": "https://finnhub.io/api/news?id=eb53a2d1f81b8ef9fe3f555e706e678cb84cc698f90b01d6c04cb26b49ae02ef",
+          "title": "Why AbbVie Is Spending $11 Billion to Buy Apogee Therapeutics",
+          "url": "https://finnhub.io/api/news?id=9ce755bfa4501e13378d6ba3b118cd90843a60144c19398dc04f4a209b9cccd0",
           "site": "Yahoo"
         },
         {
-          "title": "AbbVie\u2019s $10.9 Billion Apogee Therapeutics Buyout Protects Its Immunology Crown",
-          "url": "https://finnhub.io/api/news?id=df41a39fbb26cf91fc65d9248d0c35d5945ae42e2bc0bf16fa03aab53bc9b0fb",
+          "title": "Don\u2019t Wait For Your Rich Uncle To Die. Build Your Own Inheritance With This Portfolio",
+          "url": "https://finnhub.io/api/news?id=f619f96d46c983ea280cdf25a81a351a6a7b09473f052b7f334973b0a040dd5f",
           "site": "Yahoo"
         }
       ]
@@ -341,9 +341,9 @@
     {
       "ticker": "WMT",
       "name": "Walmart Inc",
-      "price": 117.75,
-      "change": 0.57,
-      "changePercent": 0.4864,
+      "price": 117.88,
+      "change": 0.7,
+      "changePercent": 0.5974,
       "priceTarget": {
         "mean": 138.65,
         "high": 155.0,
@@ -351,21 +351,21 @@
         "numAnalysts": 40,
         "recommendation": "strong_buy"
       },
-      "summary": "Walmart edged up about 0.5% today to $117.75, a modest gain in a session without major company-specific catalysts. The stock trades well below the analyst consensus price target of $138.65, implying roughly 18% upside if the average estimate proves correct \u2014 though the wide target range ($70 to $155) reflects genuine disagreement about the company's trajectory. On the downside, a $23 million jury verdict in a retaliation lawsuit adds a small legal liability to watch, and the intensifying Amazon Prime Day competition serves as a reminder that the retail landscape remains fiercely contested heading into the back half of the year.",
+      "summary": "Walmart edged up about 0.6% today to $117.88, continuing to trade well below the analyst consensus price target of $138.65 \u2014 implying roughly 18% upside if analysts prove right, though the wide target range ($70\u2013$155 across 40 analysts) signals meaningful disagreement about the stock's fair value. On the business side, the company is expanding its Medicare weight management offerings through Walmart and Sam's Club, a move that could tap into the fast-growing GLP-1 and wellness market, while international sales momentum adds another potential growth lever. On the cautious side, Amazon's record-projected Prime Day is a reminder that competitive pressure remains intense, and a headline around robots replacing 700,000 workers \u2014 likely referencing Walmart's own automation push \u2014 could mean long-term cost savings but also execution risk and potential headline scrutiny.",
       "news": [
         {
-          "title": "Amazon Prime Day Set to Generate Record Online Spending as Retailers Compete for Shoppers (AMZN)",
-          "url": "https://finnhub.io/api/news?id=d77dbe9bfba16c45836afaa1a2af5f20cd14dd2768f3255feefa5a3b376a2d2c",
+          "title": "Amazon Prime Day Forecast Is For Record Sales. Can It Revive Amazon Stock?",
+          "url": "https://finnhub.io/api/news?id=741f6794548ba8c90b11d6b84084dab243dd57881a31107e9e044e4638f174f6",
           "site": "Yahoo"
         },
         {
-          "title": "Lifetime Brands, Inc. Announces Results of 2026 Annual Meeting",
-          "url": "https://finnhub.io/api/news?id=26dd2b956b5998e8877cc50adc15af5a32f07ad9f263ce286275406c94bc48f5",
+          "title": "Walmart and Sam\u2019s Club Expand Support for Medicare Customers as New Weight Management Coverage Launches",
+          "url": "https://finnhub.io/api/news?id=06b101aa28e33793710335620f6b2a3921c0864ebbc39a1ddb64ac9d9d02989a",
           "site": "Yahoo"
         },
         {
-          "title": "Walmart hit with $23M jury verdict after retaliation trial",
-          "url": "https://finnhub.io/api/news?id=e1764b258bafe579cd141a40e923d9bf99ca2e661a55f2301642c4f0d7758ed6",
+          "title": "Robots Will Replace 700,000 Workers",
+          "url": "https://finnhub.io/api/news?id=3a0449544e9935a7a303343b4dce19e91f419d880561b7d6b2c319e65ef3a298",
           "site": "Yahoo"
         }
       ]
@@ -373,9 +373,9 @@
     {
       "ticker": "PG",
       "name": "Procter & Gamble Co",
-      "price": 149.63,
-      "change": -0.75,
-      "changePercent": -0.4987,
+      "price": 149.57,
+      "change": -0.81,
+      "changePercent": -0.5386,
       "priceTarget": {
         "mean": 163.43478,
         "high": 186.0,
@@ -383,7 +383,7 @@
         "numAnalysts": 23,
         "recommendation": "buy"
       },
-      "summary": "Procter & Gamble slipped about 0.5% today to $149.63, giving back a small portion of recent gains within a fairly tight intraday range. The analyst consensus price target of roughly $163 suggests meaningful upside from current levels \u2014 about 9% \u2014 though at least one recent analysis argues the stock is actually overvalued near $150, so there's a genuine debate about fair value worth watching. For longer-term holders, PG continues to attract attention primarily as a dividend stalwart, with several recent pieces highlighting its appeal as a Dividend King and income generator, though growth-focused investors may find the valuation argument less compelling.",
+      "summary": "Procter & Gamble slipped about 0.5% today to $149.57, finishing near the middle of its intraday range and slightly below its prior close. The analyst consensus points to a mean price target of $163.43, suggesting roughly 9% upside from current levels \u2014 though one notable bearish take in recent coverage argues the stock may actually be overvalued near $150, so there's a real debate about fair value here. For income-focused investors, PG continues to attract attention as a long-standing Dividend King, but anyone considering a position may want to weigh that valuation disagreement against the stock's reputation for stability and consistent dividend growth.",
       "news": [
         {
           "title": "Pampers Swaddlers \u2013 from America's #1 Diaper Brand1 \u2013 Are Now Fragrance Free",
@@ -405,9 +405,9 @@
     {
       "ticker": "MA",
       "name": "Mastercard Inc",
-      "price": 488.61,
-      "change": -1.18,
-      "changePercent": -0.2409,
+      "price": 486.67,
+      "change": -3.12,
+      "changePercent": -0.637,
       "priceTarget": {
         "mean": 644.8889,
         "high": 735.0,
@@ -415,7 +415,7 @@
         "numAnalysts": 36,
         "recommendation": "strong_buy"
       },
-      "summary": "Mastercard slipped about 0.24% today to $488.61, a modest pullback that keeps it well below the analyst consensus price target of ~$645 \u2014 implying roughly 32% upside if analysts are in the ballpark. The stock is generating buzz around several growth themes: its push into agentic AI payments (\"Agent Pay\"), expanding cross-border commerce infrastructure, and growing ties to crypto ecosystems, all of which could expand its addressable market beyond traditional card rails. That said, the gap between current price and analyst targets could reflect broader macro caution around consumer spending or valuation concerns, and crypto/AI payment ambitions, while exciting, remain early-stage bets that carry execution risk.",
+      "summary": "Mastercard slipped about 0.6% today, closing near the bottom of its daily range, though the pullback appears modest against a strong analyst consensus \u2014 the mean price target of ~$645 sits roughly 32% above the current price of ~$487, with 36 analysts collectively rating it a strong buy. On the strategic front, Mastercard is actively positioning itself at the intersection of several high-growth themes: cross-border payments, AI-driven \"agentic\" commerce via its Agent Pay initiative, and growing exposure to crypto infrastructure as digital asset adoption accelerates. The key tension for investors is whether near-term pressure from ongoing merchant fee disputes (Visa and Mastercard continue to face regulatory and legal pushback on interchange fees) could weigh on sentiment, even as the company's long-term growth story around payments innovation remains a central bull case.",
       "news": [
         {
           "title": "MoneyGram Joins Solana as Validator, Deepening Commitment to Blockchain Infrastructure",
@@ -437,9 +437,9 @@
     {
       "ticker": "HD",
       "name": "Home Depot Inc",
-      "price": 330.58,
-      "change": -3.7,
-      "changePercent": -1.1069,
+      "price": 329.53,
+      "change": -4.75,
+      "changePercent": -1.421,
       "priceTarget": {
         "mean": 370.18182,
         "high": 430.0,
@@ -447,31 +447,31 @@
         "numAnalysts": 33,
         "recommendation": "buy"
       },
-      "summary": "Home Depot slipped about 1.1% today to $330.58, continuing to trade well below the analyst consensus price target of $370.18, which would imply roughly 12% upside from current levels \u2014 though targets range widely from $310 to $430. On the bullish side, several recent narratives point to a potential residential recovery tailwind, with analysts suggesting that a softer homebuilder market (lower average selling prices) could actually drive more renovation activity and benefit HD. The offsetting concern is that the broader home improvement backdrop remains subdued, meaning the recovery thesis is still more forward-looking than reflected in current results.",
+      "summary": "Home Depot slipped about 1.4% today to $329.53, a move largely attributed to the Fed holding interest rates steady \u2014 a headwind for housing-sensitive stocks like HD, since higher-for-longer rates tend to suppress home sales and the renovation activity that drives Home Depot's business. The analyst consensus remains constructive, with a mean price target of $370.18 across 33 analysts suggesting meaningful upside from current levels, though the range runs wide from $310 to $430, reflecting genuine uncertainty about when housing demand recovers. The core tension for the stock is whether Home Depot's margin discipline and positioning for an eventual residential recovery can carry the story until rate relief actually materializes.",
       "news": [
+        {
+          "title": "Can Margin Strength Offset Demand Challenges at Home Depot?",
+          "url": "https://finnhub.io/api/news?id=640687cd90a14000d9ccbbee995ffd5a3e9acd223e773becbc81a99b5be2c7fc",
+          "site": "Yahoo"
+        },
+        {
+          "title": "Why Home Depot and Lowe's Fell After the Fed Held Interest Rates Steady.",
+          "url": "https://finnhub.io/api/news?id=972f846ef98cbdf4e865e919d630795b8dc6434076ff86bfcae3888bd5e565b9",
+          "site": "Yahoo"
+        },
         {
           "title": "Here is why The Home Depot, Inc.\u00a0(HD)\u00a0is among the Best Building Materials Stocks to Buy for the Residential Recovery",
           "url": "https://finnhub.io/api/news?id=42c0c6041b42bbba52713935c0e952e0abfedfea9c6195406479e051dad49177",
           "site": "Yahoo"
-        },
-        {
-          "title": "This Homebuilder's Average Selling Price Just Hit a 9-Year Low. Here's Why That's Great News for Home Depot",
-          "url": "https://finnhub.io/api/news?id=fa91ccfc46391226e82f3bbb78f249c962ac650aba70b56eb6388479169833bc",
-          "site": "Yahoo"
-        },
-        {
-          "title": "Home Depot: A New Corporate Focus, But Familiar Valuation And Chart Stories",
-          "url": "https://finnhub.io/api/news?id=defaae4a383d0df4df50fa26b395e6ef23fb1f64b862b62251657dfb85a82d21",
-          "site": "SeekingAlpha"
         }
       ]
     },
     {
       "ticker": "DIS",
       "name": "Walt Disney Co",
-      "price": 102.75,
-      "change": -1.14,
-      "changePercent": -1.0973,
+      "price": 102.38,
+      "change": -1.51,
+      "changePercent": -1.4535,
       "priceTarget": {
         "mean": 129.66553,
         "high": 164.0,
@@ -479,7 +479,7 @@
         "numAnalysts": 29,
         "recommendation": "strong_buy"
       },
-      "summary": "Disney slipped about 1.1% today to close at $102.75, giving back some ground after recent trading. The stock sits well below the analyst consensus price target of $129.67 \u2014 roughly 26% potential upside if analysts prove right \u2014 though targets span a wide range from $77 to $164, reflecting genuine disagreement about Disney's trajectory. On the positive side, Toy Story 5 is delivering the biggest box office opening of the year so far, a meaningful win for Disney's studio business, while the Fox-Roku deal could reshape the streaming competitive landscape in ways that may benefit or complicate Disney's position depending on how it plays out.",
+      "summary": "Disney shares slipped about 1.5% today to $102.38, giving back some ground after a strong run, though the stock still trades at a notable discount to the analyst consensus price target of $129.67 \u2014 implying roughly 27% upside if the mean estimate proves accurate. On the content side, the Toy Story 5 debut topping 2026's box office charts is a meaningful positive signal for Disney's theatrical business and franchise strength. However, news about Fox acquiring Roku introduces a potential streaming landscape shift worth watching, as any consolidation among competitors could affect Disney+'s positioning \u2014 and with analyst targets ranging widely from $77 to $164, there's clearly meaningful disagreement about where this story ultimately goes.",
       "news": [
         {
           "title": "AMC Theatres Enjoys Its Busiest Weekend of 2026 in the United States as Toy Story 5 Debuts With the Biggest Opening Weekend Box Office of the Year",
@@ -501,9 +501,9 @@
     {
       "ticker": "BAC",
       "name": "Bank of America Corp",
-      "price": 57.67,
-      "change": 1.47,
-      "changePercent": 2.6157,
+      "price": 57.62,
+      "change": 1.42,
+      "changePercent": 2.5267,
       "priceTarget": {
         "mean": 63.15909,
         "high": 71.0,
@@ -511,21 +511,21 @@
         "numAnalysts": 22,
         "recommendation": "strong_buy"
       },
-      "summary": "Bank of America shares gained about 2.6% today, closing near $57.67 after trading up from a prior close of $56.20, putting the stock right at the low end of the analyst price target range of $57.50\u2013$71.00, with the mean consensus target of $63.15 implying roughly 10% further upside from current levels. On the positive side, BofA is actively bullish on high-profile names like Nvidia, lending credibility to its research arm, and the broader market saw some relief as oil prices eased on U.S.-Iran diplomatic progress. The key headwind worth watching: BofA's own economists now project no Fed rate cuts until 2028, which is a double-edged signal \u2014 it reflects confidence in a resilient economy, but a prolonged high-rate environment can pressure loan demand and credit quality, two things that matter directly to a bank of this size.",
+      "summary": "Bank of America rose 2.5% today to $57.62, closing near the top of its daily range after a strong session. The stock continues to carry a \"strong buy\" consensus from 22 analysts, with a mean price target of $63.16 \u2014 suggesting roughly 10% upside from here, though the low end of that target range sits just below the current price at $57.50, meaning some analysts see limited room to run. Berkshire Hathaway's continued backing adds a notable vote of confidence, but a recent headline questioning whether the stock's low valuation is a bargain or a warning sign reflects the ongoing debate about whether BAC's discount to peers reflects an opportunity or an underlying concern worth watching.",
       "news": [
         {
-          "title": "This Megacap Chip Stock Has Added Nearly $331B To Its Market Cap This Year \u2014 Why BofA Sees A Further Upside Of 22%",
-          "url": "https://finnhub.io/api/news?id=5fb2b96b448aa0fd83f9aab438ffb2658f60cdd744b4b1f6ec68a1c471d7564f",
+          "title": "Airlines Gain on Pricing as 'Capacity Discipline' Becomes Key Into Summer, BofA Says",
+          "url": "https://finnhub.io/api/news?id=1e3cb6ea0bfa885efebca3fc5ef29c9982c0a0331d6337ef0c649b28a2cdd035",
           "site": "Yahoo"
         },
         {
-          "title": "Treasuries Pare Declines as Oil Price Drops on US-Iran Progress",
-          "url": "https://finnhub.io/api/news?id=4781a0d7b263783bc4cb2757896b44b02d5e077278df4490d933e1c94881fd1b",
+          "title": "Bank of America Corporation (BAC): One of the Top Financial Stocks According to Berkshire Hathaway",
+          "url": "https://finnhub.io/api/news?id=0a3d334946b80b8fc07c21ee553ae04a9b4338daa7aa5b6f3d6b77fd68a3a3ef",
           "site": "Yahoo"
         },
         {
-          "title": "BofA now sees no Fed rate cuts until 2028",
-          "url": "https://finnhub.io/api/news?id=816c26b048ec8190d8d6a5ff9fcc14fcbf254d12327bc8a0f45aa456bf786dc4",
+          "title": "Is Bank of America Stock's Low Valuation a Bargain or a Warning Sign?",
+          "url": "https://finnhub.io/api/news?id=fed833e46eb8feda3a89931e62e2e5367aeeaab04bc882afcd31ae681dadb686",
           "site": "Yahoo"
         }
       ]
@@ -533,9 +533,9 @@
     {
       "ticker": "XOM",
       "name": "Exxon Mobil Corp",
-      "price": 137.91,
-      "change": 0.1,
-      "changePercent": 0.0726,
+      "price": 138.48,
+      "change": 0.67,
+      "changePercent": 0.4862,
       "priceTarget": {
         "mean": 169.90909,
         "high": 185.0,
@@ -543,21 +543,21 @@
         "numAnalysts": 22,
         "recommendation": "buy"
       },
-      "summary": "ExxonMobil is trading nearly flat at $137.91, hovering well below the analyst consensus price target of $169.91 \u2014 roughly 23% upside from current levels \u2014 with 22 analysts maintaining a buy rating and targets ranging from $130 to $185. The company is making headlines for its planned headquarters relocation to Texas, a move that could signal long-term operational and tax efficiency gains. On the broader energy front, sector concentration risks and oil price direction heading into June are worth watching, as macro headwinds or a sustained dip in crude could weigh on the stock even if the fundamental analyst case remains constructive.",
+      "summary": "Exxon Mobil edged up about half a percent Monday to $138.48, a modest gain as the company continues its high-profile relocation to Texas and navigates an energy sector where cost-cutting has helped the bottom line but margins remain under pressure \u2014 roughly half what they once were. The analyst consensus is notably bullish, with a mean price target around $170, suggesting the street sees meaningful upside from current levels, though the wide target range ($130\u2013$185 across 22 analysts) reflects real disagreement about where oil prices and margins go from here. For investors tracking XOM, the tension between disciplined cost management and compressed margins will be worth watching alongside broader crude price trends, which remain a key driver of whether that analyst optimism proves justified.",
       "news": [
+        {
+          "title": "Exxon Saves Billions, But Margins Still Cut In Half",
+          "url": "https://finnhub.io/api/news?id=e08be78c07f7b6dc7edc1e185bcc91c7974e7b4f106f1b432cfbcfc01d1cd133",
+          "site": "Yahoo"
+        },
         {
           "title": "ExxonMobil Announces Planned Effective Date for Move to Texas",
           "url": "https://finnhub.io/api/news?id=1787a94ad5333e7dbc8cde47946a7f86db0bdf9fd76a8027aae4380b27df29bc",
           "site": "Yahoo"
         },
         {
-          "title": "XLE\u2019s Concentration Risk Meets Oil\u2019s Next Move: What to Monitor in June",
-          "url": "https://finnhub.io/api/news?id=cfe12e1c2233a066e4e391d0348011f4c3054415d2b4693ff2de327efd0f59cb",
-          "site": "Yahoo"
-        },
-        {
-          "title": "Sable Offshore Corp. Enters Into Senior Secured Term Loan Amendment and Limited Waiver Under the PSA",
-          "url": "https://finnhub.io/api/news?id=3536acdb48fff2fabb2a8c488f14fab2bdef4fbc4cf533a544bc6aa9c357c04c",
+          "title": "Company News for Jun 22, 2026",
+          "url": "https://finnhub.io/api/news?id=58e11cd85bb0c5bb01620616dc94cd4b9428071b90509a8a97ac2d5bc80f0915",
           "site": "Yahoo"
         }
       ]
@@ -565,9 +565,9 @@
     {
       "ticker": "PFE",
       "name": "Pfizer Inc",
-      "price": 25.15,
-      "change": -0.06,
-      "changePercent": -0.238,
+      "price": 25.1,
+      "change": -0.11,
+      "changePercent": -0.4363,
       "priceTarget": {
         "mean": 29.18778,
         "high": 36.0,
@@ -575,31 +575,31 @@
         "numAnalysts": 27,
         "recommendation": "buy"
       },
-      "summary": "Pfizer edged slightly lower today, closing near $25.15 after a relatively narrow trading session, and sits roughly 16% below the analyst consensus price target of $29.19 \u2014 suggesting the street sees meaningful room to recover. On the optimistic side, Pfizer appears to be pivoting away from large acquisitions and focusing on internal growth, which could appeal to investors wary of deal-related risk, and some headlines are asking whether the stock represents a long-term generational opportunity at these depressed levels. The counterweight is that Pfizer is navigating a post-COVID revenue reset alongside broader pharma headwinds, and with the stock still well off highs, patience may be required before any thesis plays out.",
+      "summary": "Pfizer edged slightly lower today, slipping about 0.44% to $25.10 within a fairly tight intraday range, suggesting limited conviction in either direction. The stock trades roughly 14% below the analyst consensus price target of $29.19, with the 27-analyst average rating leaning toward buy and targets ranging as high as $36 \u2014 indicating some on Wall Street see meaningful room to recover. On the strategic front, Pfizer has signaled it won't be pursuing major acquisitions in the near term, instead pivoting to an alternative growth approach, which could reassure investors concerned about costly dealmaking but may also raise questions about how the company plans to refill its pipeline following the post-COVID revenue decline.",
       "news": [
         {
-          "title": "Can Alnylam's Broader Portfolio Ease Its Dependence on Amvuttra?",
-          "url": "https://finnhub.io/api/news?id=ef546d5d629d354fb699b2392ffb8c3cbb60f594ace359008e68d913f479e5b4",
+          "title": "2 Reasons to Like ZTS and 1 to Stay Skeptical",
+          "url": "https://finnhub.io/api/news?id=4c911d6cf7f8085fc6d947f57ba8856e9c5a2111e60a0ad58f72f4e65bc3cdfa",
           "site": "Yahoo"
         },
         {
-          "title": "Pfizer Isn't Expecting to Make Any Big Acquisition in the Next Couple of Years, but It's Planning to Do This Instead",
-          "url": "https://finnhub.io/api/news?id=d4b21e44b7b207a7c400e1149595716970f29f041c7abbdffa583714df0ab959",
+          "title": "Merck Stock\u2019s New Drugs Were Already Answering The Big Question",
+          "url": "https://finnhub.io/api/news?id=52cff7ec1098ae14406a3080b9e86f2a3739519ce6c8c3378d3ce8cb40cc2eb7",
           "site": "Yahoo"
         },
         {
-          "title": "Merck's Oncology Engine Is Still Accelerating",
-          "url": "https://finnhub.io/api/news?id=865b9570ea14d8c83c150476046c7f244b91a195d4c74e1f47be8543a04a927f",
-          "site": "SeekingAlpha"
+          "title": "Can Sanofi Rely on Dupixent to Drive Long-Term Revenue Growth?",
+          "url": "https://finnhub.io/api/news?id=fa11ca6a598f4408616c7eb67e33445ca802c1f24d5d17fac0c26f8ba28b1ed2",
+          "site": "Yahoo"
         }
       ]
     },
     {
       "ticker": "KO",
       "name": "Coca-Cola Co",
-      "price": 79.52,
-      "change": 0.13,
-      "changePercent": 0.1637,
+      "price": 79.62,
+      "change": 0.23,
+      "changePercent": 0.2897,
       "priceTarget": {
         "mean": 85.97417,
         "high": 92.0,
@@ -607,8 +607,13 @@
         "numAnalysts": 24,
         "recommendation": "buy"
       },
-      "summary": "Coca-Cola is trading near flat at $79.52, up just 13 cents on the day, holding comfortably within its intraday range with no major volatility. The stock sits roughly 8% below the analyst consensus price target of $85.97, with 24 analysts collectively rating it a buy \u2014 suggesting Wall Street sees meaningful room to run, though the wide target range ($71.38\u2013$92.00) reflects some disagreement on how much. Recent coverage has highlighted KO as a low-beta defensive holding in the context of the Fed holding rates steady, which fits its traditional appeal as a stable, dividend-paying name \u2014 though that same defensive profile can mean limited upside in stronger risk-on markets.",
+      "summary": "Coca-Cola edged up about 0.3% today to $79.62, a modest but steady move that fits the stock's reputation as a low-volatility defensive name \u2014 a characteristic that's drawing attention as the Fed holds rates steady and investors seek stability. The analyst consensus price target of roughly $86 suggests meaningful upside from current levels, though the range among 24 analysts spans from $71 to $92, reflecting some disagreement about how much runway remains. On the positive side, questions about KO's pricing power and its role in income-focused portfolios keep it in the conversation for defensive investors, but a looming $20 billion IRS tax dispute adds a notable risk overhang that could weigh on sentiment if it develops unfavorably.",
       "news": [
+        {
+          "title": "Is Coca-Cola's Pricing Power Still Driving Revenue Growth in 2026?",
+          "url": "https://finnhub.io/api/news?id=febfa218110509a568151572e50f5c6af3b5870f4e18f4d8afbc5f13ca522d9a",
+          "site": "Yahoo"
+        },
         {
           "title": "The Portfolio That Quietly Pays For Your Gasoline Forever",
           "url": "https://finnhub.io/api/news?id=088ffc6727d90ce5c9759331624458c3c08f64645289cad52932a487f3a69cb3",
@@ -618,20 +623,15 @@
           "title": "3 Mega-Cap Stocks with Exciting Potential",
           "url": "https://finnhub.io/api/news?id=c507b672550cb87b6dc9f438f0909546af190f217d779ce5bacccb4500a9dcb8",
           "site": "Yahoo"
-        },
-        {
-          "title": "Buy 4 Low-Beta Defensive Stocks as Fed Keeps Interest Rates Unchanged",
-          "url": "https://finnhub.io/api/news?id=626cd07d351201f47b7c6a0fb1f9f5666fa9b2a1e30abc07d6cf43f8a94f79c1",
-          "site": "Yahoo"
         }
       ]
     },
     {
       "ticker": "PEP",
       "name": "PepsiCo Inc",
-      "price": 141.85,
-      "change": -0.17,
-      "changePercent": -0.1197,
+      "price": 141.91,
+      "change": -0.11,
+      "changePercent": -0.0775,
       "priceTarget": {
         "mean": 168.27274,
         "high": 195.0,
@@ -639,7 +639,7 @@
         "numAnalysts": 22,
         "recommendation": "hold"
       },
-      "summary": "PepsiCo edged slightly lower today, closing near $141.85 after a quiet session with minimal movement within a tight range. The stock trades well below the analyst consensus price target of roughly $168, suggesting the average analyst sees meaningful upside from current levels \u2014 though the consensus rating is a hold, and targets range widely from $132 to $195. On the cautious side, Deutsche Bank has flagged softer consumption trends, and broader \"post-Ozempic\" headwinds are raising questions about whether volume-driven beverage and snack models face structural pressure; on the more constructive side, PEP remains a Dividend King, which tends to attract income-focused investors during uncertain markets, and the company continues making brand moves like reviving a discontinued Pepsi line.",
+      "summary": "PepsiCo edged slightly lower today, closing near $141.91 after a quiet session with minimal price movement. At current levels, shares trade well below the analyst consensus target of $168.27, suggesting meaningful upside potential \u2014 though the range of targets runs from $132 to $195, reflecting genuine disagreement about the company's near-term outlook. On the positive side, PEP remains a Dividend King and continues brand-building moves, but headwinds are real: Deutsche Bank flagged softer consumption trends, and the broader shift toward GLP-1 drugs like Ozempic is raising structural questions about whether volume-driven snack and beverage models can hold up long-term.",
       "news": [
         {
           "title": "Captain D's and PepsiCo Launch Alaska Family Cruise Sweepstakes Celebrating America's Fishing Heritage and 250 Years of American Pride",
@@ -661,9 +661,9 @@
     {
       "ticker": "CSCO",
       "name": "Cisco Systems Inc",
-      "price": 120.58,
-      "change": 1.04,
-      "changePercent": 0.87,
+      "price": 121.21,
+      "change": 1.67,
+      "changePercent": 1.397,
       "priceTarget": {
         "mean": 127.04667,
         "high": 150.0,
@@ -671,21 +671,21 @@
         "numAnalysts": 21,
         "recommendation": "buy"
       },
-      "summary": "Cisco edged up 0.87% to $120.58 on Monday, trading within a relatively tight intraday range and sitting about 5% below the analyst consensus price target of $127.05, suggesting modest upside according to the average Wall Street view \u2014 though the wide target range ($85 to $150) reflects real disagreement about where the stock is headed. On the bullish side, Cisco is actively positioning itself in AI infrastructure and hybrid data center security, which could be a meaningful growth catalyst as enterprise AI spending accelerates. Countering that, at least one analyst flags the stock as overvalued at 7x price-to-sales, and CSCO is notably among the mega-caps that remain underwater since 2020 despite the broader Nasdaq's strong run \u2014 a reminder that the stock has ground to make up before long-term holders are fully in the green.",
+      "summary": "Cisco gained about 1.4% today, closing near the top of its daily range at $121.21, with the analyst consensus price target of $127.05 suggesting roughly 5% additional upside from here \u2014 though one recent piece flagged the stock as overvalued at 7x price-to-sales, so the valuation picture is mixed. On the bullish side, Cisco appears to be actively positioning itself around AI infrastructure and hybrid data center security, a narrative that could resonate as enterprise AI spending grows. Investors watching this name will want to weigh that strategic repositioning potential against the valuation concern and a wide analyst target range ($85\u2013$150) that reflects genuine disagreement about how much that AI pivot is ultimately worth.",
       "news": [
+        {
+          "title": "Datadog vs. Cisco: Which Observability Stock is the Better Buy?",
+          "url": "https://finnhub.io/api/news?id=cbd118d7c01a8a7b2ef3b1c3041d53817cb1f561b0b23e94a408d4693e1a6573",
+          "site": "Yahoo"
+        },
+        {
+          "title": "Exclusive: Upscale AI wants to be the next Cisco\u2014and it just raised another $190 million",
+          "url": "https://finnhub.io/api/news?id=b0e2830982fc00796fbb2feb72eea05a3c30ce59aca5e68cafe8d717ace3c819",
+          "site": "Yahoo"
+        },
         {
           "title": "Why Cisco (CSCO) Is Turning AI Infrastructure Into a Hybrid Data Center Security Opportunity",
           "url": "https://finnhub.io/api/news?id=5bc20f9811932f16980b57e0d06b847280926e946665ddd74b6cb61e2d5876e2",
-          "site": "Yahoo"
-        },
-        {
-          "title": "Nvidia's $6.9 billion side bet just paid off in a big way",
-          "url": "https://finnhub.io/api/news?id=a0daca8dc448e29217e5cf829aeda9861e91e3d115f8f3e056d39eeb8345b7a7",
-          "site": "Yahoo"
-        },
-        {
-          "title": "Cisco is Overvalued at 7.01X P/S: Should You Still Buy the Stock?",
-          "url": "https://finnhub.io/api/news?id=9b3556127b57eb5391975f3771e4d1179a76b8217c3a414a881e5836619fc88c",
           "site": "Yahoo"
         }
       ]
@@ -693,9 +693,9 @@
     {
       "ticker": "INTC",
       "name": "Intel Corp",
-      "price": 138.16,
-      "change": 4.17,
-      "changePercent": 3.1122,
+      "price": 138.91,
+      "change": 4.92,
+      "changePercent": 3.6719,
       "priceTarget": {
         "mean": 94.14146,
         "high": 150.0,
@@ -703,21 +703,21 @@
         "numAnalysts": 41,
         "recommendation": "hold"
       },
-      "summary": "Intel is extending a notable rally today, up over 3% and trading around $138, as headlines suggest the company could be an unexpected beneficiary of AI chip demand \u2014 a potentially meaningful shift in narrative for a stock that has struggled to keep pace with competitors. However, the current price sits well above the analyst consensus price target of roughly $94, meaning the stock has already surpassed what the average analyst thinks it's worth, with only the most bullish outlier targets (up to $150) providing much additional headroom. Bulls may see a momentum-driven rerating underway as the AI chip landscape broadens beyond Nvidia, while skeptics will note the stock appears stretched relative to Wall Street's collective fundamental view, leaving the risk/reward picture fairly mixed at current levels.",
+      "summary": "Intel shares climbed roughly 3.7% today to close near $138.91, continuing to trade well above the analyst consensus price target of around $94, meaning the stock is pricing in expectations that the broader analyst community hasn't fully endorsed. A notable headline flagged that Intel is actually outpacing Nvidia over a recent stretch, which may be drawing momentum traders and renewed interest in legacy chipmakers amid a mixed tech tape ahead of Micron's earnings. On the cautious side, the mean target sitting nearly 32% below the current price suggests analysts on balance see limited fundamental justification for current levels, though the wide target range \u2014 from $45 to $150 \u2014 reflects real disagreement about where Intel's turnaround story ultimately lands.",
       "news": [
         {
-          "title": "AMD's Rally Has Wall Street Paying Attention",
-          "url": "https://finnhub.io/api/news?id=ec652dc8968f03d0a0802a4e72336ccfb02c17d69e8d0cdcf690904ad9a59e0e",
+          "title": "Upscale AI raises $190 million Series A-1 at $2 billion valuation",
+          "url": "https://finnhub.io/api/news?id=c9e01df762c46043f648e3b367847d4a0bd40b9fb2b82672068922f4c242d66c",
           "site": "Yahoo"
         },
         {
-          "title": "Could Intel (INTC) Be an Unexpected Winner of the AI Chip Shortage?",
-          "url": "https://finnhub.io/api/news?id=587d50d4a4698c7fc3c130cb7713be1e9c56946b0d9c75f40e46587f0abdf36c",
+          "title": "Tech stocks live: Tech stocks mixed ahead of Micron earnings Wednesday",
+          "url": "https://finnhub.io/api/news?id=7bbc4852200b58df188bd6b2cb6021e5ed0cecfcf7959a50809f1c97a22bf813",
           "site": "Yahoo"
         },
         {
-          "title": "Schneider Electric Advances Open, Software-Defined Automation at Automate 2026",
-          "url": "https://finnhub.io/api/news?id=554bd7c1cd083b662d29e9294b8122037f77f32010a96c398474ae5ee86cfa28",
+          "title": "Nvidia Stock Rises But It Still Lags Intel",
+          "url": "https://finnhub.io/api/news?id=3012060b5838ed898fbecccfe7c17d3935cbe06b50c8e95abb1e99f8e0781e88",
           "site": "Yahoo"
         }
       ]
@@ -725,9 +725,9 @@
     {
       "ticker": "NFLX",
       "name": "Netflix Inc",
-      "price": 73.29,
-      "change": -4.09,
-      "changePercent": -5.2856,
+      "price": 72.58,
+      "change": -4.8,
+      "changePercent": -6.2032,
       "priceTarget": {
         "mean": 114.14591,
         "high": 151.4,
@@ -735,53 +735,21 @@
         "numAnalysts": 44,
         "recommendation": "buy"
       },
-      "summary": "Netflix is down about 5.3% today to $73.29, adding to a rough stretch that has the stock sitting roughly 36% below the analyst consensus price target of $114, suggesting the market is pricing in significantly more risk than the average analyst currently sees. On the positive side, recent headlines point to active deal-making \u2014 including a well-received acquisition and an expanded podcast partnership with iHeartMedia \u2014 which could signal management is finding growth levers beyond its core streaming business. The bear case, however, centers on strategic retreats from potential partnerships with Warner Bros. and Roku, which raises questions about whether Netflix's content and distribution strategy is tightening in ways that could limit its addressable audience.",
+      "summary": "Netflix dropped 6.2% today to $72.58, a notable single-day decline that extends a broader pullback \u2014 the stock is now down roughly 17% from recent levels, partly tied to the company walking away from deals with Warner Bros. and Roku. At current prices, shares trade at a significant discount to the analyst consensus target of $114.15, with 44 analysts holding a buy rating and targets ranging from $80 to $151, suggesting the Street sees meaningful recovery potential. On the other hand, the selloff raises questions about Netflix's content and distribution strategy, and investors will want to weigh whether today's drop reflects a temporary overreaction or a more fundamental reassessment of the company's competitive positioning \u2014 a new iHeartMedia video podcast partnership signals continued platform expansion, but it's unlikely to move the needle on near-term sentiment.",
       "news": [
+        {
+          "title": "Google Stock: The Price Of A Juggernaut",
+          "url": "https://finnhub.io/api/news?id=811990da756b0086666393d93d40bad28e9a611d210c80adc82300bb5fdce75e",
+          "site": "Yahoo"
+        },
+        {
+          "title": "Brokers Suggest Investing in Netflix (NFLX): Read This Before Placing a Bet",
+          "url": "https://finnhub.io/api/news?id=9f7c770e6c86a834acfceb322808da7c90dbe3b4e30c14317f81a299dd4492c8",
+          "site": "Yahoo"
+        },
         {
           "title": "Netflix (NFLX) Expands Video Podcast Partnership with iHeartMedia",
           "url": "https://finnhub.io/api/news?id=4e4b5eabc5904f459a1f5490ae2f988ed51398822ec406d90725f6489c511430",
-          "site": "Yahoo"
-        },
-        {
-          "title": "The Zacks Analyst Blog Highlights Netflix, Amazon, Disney and Apple",
-          "url": "https://finnhub.io/api/news?id=3e4df775a7690902cc0d383d43e49ac0bf2b2723e7adfd247ba7a6e64fdda818",
-          "site": "Yahoo"
-        },
-        {
-          "title": "Down 17%, Is Netflix a Buy After Walking Away From Warner Bros. and Roku?",
-          "url": "https://finnhub.io/api/news?id=afbd6a4f7699146f83b4836a1fef2ce3163c282c928a96f1faa89243316bda3f",
-          "site": "Yahoo"
-        }
-      ]
-    },
-    {
-      "ticker": "ORCL",
-      "name": "Oracle Corp",
-      "price": 176.78,
-      "change": -7.51,
-      "changePercent": -4.0751,
-      "priceTarget": {
-        "mean": 252.6405,
-        "high": 400.0,
-        "low": 155.0,
-        "numAnalysts": 39,
-        "recommendation": "buy"
-      },
-      "summary": "Oracle shares are down roughly 4% today to $176.78, pressured by concerns over higher capital expenditure plans and an equity raise, which can dilute existing shareholders and signal that near-term costs are ramping faster than some investors anticipated. Despite the pullback, the stock trades at a significant discount to the analyst consensus price target of ~$252.64, suggesting the broader analyst community sees meaningful long-term upside \u2014 though that target range spans widely from $155 to $400, reflecting genuine uncertainty about how Oracle's AI infrastructure and cloud ambitions will play out. On the positive side, a new healthcare collaboration with Baystate Health points to continued enterprise momentum, but investors will want to weigh whether the growth story justifies absorbing heavier near-term spending.",
-      "news": [
-        {
-          "title": "Baystate Health and Oracle Health Expand Strategic Collaboration to Create a Connected and Patient-Centered Care Experience",
-          "url": "https://finnhub.io/api/news?id=c1e95b74e958aed2c98a0ac957cc204ec59dd50e7cb14af11405446c54607c21",
-          "site": "Yahoo"
-        },
-        {
-          "title": "Oracle vs. Penguin Solutions: Which AI Data Center Stock Is a Buy?",
-          "url": "https://finnhub.io/api/news?id=ac4999e6204f707202b8f351cd206cff111377f77e1509af003f973242d5fa42",
-          "site": "Yahoo"
-        },
-        {
-          "title": "ORCL Stock Dips Overnight: Oracle\u2019s Future Business Tops Market Cap As Microsoft Deal Pressure Weighs Heavily",
-          "url": "https://finnhub.io/api/news?id=2fdf5890caddda1df3014416707a966550a0c710d8f80800eacb35c116328215",
           "site": "Yahoo"
         }
       ]
