@@ -103,6 +103,28 @@ def get_price_target(ticker):
         return None
 
 
+def get_analyst_actions(ticker, limit=5):
+    """Recent analyst upgrades/downgrades with firm names, via Yahoo Finance."""
+    try:
+        df = yf.Ticker(ticker).upgrades_downgrades
+        if df is None or df.empty:
+            return []
+        recent = df.head(limit)
+        actions = []
+        for idx, row in recent.iterrows():
+            date_str = idx.strftime("%Y-%m-%d") if hasattr(idx, "strftime") else str(idx)[:10]
+            actions.append({
+                "date": date_str,
+                "firm": row.get("Firm", ""),
+                "toGrade": row.get("To Grade", ""),
+                "fromGrade": row.get("From Grade", ""),
+                "action": row.get("Action", ""),
+            })
+        return actions
+    except Exception:
+        return []
+
+
 def summarize(client, ticker, quote, news, price_target):
     headlines = "\n".join(f"- {n.get('headline','')}" for n in news[:5]) or "No recent news found."
 
@@ -176,19 +198,18 @@ def main():
             name = get_company_name(ticker)
             news = get_news(ticker)
             price_target = get_price_target(ticker)
+            analyst_actions = get_analyst_actions(ticker)
             ai_summary = summarize(client, ticker, quote, news, price_target)
 
             results.append(
                 {
                     "ticker": ticker,
-                    "company_name": name,
+                    "name": name,
                     "price": quote.get("c"),
-                    "previous_close": quote.get("pc"),
                     "change": quote.get("d"),
                     "changePercent": quote.get("dp"),
-                    "target_price": price_target.get("mean") if price_target else None,
-                    "number_analysts": price_target.get("numAnalysts") if price_target else None,
-                    "rating": price_target.get("recommendation") if price_target else None,
+                    "priceTarget": price_target,
+                    "analystActions": analyst_actions,
                     "summary": ai_summary,
                     "news": [
                         {"title": n.get("headline"), "url": n.get("url"), "site": n.get("source")}

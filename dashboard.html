@@ -202,6 +202,60 @@
 
   .news a:hover { color: var(--gold); }
 
+  .analyst-actions {
+    margin-bottom: 14px;
+  }
+
+  .analyst-actions .label {
+    font-family: 'IBM Plex Mono', monospace;
+    color: var(--gold);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 10px;
+    display: block;
+    margin-bottom: 6px;
+  }
+
+  .analyst-row {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px;
+    color: var(--text-muted);
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .analyst-row:last-child {
+    border-bottom: none;
+  }
+
+  .analyst-firm {
+    color: var(--text);
+    font-weight: 500;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-right: 8px;
+  }
+
+  .analyst-grade {
+    white-space: nowrap;
+  }
+
+  .analyst-grade.up { color: var(--positive); }
+  .analyst-grade.down { color: var(--negative); }
+  .analyst-grade.neutral { color: var(--text-muted); }
+
+  .analyst-date {
+    color: var(--text-muted);
+    font-size: 10px;
+    margin-left: 8px;
+    white-space: nowrap;
+  }
+
   .source-badge {
     display: inline-block;
     font-family: 'IBM Plex Mono', monospace;
@@ -456,6 +510,25 @@ async function loadReport() {
           </div>`
         : '';
 
+      const actions = c.analystActions || [];
+      const actionsHtml = actions.length
+        ? `<div class="analyst-actions">
+            <span class="label">Recent Analyst Ratings</span>
+            ${actions.map(a => {
+              const action = (a.action || '').toLowerCase();
+              const gradeClass = action === 'up' ? 'up' : action === 'down' ? 'down' : 'neutral';
+              const gradeText = a.toGrade
+                ? (a.fromGrade ? `${a.fromGrade} &#8594; ${a.toGrade}` : a.toGrade)
+                : (a.action || '');
+              return `<div class="analyst-row">
+                <span class="analyst-firm">${a.firm || 'Unknown'}</span>
+                <span class="analyst-grade ${gradeClass}">${gradeText}</span>
+                <span class="analyst-date">${a.date || ''}</span>
+              </div>`;
+            }).join('')}
+          </div>`
+        : '';
+
       return `
         <div class="card">
           <div class="card-top">
@@ -465,6 +538,7 @@ async function loadReport() {
           <div class="company-name">${c.name || c.ticker}</div>
           <div class="change ${changeClass}">${arrow} ${(c.change ?? 0).toFixed(2)} (${(c.changePercent ?? 0).toFixed(2)}%)</div>
           ${targetHtml}
+          ${actionsHtml}
           <div class="summary">${c.summary || ''}</div>
           ${newsHtml ? `<div class="news">${newsHtml}</div>` : ''}
         </div>
