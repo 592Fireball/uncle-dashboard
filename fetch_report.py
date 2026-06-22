@@ -24,6 +24,7 @@ import json
 import os
 import sys
 import time
+import traceback
 import xml.etree.ElementTree as ET
 from datetime import date, timedelta
 from urllib.parse import quote as urlquote
@@ -223,15 +224,22 @@ def main():
         print(f"Fetching {ticker}...")
         try:
             quote = get_quote(ticker)
+            time.sleep(0.5)  # pause between Finnhub calls to stay under rate limit
             if not quote:
                 print(f"  no quote data for {ticker}, skipping")
                 continue
             name = get_company_name(ticker)
+            time.sleep(0.5)
             # Finnhub gives company-specific news; Google RSS gives diverse sources.
             # We normalize both to {title, url, site} and merge them.
+            try:
+                raw_news = get_news(ticker)
+                raw_news = raw_news if isinstance(raw_news, list) else []
+            except Exception:
+                raw_news = []
             finnhub_news = [
                 {"title": n.get("headline", ""), "url": n.get("url", ""), "site": n.get("source", "")}
-                for n in get_news(ticker)
+                for n in raw_news
                 if n.get("headline")
             ]
             google_news = get_news_google(ticker, name)
@@ -256,6 +264,7 @@ def main():
             )
         except Exception as e:
             print(f"  error on {ticker}: {e}")
+            traceback.print_exc()
         time.sleep(1.1)  # Finnhub free tier: 60 calls/min, stay comfortably under that
 
     report = {
