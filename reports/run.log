@@ -1,363 +1,63 @@
 Loaded 30 companies: ['GOOGL', 'JPM', 'NVDA', 'BAG', 'AAPL', 'AMZN', 'GS', 'META', 'MSFT', 'MS', 'C', 'AVGD', 'MU', 'ASML', 'WMT', 'TSM', 'ASND', 'GE', 'V', 'NFLX', 'GEV', 'UBER', 'REGN', 'LLY', 'ISRG', 'ORCL', 'MRVL', 'TOL', 'IBM', 'GLW']
 Fetching GOOGL...
-  ERROR on GOOGL: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GOOGL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GOOGL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 347.5
 Fetching JPM...
-  ERROR on JPM: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=JPM&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=JPM&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 331.46
 Fetching NVDA...
-  ERROR on NVDA: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=NVDA&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=NVDA&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 208.68
 Fetching BAG...
-  ERROR on BAG: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=BAG&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=BAG&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  no quote data for BAG, skipping
 Fetching AAPL...
-  ERROR on AAPL: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=AAPL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=AAPL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 299.5
 Fetching AMZN...
-  ERROR on AMZN: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=AMZN&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=AMZN&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 234.12
 Fetching GS...
-  ERROR on GS: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GS&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GS&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 1102.46
 Fetching META...
-  ERROR on META: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=META&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=META&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 563.96
 Fetching MSFT...
-  ERROR on MSFT: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=MSFT&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=MSFT&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 370.01
 Fetching MS...
-  ERROR on MS: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=MS&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=MS&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 227.67
 Fetching C...
-  ERROR on C: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=C&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=C&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 145.62
 Fetching AVGD...
-  ERROR on AVGD: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=AVGD&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=AVGD&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  no quote data for AVGD, skipping
 Fetching MU...
-  ERROR on MU: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=MU&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=MU&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 1199.06
 Fetching ASML...
-  ERROR on ASML: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=ASML&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=ASML&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 1889.3
 Fetching WMT...
-  ERROR on WMT: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=WMT&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=WMT&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 117.23
 Fetching TSM...
-  ERROR on TSM: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=TSM&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=TSM&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 466.83
 Fetching ASND...
-  ERROR on ASND: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=ASND&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=ASND&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 231.23
 Fetching GE...
-  ERROR on GE: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GE&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GE&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 356.49
 Fetching V...
-  ERROR on V: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=V&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=V&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 328.6
 Fetching NFLX...
-  ERROR on NFLX: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=NFLX&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=NFLX&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 73.08
 Fetching GEV...
-  ERROR on GEV: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GEV&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GEV&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 1123.43
 Fetching UBER...
-  ERROR on UBER: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=UBER&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=UBER&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 72.34
 Fetching REGN...
-  ERROR on REGN: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=REGN&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=REGN&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 608.12
 Fetching LLY...
-  ERROR on LLY: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=LLY&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=LLY&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 1110.37
 Fetching ISRG...
-  ERROR on ISRG: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=ISRG&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=ISRG&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 401.64
 Fetching ORCL...
-  ERROR on ORCL: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=ORCL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=ORCL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 176.03
 Fetching MRVL...
-  ERROR on MRVL: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=MRVL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=MRVL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 306.83
 Fetching TOL...
-  ERROR on TOL: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=TOL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=TOL&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 152.79
 Fetching IBM...
-  ERROR on IBM: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=IBM&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=IBM&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-
+  quote ok: 245.35
 Fetching GLW...
-  ERROR on GLW: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GLW&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
-Traceback (most recent call last):
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 237, in main
-    quote = get_quote(ticker)
-            ^^^^^^^^^^^^^^^^^
-  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 57, in get_quote
-    resp.raise_for_status()
-  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/requests/models.py", line 1167, in raise_for_status
-    raise HTTPError(http_error_msg, response=self)
-requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://finnhub.io/api/v1/quote?symbol=GLW&token=d8s7bbhr01qkn75bofmgd8s7bbhr01qkn75bofn0
+  quote ok: 207.52
 
-
-Done. 0 companies processed.
+Done. 28 companies processed.
