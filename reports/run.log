@@ -1,21 +1,78 @@
 Loaded 30 companies: ['GOOGL', 'JPM', 'NVDA', 'BAG', 'AAPL', 'AMZN', 'GS', 'META', 'MSFT', 'MS', 'C', 'AVGD', 'MU', 'ASML', 'WMT', 'TSM', 'ASND', 'GE', 'V', 'NFLX', 'GEV', 'UBER', 'REGN', 'LLY', 'ISRG', 'ORCL', 'MRVL', 'TOL', 'IBM', 'GLW']
 Fetching GOOGL...
-  quote ok: 347.05
+  quote ok: 346.13
+  ERROR on GOOGL: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAJbpZmdFA9Zaxt89Cv'}
+Traceback (most recent call last):
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
+    ai_summary = summarize(client, ticker, quote, merged_news, price_target)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 204, in summarize
+    msg = client.messages.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 1018, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1536, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAJbpZmdFA9Zaxt89Cv'}
+
 Fetching JPM...
-  quote ok: 329.24
+  quote ok: 334.14
+  ERROR on JPM: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAJsrixZkCySAHsoLnj'}
+Traceback (most recent call last):
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
+    ai_summary = summarize(client, ticker, quote, merged_news, price_target)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 204, in summarize
+    msg = client.messages.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 1018, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1536, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAJsrixZkCySAHsoLnj'}
+
 Fetching NVDA...
-  quote ok: 201.78
+  quote ok: 200.04
+  ERROR on NVDA: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAKA6Xp3ZcVFubBNFHc'}
+Traceback (most recent call last):
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
+    ai_summary = summarize(client, ticker, quote, merged_news, price_target)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 204, in summarize
+    msg = client.messages.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 1018, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1536, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAKA6Xp3ZcVFubBNFHc'}
+
 Fetching BAG...
   no quote data for BAG, skipping
 Fetching AAPL...
-  quote ok: 300.45
-Fetching AMZN...
-  quote ok: 234.68
-Fetching GS...
-  quote ok: 1089.21
-Fetching META...
-  quote ok: 567.94
-  ERROR on META: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ4JiTRb86qtzActJC5'}
+  quote ok: 294.3
+  ERROR on AAPL: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAKVf292zbsRG4FtXee'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -34,11 +91,80 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ4JiTRb86qtzActJC5'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAKVf292zbsRG4FtXee'}
+
+Fetching AMZN...
+  quote ok: 234.11
+  ERROR on AMZN: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAKmgRmstc8GaApBzF2'}
+Traceback (most recent call last):
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
+    ai_summary = summarize(client, ticker, quote, merged_news, price_target)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 204, in summarize
+    msg = client.messages.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 1018, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1536, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAKmgRmstc8GaApBzF2'}
+
+Fetching GS...
+  quote ok: 1094.44
+  ERROR on GS: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAL2bcXEL1P2H5M92ga'}
+Traceback (most recent call last):
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
+    ai_summary = summarize(client, ticker, quote, merged_news, price_target)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 204, in summarize
+    msg = client.messages.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 1018, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1536, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAL2bcXEL1P2H5M92ga'}
+
+Fetching META...
+  quote ok: 562.2
+  ERROR on META: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNALHZ2QZ9NW5ntNWSet'}
+Traceback (most recent call last):
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
+    ai_summary = summarize(client, ticker, quote, merged_news, price_target)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 204, in summarize
+    msg = client.messages.create(
+          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_utils/_utils.py", line 294, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/resources/messages/messages.py", line 1018, in create
+    return self._post(
+           ^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1536, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
+    raise self._make_status_error_from_response(response) from None
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNALHZ2QZ9NW5ntNWSet'}
 
 Fetching MSFT...
-  quote ok: 374.32
-  ERROR on MSFT: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ4bJMJ5CXnBVkpbQBr'}
+  quote ok: 373.94
+  ERROR on MSFT: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNALYJ3XZeVZBXAdWKR5'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -57,11 +183,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ4bJMJ5CXnBVkpbQBr'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNALYJ3XZeVZBXAdWKR5'}
 
 Fetching MS...
-  quote ok: 226.51
-  ERROR on MS: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ4rXt6x6vKrZ4wFJ99'}
+  quote ok: 226.03
+  ERROR on MS: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNALov9KGr7ZwUkCoAc6'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -80,11 +206,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ4rXt6x6vKrZ4wFJ99'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNALov9KGr7ZwUkCoAc6'}
 
 Fetching C...
-  quote ok: 144.18
-  ERROR on C: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ57nuZELdvtavsUDUv'}
+  quote ok: 144.97
+  ERROR on C: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAM5AfyjvTEFmUu34uj'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -103,13 +229,13 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ57nuZELdvtavsUDUv'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAM5AfyjvTEFmUu34uj'}
 
 Fetching AVGD...
   no quote data for AVGD, skipping
 Fetching MU...
-  quote ok: 1063.73
-  ERROR on MU: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ5Rz375xfuiW3vyisi'}
+  quote ok: 1051.77
+  ERROR on MU: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAMPxmcfYsPNyPbU6LV'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -128,11 +254,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ5Rz375xfuiW3vyisi'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAMPxmcfYsPNyPbU6LV'}
 
 Fetching ASML...
-  quote ok: 1783.06
-  ERROR on ASML: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ5h7d9AGkNd44ratDo'}
+  quote ok: 1778.46
+  ERROR on ASML: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAMfKVVNvmeMd3MEyKu'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -151,11 +277,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ5h7d9AGkNd44ratDo'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAMfKVVNvmeMd3MEyKu'}
 
 Fetching WMT...
-  quote ok: 119.49
-  ERROR on WMT: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ6HkiKHvE5himRsdJi'}
+  quote ok: 119.42
+  ERROR on WMT: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAMvyagsJDWFJw5ZuUA'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -174,11 +300,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ6HkiKHvE5himRsdJi'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAMvyagsJDWFJw5ZuUA'}
 
 Fetching TSM...
-  quote ok: 440.89
-  ERROR on TSM: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ6Z8vrGsCDT6KxK9vD'}
+  quote ok: 436.39
+  ERROR on TSM: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNANC3gt2u23iX6tR7je'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -197,11 +323,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ6Z8vrGsCDT6KxK9vD'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNANC3gt2u23iX6tR7je'}
 
 Fetching ASND...
-  quote ok: 228.79
-  ERROR on ASND: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ6ojWmtoyFAGoAiRAP'}
+  quote ok: 238.59
+  ERROR on ASND: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNANSmU5ajhGnte5NPHa'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -220,11 +346,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ6ojWmtoyFAGoAiRAP'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNANSmU5ajhGnte5NPHa'}
 
 Fetching GE...
-  quote ok: 353.33
-  ERROR on GE: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ74nPGCamHvN6tcA86'}
+  quote ok: 356.47
+  ERROR on GE: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNANiE9J6B6fd4K3DYFw'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -243,11 +369,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ74nPGCamHvN6tcA86'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNANiE9J6B6fd4K3DYFw'}
 
 Fetching V...
-  quote ok: 330.36
-  ERROR on V: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ7KVftFr8Ke1Wohag2'}
+  quote ok: 328.48
+  ERROR on V: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAP1MXmX3bm5DajYXTQ'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -266,11 +392,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ7KVftFr8Ke1Wohag2'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAP1MXmX3bm5DajYXTQ'}
 
 Fetching NFLX...
-  quote ok: 73.62
-  ERROR on NFLX: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ7a9EE33SkPkdkHLDG'}
+  quote ok: 72.82
+  ERROR on NFLX: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAPHjmvLsntRoftY6We'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -289,11 +415,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ7a9EE33SkPkdkHLDG'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAPHjmvLsntRoftY6We'}
 
 Fetching GEV...
-  quote ok: 1054.03
-  ERROR on GEV: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ7q98WhTcc5y1aZ4aD'}
+  quote ok: 1034.98
+  ERROR on GEV: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAPZ4Wqokej8jxjH9TV'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -312,11 +438,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ7q98WhTcc5y1aZ4aD'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAPZ4Wqokej8jxjH9TV'}
 
 Fetching UBER...
-  quote ok: 70.75
-  ERROR on UBER: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ85zM8sMSULSJbhCVM'}
+  quote ok: 69.67
+  ERROR on UBER: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAPpPG3nAYEd3h4YrHy'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -335,11 +461,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ85zM8sMSULSJbhCVM'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAPpPG3nAYEd3h4YrHy'}
 
 Fetching REGN...
-  quote ok: 615.73
-  ERROR on REGN: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ8Y1GXmPeMMSUHLb5N'}
+  quote ok: 618.03
+  ERROR on REGN: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAQ5PeWJvP96Q5i1ecU'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -358,11 +484,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ8Y1GXmPeMMSUHLb5N'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAQ5PeWJvP96Q5i1ecU'}
 
 Fetching LLY...
-  quote ok: 1106.59
-  ERROR on LLY: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ8odcwFshbRY7A4bfg'}
+  quote ok: 1107.08
+  ERROR on LLY: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAQMbEJGhPGHTzcjcJt'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -381,11 +507,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ8odcwFshbRY7A4bfg'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAQMbEJGhPGHTzcjcJt'}
 
 Fetching ISRG...
-  quote ok: 403.78
-  ERROR on ISRG: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ94PsvprQZoZswCR37'}
+  quote ok: 403.18
+  ERROR on ISRG: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAQd5PmuXKjj7WDvvJ4'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -404,11 +530,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ94PsvprQZoZswCR37'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAQd5PmuXKjj7WDvvJ4'}
 
 Fetching ORCL...
-  quote ok: 172.18
-  ERROR on ORCL: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ9KAPBDiy7FuM4GWr2'}
+  quote ok: 165.16
+  ERROR on ORCL: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAQtCUbudJW613xro4q'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -427,11 +553,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ9KAPBDiy7FuM4GWr2'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNAQtCUbudJW613xro4q'}
 
 Fetching MRVL...
-  quote ok: 279.62
-  ERROR on MRVL: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ9Zys8GmvaKufWJsGq'}
+  quote ok: 279.04
+  ERROR on MRVL: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNARAk8yKzihXT7Tr7sA'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -450,11 +576,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ9Zys8GmvaKufWJsGq'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNARAk8yKzihXT7Tr7sA'}
 
 Fetching TOL...
-  quote ok: 152.06
-  ERROR on TOL: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ9pF7AC7YB9VC8xzw7'}
+  quote ok: 150.96
+  ERROR on TOL: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNARRgKRFGPGpFBUEQge'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -473,11 +599,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJ9pF7AC7YB9VC8xzw7'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNARRgKRFGPGpFBUEQge'}
 
 Fetching IBM...
-  quote ok: 261.41
-  ERROR on IBM: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJA6CYfLtrQLPZouFsb'}
+  quote ok: 264.94
+  ERROR on IBM: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNARgtcYNczN8CfypeUi'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -496,11 +622,11 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJA6CYfLtrQLPZouFsb'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNARgtcYNczN8CfypeUi'}
 
 Fetching GLW...
-  quote ok: 189.14
-  ERROR on GLW: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJAMc1QCs1HZjrizqhL'}
+  quote ok: 194.07
+  ERROR on GLW: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNARwEZnTSY3JWGpupAp'}
 Traceback (most recent call last):
   File "/home/runner/work/uncle-dashboard/uncle-dashboard/fetch_report.py", line 262, in main
     ai_summary = summarize(client, ticker, quote, merged_news, price_target)
@@ -519,7 +645,7 @@ Traceback (most recent call last):
                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/opt/hostedtoolcache/Python/3.12.13/x64/lib/python3.12/site-packages/anthropic/_base_client.py", line 1195, in request
     raise self._make_status_error_from_response(response) from None
-anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcLJAMc1QCs1HZjrizqhL'}
+anthropic.BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CcNARwEZnTSY3JWGpupAp'}
 
 
-Done. 6 companies processed.
+Done. 0 companies processed.
