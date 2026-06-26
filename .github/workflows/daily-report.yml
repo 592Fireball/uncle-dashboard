@@ -32,7 +32,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git pull --rebase origin main
           git add 'reports/*.json'
+          git stash
+          git pull --rebase origin main
+          git stash pop
           git commit -m "Daily report update" || echo "Nothing new to commit"
           git push
