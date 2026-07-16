@@ -446,8 +446,12 @@
 
     .disclaimer { color: #444; border-left-color: #999; }
 
+    .container { max-width: 100%; }
+
     .grid {
-      display: block;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
     }
 
     .card {
@@ -455,7 +459,6 @@
       border: 1px solid #999;
       break-inside: avoid;
       page-break-inside: avoid;
-      margin-bottom: 16px;
     }
 
     .card:hover { background: #fff; border-color: #999; }
