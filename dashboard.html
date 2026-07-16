@@ -431,6 +431,51 @@
     opacity: 0.4;
     cursor: not-allowed;
   }
+
+  @media print {
+    .chat-btn, .modal { display: none !important; }
+
+    body {
+      background: #fff;
+      color: #111;
+    }
+
+    .masthead { border-bottom-color: #999; }
+    .masthead .eyebrow, .masthead .date { color: #444; }
+    .rule-thin { background: #999; }
+
+    .disclaimer { color: #444; border-left-color: #999; }
+
+    .grid {
+      display: block;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #999;
+      break-inside: avoid;
+      page-break-inside: avoid;
+      margin-bottom: 16px;
+    }
+
+    .card:hover { background: #fff; border-color: #999; }
+
+    .ticker, .target .label, .analyst-actions .label { color: #555; }
+    .price, .company-name, .summary, .analyst-firm { color: #111; }
+    .target, .analyst-row, .analyst-date, .news a, .footer-note { color: #444; }
+    .target { border-bottom-color: #ccc; }
+    .analyst-row { border-bottom-color: #ccc; }
+
+    .change.up { color: #1a7a4a; }
+    .change.down { color: #a8352a; }
+    .analyst-grade.up { color: #1a7a4a; }
+    .analyst-grade.down { color: #a8352a; }
+    .analyst-grade.neutral { color: #555; }
+
+    .source-badge { background: #ccc; color: #111; }
+
+    .news, .analyst-row:last-child { border-top-color: #ccc; border-bottom-color: transparent; }
+  }
 </style>
 </head>
 <body>
