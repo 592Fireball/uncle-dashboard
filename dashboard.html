@@ -449,10 +449,7 @@
     .container { max-width: 100%; padding: 16px 20px 40px; }
 
     .grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      grid-auto-rows: 1fr;
-      gap: 14px;
+      display: block;
     }
 
     .card {
@@ -460,11 +457,8 @@
       border: 1px solid #999;
       break-inside: avoid;
       page-break-inside: avoid;
-      padding: 14px;
-      height: 430px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
+      padding: 14px 18px;
+      margin-bottom: 12px;
     }
 
     .card:hover { background: #fff; border-color: #999; }
@@ -474,19 +468,14 @@
     .target { margin-bottom: 8px; padding-bottom: 8px; }
     .analyst-actions { margin-bottom: 8px; }
     .summary {
-      font-size: 12px;
+      font-size: 12.5px;
       line-height: 1.4;
       margin-bottom: 8px;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      -webkit-line-clamp: 6;
-      overflow: hidden;
     }
-    .news { margin-top: auto; }
 
-    /* Trim each card's length to a uniform height so rows pack tightly */
-    .analyst-row:nth-of-type(n+3) { display: none; }
-    .news a:nth-child(n+2) { display: none; }
+    /* Trim the list-style sections (not the summary) so cards stay compact */
+    .analyst-row:nth-of-type(n+4) { display: none; }
+    .news a:nth-child(n+3) { display: none; }
 
     .ticker, .target .label, .analyst-actions .label { color: #555; }
     .price, .company-name, .summary, .analyst-firm { color: #111; }
