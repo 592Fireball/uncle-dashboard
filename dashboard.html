@@ -446,12 +446,12 @@
 
     .disclaimer { color: #444; border-left-color: #999; }
 
-    .container { max-width: 100%; }
+    .container { max-width: 100%; padding: 16px 20px 40px; }
 
     .grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
+      display: block;
+      columns: 2;
+      column-gap: 16px;
     }
 
     .card {
@@ -459,9 +459,21 @@
       border: 1px solid #999;
       break-inside: avoid;
       page-break-inside: avoid;
+      margin-bottom: 14px;
+      padding: 14px;
     }
 
     .card:hover { background: #fff; border-color: #999; }
+
+    .company-name { font-size: 17px; margin: 2px 0 6px; }
+    .change { margin-bottom: 8px; }
+    .target { margin-bottom: 8px; padding-bottom: 8px; }
+    .analyst-actions { margin-bottom: 8px; }
+    .summary { font-size: 12.5px; line-height: 1.4; margin-bottom: 8px; }
+
+    /* Trim each card's length so more fit per page */
+    .analyst-row:nth-of-type(n+4) { display: none; }
+    .news a:nth-child(n+3) { display: none; }
 
     .ticker, .target .label, .analyst-actions .label { color: #555; }
     .price, .company-name, .summary, .analyst-firm { color: #111; }
