@@ -1,21 +1,28 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "disclaimer": "Informational summary only, generated from automated data and news \u2014 not financial advice. Verify anything important before acting on it.",
   "companies": [
     {
       "ticker": "GOOGL",
       "name": "Alphabet Inc",
-      "price": 353.93,
-      "change": 1.21,
-      "changePercent": 0.343,
+      "price": 352.97,
+      "change": -0.81,
+      "changePercent": -0.229,
       "priceTarget": {
-        "mean": 430.4,
+        "mean": 430.41852,
         "high": 515.0,
         "low": 340.0,
         "numAnalysts": 54,
         "recommendation": "strong_buy"
       },
       "analystActions": [
+        {
+          "date": "2026-10-14",
+          "firm": "UBS",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
         {
           "date": "2026-10-12",
           "firm": "Cantor Fitzgerald",
@@ -43,129 +50,122 @@
           "toGrade": "",
           "fromGrade": "",
           "action": "reit"
-        },
-        {
-          "date": "2026-09-18",
-          "firm": "Tigress Financial",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
         }
       ],
-      "summary": "Alphabet (GOOGL) is currently trading at $353.93 \u2014 roughly **17.8% below** the consensus analyst target of $430.40, a gap that 54 analysts collectively view as meaningful upside potential. The stock edged up modestly today (+0.34%), with recent momentum supported by BNP Paribas bumping its price target to $450 on a positive outlook for Alphabet's custom TPU chips, while the broader AI infrastructure spending story \u2014 underscored by Amazon's reported $7 billion pursuit of an AI efficiency startup \u2014 continues to keep the sector in focus. For anyone tracking GOOGL, the combination of a strong-buy consensus, a notable discount to analyst targets, and continued recognition as a top AI portfolio holding paints a picture of a stock where the market and Wall Street are currently in meaningful disagreement.",
+      "summary": "Alphabet is currently trading at $352.97, sitting **18% below** the consensus analyst price target of $430.42 \u2014 a gap of over $77 that suggests analysts see meaningful room to the upside from current levels. Today's modest 0.23% dip comes amid a mixed news backdrop, including a securities class action lawsuit filing against the company, though a separate headline noted the stock climbing on unspecified positive momentum, and Alphabet was highlighted as the top performer in one AI-focused portfolio. With 54 analysts aligned on a strong buy consensus and the stock still well off its target, those tracking GOOGL are watching whether near-term legal and macro headwinds can be outweighed by the broader AI tailwinds that continue to draw institutional attention.",
       "news": [
         {
-          "title": "Discover which dow jones stocks are making waves on Tuesday.",
-          "url": "https://finnhub.io/api/news?id=40d2c5297662fe6576264f21cdd4db7fc189e73028158a4128a0960d9c568eed",
-          "site": "ChartMill"
+          "title": "Netflix lays off 6% of staff in biggest job cuts since 2022",
+          "url": "https://finnhub.io/api/news?id=952f4e55000b67c8c637b1fe323f70b7a57def06d00d1cedf38d7e82f8d4f1ca",
+          "site": "Yahoo"
         },
         {
-          "title": "Amazon Wants to Pay $7 Billion for a 3-Year-Old AI Startup That Makes AI Run Faster on Nvidia\u2019s Chips and Its Own",
-          "url": "https://finnhub.io/api/news?id=b82b2e8f8ad8149e4030c3f8d13f45cfa1c4395a69ba98a94772a7807b48ac1f",
+          "title": "Apple is finally taking the smart home seriously",
+          "url": "https://finnhub.io/api/news?id=273ff761cb0358ea43017789d3af5e600f69536fdf2011d1b6249f44824594c7",
           "site": "Yahoo"
+        },
+        {
+          "title": "Alphabet Stock Climbs: What's Going On?",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNV1JwcjNvUzJGeThPSXR2ai1YTnR3MEgtUlhsQnAyLWdYOFN2OTFYeHdFQUQwTHlKSGVIeVR2R3lOazBzWDVnYlNDSTFKemVWQzBacGpOR0FNenA2dHlBejJYUU05ck5pZnVJa3djd0RlSTdVaUJSOTFIdDJuSEtGRXpma2M0Z0o3alJBeHhHeFBweFN4NTNnZ0tuY1NNUQ?oc=5",
+          "site": "Benzinga"
+        },
+        {
+          "title": "Google Shareholder Alert: Alphabet Inc. Securities Class Action Lawsuit",
+          "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNRk81SVVzVUxrRzZETXlhcGp3MWJtek1jR0xpUF9vZU1KcXM0WnFodDhYUHhXdmVIX251N0VsTVd3TGZPTHVyX3VlQi1lOElESm43RnVzc05ld1NXLUsyOU41N0tTSXVTd29sT2FMMzRwanNSVlIzT3ZveHd4Y29rVFV1R2w4Nks4UERRRWJIMk9YYm8za2pLR0l1TEtHVUV1SUJOLWtlRENKWVVJUUgtcUhJTDFfcmE0UW9jQzlGT3ZaS0c1bzV0VEp4VFZxS1RjREM1dklaTkJPRXZmUXB2blJKWUQwV0stSFlVdkpZOWEzQXZEY2pTLVB5NEpZRXowd2Fma1NzUk8?oc=5",
+          "site": "PR Newswire"
         },
         {
           "title": "Claude AI Portfolio\u2019s Best-Performing Stock Pick: Alphabet (GOOG)",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVVJYTVoR3AyUzM2SXNwdkNlN1NSSmVPYkZHUFlKZ1ExSi12TmVQYVpjT2tScm53LXRpQl9nWjVFR00tTF9jQzA5S3NRR2RCaDdqY1pMaUN5d0ZHR2JOcFBaSVZQYXJFdjZoNXFrdGVjMGY3UHNHYjZBV0JveU9MelRZYXR1UDFmeXJreC0tdG5nVHlBdzA4UG1XVzJHSEF1TkE?oc=5",
           "site": "Yahoo Finance"
-        },
-        {
-          "title": "Alphabet target bumped to $450 at BNP Paribas on TPU outlook (GOOGL:NASDAQ)",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQM1hFYkFBb2NZU2E4MGlTUGtSZ3plTmoxek5lZVJUZ3NUS3J2U19xYVc3U0tzQm0yVzFNeTVsQkZpbGxGX0lHVDg1U0x2d1ROU3FuUUZna0lpcTM3MGpHb1MxYTJTVDR0MlhMNjYwSkdqaHZDeTZLR0V0QlBadmkxRV9JRW9idGJGa09FeEowdkV1SjhXdTduaGpqdVdMZw?oc=5",
-          "site": "Seeking Alpha"
-        },
-        {
-          "title": "Alphabet Inc.",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPOHg4azE4d1A5SGpFUzdLb0FEbTVLSkdTcU53c2trbFdhT0hUOVdRSUJ1MFBxem9GR0NGNWVsR2ZkRGw5MjJLdDhDU3QwUHQwSGlLckE0SXlrcEllMmhEUFVQMXAxQ012TkpRd3IwcVBuZE1MSmxPMW1vcW1TWi1sdllNZFpySkR6azljLWF5ZEIxa1hza3RlcXR5WDlLWEh2Q2wtRVVDVGlOYkxzcEpFLVpBZEtJWXl2MGJOTHpkRllOc2NR?oc=5",
-          "site": "ChartMill"
         }
       ]
     },
     {
       "ticker": "JPM",
       "name": "JPMorgan Chase & Co",
-      "price": 334.05,
-      "change": -0.25,
-      "changePercent": -0.0748,
+      "price": 333.95,
+      "change": 2.52,
+      "changePercent": 0.7603,
       "priceTarget": {
-        "mean": 372.13635,
-        "high": 420.0,
-        "low": 305.0,
+        "mean": 372.72726,
+        "high": 425.0,
+        "low": 312.0,
         "numAnalysts": 22,
         "recommendation": "buy"
       },
       "analystActions": [
+        {
+          "date": "2026-10-14",
+          "firm": "Barclays",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "date": "2026-10-14",
+          "firm": "RBC Capital",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "reit"
+        },
+        {
+          "date": "2026-10-14",
+          "firm": "Morgan Stanley",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "date": "2026-10-14",
+          "firm": "Baird",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
         {
           "date": "2026-10-05",
           "firm": "UBS",
           "toGrade": "",
           "fromGrade": "",
           "action": "main"
-        },
-        {
-          "date": "2026-09-28",
-          "firm": "HSBC",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
-        },
-        {
-          "date": "2026-08-14",
-          "firm": "Wells Fargo",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
-        },
-        {
-          "date": "2026-08-03",
-          "firm": "UBS",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
-        },
-        {
-          "date": "2026-07-20",
-          "firm": "Citigroup",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
         }
       ],
-      "summary": "JPMorgan is currently trading at $334.05, sitting **10.2% below** the consensus analyst target of $372.14 \u2014 a gap that suggests analysts see meaningful room to the upside from here. The stock has pulled back modestly today amid broader market pressure, and recent headlines add some color to the caution: JPM posted a rare profit miss as dealmaking and bond trading lost momentum, and the bank is reportedly limiting its exposure on a $5 billion AI startup loan sale alongside Goldman Sachs. On the more constructive side, the firm is hiring to position for a dealmaking rebound, and at least one institutional investor recently added to its position \u2014 so while the near-term narrative is mixed, the stock's distance from analyst targets makes it one worth watching closely for those tracking large-cap financials.",
+      "summary": "JPMorgan is currently trading at $333.95, sitting **10.4% below** the consensus analyst target of $372.73 \u2014 suggesting analysts see meaningful room to run from current levels. Today's modest 0.76% gain comes amid a mixed backdrop: while Bank of America's $1.2B money laundering penalty rattled the sector, JPM held steady, though a rare profit miss tied to slowing dealmaking and bond trading is keeping a lid on enthusiasm. For those tracking the stock, the gap to the analyst target is notable, but the Q3 earnings complexity \u2014 consumer banking strength offset by margin pressure and trading headwinds \u2014 means the path to closing that gap may take time to materialize.",
       "news": [
         {
-          "title": "Stock Market Today: Dow's Losses Start To Multiply; Meta Approaches New Entry (Live Coverage)",
-          "url": "https://finnhub.io/api/news?id=86053c9cc156f0e9c968ed50a5151d32f30ed539f8d83b68c4ac690df716c5d8",
+          "title": "Bank of America Falls 5% as $1.2B Money Laundering Penalty Drives Earnings Miss; JPMorgan Chase and Wells Fargo Hold Steady",
+          "url": "https://finnhub.io/api/news?id=3119c9fea878d0d2a59dbe192129a7656f27112616b7bd813225ae3e3727221f",
           "site": "Yahoo"
         },
         {
-          "title": "Update: Market Chatter: JPMorgan, Goldman Limit Exposure on $5 Billion Loan Sale for AI Startup Volta",
-          "url": "https://finnhub.io/api/news?id=b6eb0e458f25f21a3c8d91b2369ecc4e6eca1fd84c84e5eafa7805c304d94c3a",
+          "title": "JPM Q3 Deep Dive: Consumer Banking and Investment Strength Offset Margin Pressures",
+          "url": "https://finnhub.io/api/news?id=a7db10eb69adcff379b1d9be952e0abd45f20d175626b3953e42b477db336001",
           "site": "Yahoo"
+        },
+        {
+          "title": "JPMorgan Chase & Co. (NYSE:JPM) Stock Price Target Raised at Robert W. Baird",
+          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUkRDbHkyczd5VlhXNGFySHl2eDRxMHJ0UWxCRDJRQl8zZzN2Vy1CZnpTQkx3Zk9RVDE1b09Ec1l3TXU0ZDdxZy1GRlpvMmZCMGxGc1gxUmhQamsyaS05WG9VR0pzT0djaWNSQVZYVWxnbEZva2UyWFJ4Ul9PZ0FFcmNIa2c0YVdaSjdIZ3FxZXRRQngxVFM1OTBsc3JRZkI4VENyVzg3Ym5JZTNwSXhhVzhycG41Q0hWbkVLZTdGYWFwdnhxWlltOE1mZzc?oc=5",
+          "site": "MarketBeat"
+        },
+        {
+          "title": "JPMorgan Chase Q3 2026: A Top-Tier Bank Whose Shares Already Reflect It (NYSE:JPM)",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOYmJ2SEVhTlF6SThKZlZWbVh2bm1Da3o5Z1dSMmowNXlVLWZqcW0tdTlZVXBEV1hRLXF4dlMyWkhab2IxRjQ5WVBIVndYd3ZIemlFSzF3T1VlVXRhbDV3RDdSV0hkTVFvdDdIcFVfbFB5YnJhOWJZeEVNWXdueUJocWs1aUh2ZldJLWpCVFNwTF8xcWlwQlZEY2pjRVdSNmM?oc=5",
+          "site": "Seeking Alpha"
         },
         {
           "title": "JPMorgan posts rare profit miss as dealmaking, bond trading lose momentum",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkpHWW54ak0tS25QWlJYZDQxbUdyaWdmcjU0bnFaUU12R0YtSDhmcmpwZ0FEVVZRUHhUa2pueVVRNVdaUlVPU0VmaU5IMHFoNWNjbF9EMDh5TkpobENoQzR2d2t6eUtTeW5PckM5QkNQakhyNFo0MlpFbnlGdldqTk1zUi1vbnNmVHlVNnp3NmJIdGh1dDdPTF9FVHJ6bUtwOVR0N2NiUEo3YVF4SldvVg?oc=5",
           "site": "Reuters"
-        },
-        {
-          "title": "JPMorgan Chase (JPM) Taps Rob Sweeney As Dealmaking Rebounds",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWWhqbEpMQ0lGNVg3Q2JHU0lvYzRqaFEwM0RKbWwyWTVJVzQ2YVpPWW1odjFINkNTUkdiUXdod2NId0lLMFQtakVxLTNIRVd3RnFhc3ZBNkJJdVh3a3VmaFpzTm1hdVd3OExDd1dxRU9CQWJPWllOX0xtQmVnRmVpVHBZQ2JaV3YxRVJVdHRLRWRXaVFsTjcw?oc=5",
-          "site": "Yahoo Finance"
-        },
-        {
-          "title": "JPMorgan Chase & Co. $JPM Stock Holdings Boosted by NorthCrest Asset Manangement LLC",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQaTZJTEJuc1E5QnZQdnhFNXUzbjFRdGFRUXBZamtFMVFWZ09mOHZRNU5XenBJNWxTYkN1WlVaTUlzcUR5d3RQMEJHLTFHcGpCN1QxaHFVTnI5b3pEYmk5SkF6OGJXNmdhNEtoQkJEZEpOdWZCUWxGZkNnLTJleVk5ZlEzV2xTWTJJcms4aEFFN01qcHdnTkEyTlVQZGpJTGJsWXZnMU1HaW5wWmVWTFV0RE5RbkltTVR2VEpxRVR2T093TjRBeTA3OHNnTGVJdlpYRHB6TWpQdUk?oc=5",
-          "site": "MarketBeat"
         }
       ]
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corp",
-      "price": 227.08,
-      "change": 0.76,
-      "changePercent": 0.3358,
+      "price": 222.63,
+      "change": -5.89,
+      "changePercent": -2.5775,
       "priceTarget": {
         "mean": 328.71695,
         "high": 515.0,
@@ -210,43 +210,43 @@
           "action": "reit"
         }
       ],
-      "summary": "NVDA is currently trading at $227.08, sitting **31% below** the consensus analyst price target of $328.72 \u2014 a gap that reflects significant upside potential in analysts' models, even as the stock trades near the top of today's range with a modest 0.34% gain. Recent headlines center on Jensen Huang's continued standing as a visionary AI leader, with institutional interest reinforcing confidence, as Transamerica Financial Advisors increased its stake. The overall picture is one of a high-conviction AI bellwether with strong analyst backing, though at least one headline flags a \"timing caveat\" around momentum \u2014 suggesting that while the long-term thesis remains intact, the path to closing that $100+ gap to target may not be a straight line.",
+      "summary": "NVIDIA is currently trading at $222.63, sitting **32% below** the consensus analyst price target of $328.72 \u2014 a gap that suggests Wall Street sees significant room to run despite today's pullback. The stock slipped 2.6% Wednesday, likely pressured by a broader risk-off move tied to hotter-than-expected inflation data pushing Treasury yields higher, with the decline compounded by news that Light Street Capital trimmed its NVDA position. For those tracking the stock, the picture is one of short-term macro headwinds bumping up against a strong long-term thesis \u2014 59 analysts maintain a strong buy consensus, and NVDA continues to surface in conversations around AI infrastructure demand, but rate sensitivity and institutional repositioning are creating near-term turbulence.",
       "news": [
         {
-          "title": "Why Sandisk Stock Dropped Again on Tuesday",
-          "url": "https://finnhub.io/api/news?id=a0c3a36afbac0c337f9344c8a67bc9d3d2de491a93b63df8de96e128703ceba9",
+          "title": "10-year Treasury yield rises following hot inflation data: AlphaCheck",
+          "url": "https://finnhub.io/api/news?id=6deea603964f7fb3da70ceca7472a47cc6371c62c8fcffaed57051ee38d6e177",
           "site": "Yahoo"
         },
         {
-          "title": "Micron to Hit $3,000? That's How High One Analyst Thinks the Stock Could Go",
-          "url": "https://finnhub.io/api/news?id=371a405bd01d5d03f030b8678573471e8055cb021119fa60267e7089ec80def3",
+          "title": "AWS Backlog Hits $496 Billion While Cloud Margins Surge to 39% Making Amazon a Must-Own Growth Stock",
+          "url": "https://finnhub.io/api/news?id=fb4a20a6636f12c4e8e604d555b5b303ea09c9b85a2eab570c4ac366f5441249",
           "site": "Yahoo"
         },
         {
-          "title": "Nvidia Corp (NVDA): Jensen Huang\u2019s Visionary Leadership Drives Long-Term AI Growth",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNak0zNjQwcVJ4UC14VDVWc0tPRGxVVjNaRUd5NGpWSDJIWXlwb0E3QVB0X2dULVR5YjRUOGtOeDg3Z3FqNXN1akNfdVlleW9Sak9JdmowR0lBQk9vNUY1bEpsaTJYMVc0YXdRUG8tOFEwZkdpVm5NTU5yeXJ5ZEI2eEd0b0hhdU5Qd1BKX0JQQk9VX2JKMFNtT3VR?oc=5",
+          "title": "Trump and Nancy Pelosi\u2019s Top AI Stock Pick: NVIDIA (NVDA)",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR2dzUkJHbHQ3c1VVS0pwZXQ5dFpkLUJyQTRHM2UxMDZIWmlVY1lKb0dESkJyODh6YzVmUE1pd0NWRHpWX2Z2WGI1M0tPbTc5TkZpSFByMVpGaWpfSF9jVnY3dlQ3YjlmUEhYRFZ3WFlxTjRLenNvUHJDdFFPOW5JX2pVdEtqWHJEUVl2YjY0S1J1bnoy?oc=5",
           "site": "Yahoo Finance"
         },
         {
-          "title": "NVIDIA Corporation $NVDA Stock: Transamerica Financial Advisors LLC Increases Stake",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUUtBRnRiS05VWGExUG0wd0pGdjNPSnNDaFBUNExoUEZ0WnZmdGs3VjVLWktQcTd3cTQ5QUpPMGtmWWRtaDA0bWc2MThBQXBZUmRSdVREOHhQZC1xRm92cVl0dVdMZWlLX1phdzBlcmd5dUNvbExULTF4ZDdOVVBmLXB5OExEeHpkMzZMMXF1Z21tSWwzRVVYSzlnN1h1SlRQTnh4M2dmNkp5dk8xUjkyWWdpR2x1MHdKSkhBRUVzVllpVm9XV1ZIYVVrcWg1cW1vVUJNMnpKeVFYUQ?oc=5",
-          "site": "MarketBeat"
+          "title": "What's Going On With NVIDIA Stock Wednesday?",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNjZZMG83akNMZ3Z1THFhZ2pjWVBOVE1sVjc2eHIxU0xGZlR5QUdyMGVJd3FHWDNsdEFKbElLd29KbW5Rajc0RDc5bThJZGJMMWo3RmY3dElwNU8yU1lEenpwNzE0S0RPM1dTbTFacWZrcTJnaFlXV25DN2JhSUNjOFF6a0hrb2tFMkVKOTN4b2tWTmZKNU9XZ0o2eDE1dw?oc=5",
+          "site": "Benzinga"
         },
         {
-          "title": "NVIDIA (NASDAQ:NVDA): High-Growth Leadership and Momentum Face a Timing Caveat",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYUhVWVB4eFFEbjBqM2ZkazZWZTdfWFdma3Z4TC1FbFppSmF4ekFhbmNwakZKd285Y3ZoSDdtNHdLNFFTMzY1dy1QOGdORTdza3ZrNmdOQWJBWm9hZW5DMnp3OUFDOEJWaUdwd3VHcUhfS21IQ00wUkFWTW1vem51dExpM0ttMThGYlB4aDJWMFZ1Y3hGanMxQjAzaWgtdm9wbGhjOFhmN0l0QjJSNFBheHdZelVsa20ybUpOS3dXSW5USXZy?oc=5",
-          "site": "ChartMill"
+          "title": "NVIDIA Corporation $NVDA Stock: Light Street Capital Management LLC Reduces Position",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQUzdOZThIdmUwd2NvWHhOVFBKMnpkSDhtVnFoeURZV3YzdjE1R1VIWkdSVmdNVnNldFVrak1ZX2pVMzFGQy1MZExzLUYtTnRIa05KSkJnQktWcl93aU9VRk4tc2dWaGJnY0pqMlB2M1VhTnpuUFV5cGxOSGZFdUFyNlVITTRWc05vcmRYMUxVVG1peUtJb0hfd2ZXNk03bUdrZEhpZ2dyN3BVb28yajBfTTJFVU9XZlc4OHpoekR3TmRvbHJFRWhuWW1lMUhXZlRraFk0S1lzS0tYQzQ?oc=5",
+          "site": "MarketBeat"
         }
       ]
     },
     {
       "ticker": "AAPL",
       "name": "Apple Inc",
-      "price": 341.82,
-      "change": 0.85,
-      "changePercent": 0.2493,
+      "price": 346.03,
+      "change": 4.76,
+      "changePercent": 1.3948,
       "priceTarget": {
-        "mean": 328.60666,
+        "mean": 329.3759,
         "high": 405.0,
         "low": 215.0,
         "numAnalysts": 39,
@@ -289,41 +289,41 @@
           "action": "reit"
         }
       ],
-      "summary": "Apple is currently trading at $341.82 \u2014 roughly 4% **above** the average analyst price target of $328.61, meaning the stock has pushed into territory that the consensus of 39 analysts considers overvalued at current levels. The stock recently hit a new 52-week high and is attracting fresh institutional interest, with Silicon Valley Capital Partners reported to have boosted its position, though today's modest 0.25% gain and a pullback from the day's high of $348.15 suggest some resistance at elevated prices. For anyone tracking AAPL, the overall picture is a stock riding positive momentum and investor attention, but one that is now trading ahead of where Wall Street's collective price target sits \u2014 a dynamic worth watching closely as the gap between price and target continues to widen.",
+      "summary": "Apple is trading at $346.03, roughly **5% above** the consensus analyst price target of $329.38 \u2014 meaning the stock has already surpassed where 39 analysts collectively expected it to land, which typically signals the market is pricing in optimism beyond what Wall Street's models currently justify. That enthusiasm appears tied to renewed confidence in Apple's product roadmap, with headlines highlighting a serious push into the smart home space and the stock hitting a fresh 52-week high. For anyone tracking AAPL, the picture is one of strong near-term momentum running ahead of analyst expectations \u2014 a combination worth watching closely as the stock tests whether its current valuation can find new fundamental support.",
       "news": [
         {
-          "title": "Discover which dow jones stocks are making waves on Tuesday.",
-          "url": "https://finnhub.io/api/news?id=40d2c5297662fe6576264f21cdd4db7fc189e73028158a4128a0960d9c568eed",
-          "site": "ChartMill"
-        },
-        {
-          "title": "Stock Market Today: Dow's Losses Start To Multiply; Meta Approaches New Entry (Live Coverage)",
-          "url": "https://finnhub.io/api/news?id=86053c9cc156f0e9c968ed50a5151d32f30ed539f8d83b68c4ac690df716c5d8",
+          "title": "Apple is finally taking the smart home seriously",
+          "url": "https://finnhub.io/api/news?id=273ff761cb0358ea43017789d3af5e600f69536fdf2011d1b6249f44824594c7",
           "site": "Yahoo"
         },
         {
-          "title": "Apple Inc. (AAPL) is Attracting Investor Attention: Here is What You Should Know",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZXRvVGFmMjJWQ0QzMFBvd1JjOTRJalphVXJnWmM2Q25WMmFxQzN6UFpFbU52bXhrQzF2bXR5anplajk4QUMxNHBIX25zVy1Fc3V0aDRWMU55WlNUdUhfX3Rfd2M1eWRIYmxzOXRaRkttcE95UTlvQ0hMcEE3UFFaSFlWV3ZxUVNfU1NZRF83dTlnMkh4dnE4ZUp5dVMtMnlw?oc=5",
-          "site": "Yahoo Finance"
+          "title": "Global X Launches PowerStock ETF Suite to Give Canadians 33% More Exposure to Their Highest Conviction Stocks",
+          "url": "https://finnhub.io/api/news?id=1826b5352a9dd69f76e30899a61c17ad6a98efdbf5e75879e1ecc0a59909865e",
+          "site": "Yahoo"
         },
         {
-          "title": "Apple Stock Rises to New 52-Week High: What's Happening?",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX0tpVnQ5Z2J1c2l0TDVVdVExc2J5QmdfX1dyQmJoZ0V0RFB2bDY4RlBDM3hqSlN1QnhITVZsbDd6Zk9iWE83ZGlYYmhZVkpfNTZPSk5KLUNoeGduUEk1dkxEZFUxdFd4UUFwWUxTNzliSVlOZWJYeHByR3FHdFR5bU9DVWo4OUxUQ1ItWWdPUUVvbUZyTFJQdXVrMm1QNGQtSndnMW5aVWctUWJob29meXRJYXA?oc=5",
+          "title": "Apple Stock Hits 52-Week High \u2014 What's Going On?",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU3djQXVySFZoYWlhWEx1UUF6VnZheDVoLUFYNEpKeWlfNWNma1k2YzZvc1JOU2Jxa0tVVktJcFRkVUQ0MXNqYkZFbzBhNkVQM1VzTjVRRUlmYmwtbXFIenlyLVdDZnNkWVVhemlRVTNBTGhPSXJ4aFFrWW5IWXBlaTBHOGRiclFZTy1lSEZVaDhXWDBiZnFIVEdLQ1FXZw?oc=5",
           "site": "Benzinga"
         },
         {
-          "title": "Apple Inc. $AAPL Stock: Silicon Valley Capital Partners Boosts Position",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcnpBODFGRDN4eElMVGpfd3FOamRvQjRnUkpkRkg3SFY2OU5KVVlJVUZOVDZTMF9xek1EWHF0dTFHdW5OSENzQ2JrVjF2V2M2WEhMVnIxb3BoMEYwY1JmNUxwbmlhWWVqME0zLUg1cXp1d0w4cm1qR1U5anhfSTFJNjZNM3JTM3ZYV3lTQzk5QmlrMDBVUzV1Z2Ftb0pYMjFqTW03dmwzMUNiVHZHZ1RhUXdqVWFtcnV4S2VZTndXOXdoMXdxQXVsQw?oc=5",
+          "title": "Apple Inc. $AAPL Stock: General Partner Inc. Cuts Holdings",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQaThUd3JzRWlLTDNNUFMxRkFBd0hpMVEyT194clRpcHRCU3Rab1NUeEFSQkpxbExvdG9EZ3BySnJKdzBMYl9LNE95RGJPSEFLeVN0VE5VaF9zV29kQnVBUnFrNnZyVWREbmRPenhJUC1FTjhQWHVqTy0wbERCbkdJaUZGVDFzS0pDMXhsNFAwejN0VXhYWWd3eGRadlR0TjNsbFRBbDZZbmh2bDU0T25jTkV3ZUpDUQ?oc=5",
           "site": "MarketBeat"
+        },
+        {
+          "title": "Apple Inc. (AAPL) Stock Forecasts",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQnZEZ0ZBNmJrOHVsUkFlZ25RSDN2M2dIbGlYcUJHVjdPN1Q4UVVrc1I4VDdfU1VaU2dxbXRkbU5oZG5WN1dtNk1XM3dVZlE1V1I0RkpLSjFqLUJveG9BYWNXYTQyUF9tMkwwY3o3c0ZXZ1VxY1o5R1hZM256Sm4wSjJUNG9UOEJPc092bA?oc=5",
+          "site": "Yahoo Finance"
         }
       ]
     },
     {
       "ticker": "AMZN",
       "name": "Amazon.com Inc",
-      "price": 259.43,
-      "change": -0.1,
-      "changePercent": -0.0385,
+      "price": 255.61,
+      "change": -2.97,
+      "changePercent": -1.1486,
       "priceTarget": {
         "mean": 331.20242,
         "high": 405.0,
@@ -368,21 +368,21 @@
           "action": "main"
         }
       ],
-      "summary": "Amazon is trading at $259.43, sitting **21.7% below** the consensus analyst target of $331.20 \u2014 a gap that suggests Wall Street sees meaningful room to the upside from current levels. The stock was essentially flat today (-0.04%), with the most notable headline being Amazon's reported pursuit of a $7 billion acquisition of an AI startup specializing in making models run faster on Nvidia chips and its own custom silicon, a move that signals continued aggressive investment in AI infrastructure. For those tracking AMZN, the combination of a wide discount to analyst targets, a strong-buy consensus from 58 analysts, and an active M&A strategy in AI paints a picture of a company leaning hard into its next growth chapter \u2014 though the price has yet to reflect that conviction.",
+      "summary": "Amazon is currently trading at $255.61 \u2014 roughly **23% below** the consensus analyst target of $331.20, a notable gap that suggests Wall Street sees significant room to run despite today's modest 1.15% pullback. The recent narrative around the stock remains bullish, anchored by AWS's massive $496 billion cloud backlog and surging margins hitting 39%, reinforcing why 58 analysts maintain a strong buy consensus. For those tracking AMZN, the core story is intact \u2014 a dominant cloud business with expanding profitability \u2014 and today's slight dip looks more like routine noise than any fundamental shift.",
       "news": [
         {
-          "title": "Amazon Wants to Pay $7 Billion for a 3-Year-Old AI Startup That Makes AI Run Faster on Nvidia\u2019s Chips and Its Own",
-          "url": "https://finnhub.io/api/news?id=b82b2e8f8ad8149e4030c3f8d13f45cfa1c4395a69ba98a94772a7807b48ac1f",
+          "title": "AWS Backlog Hits $496 Billion While Cloud Margins Surge to 39% Making Amazon a Must-Own Growth Stock",
+          "url": "https://finnhub.io/api/news?id=fb4a20a6636f12c4e8e604d555b5b303ea09c9b85a2eab570c4ac366f5441249",
           "site": "Yahoo"
         },
         {
-          "title": "Meta Platforms Rises 12% in 3 Months: Buy, Sell, or Hold the Stock?",
-          "url": "https://finnhub.io/api/news?id=264c69a90e59f65fe283b1de48cdcdc2b40d3dd4a9f2fefb7417c9207c33407a",
+          "title": "Amazon Is Up More Than 2,200% in 10 Years. What\u2019s Next?",
+          "url": "https://finnhub.io/api/news?id=8c239ea6d06c3df31856108f407e2c48f0d0b28a221d86a53ee013795800eccf",
           "site": "Yahoo"
         },
         {
-          "title": "Amazon.com, Inc. $AMZN Stock: S.E.E.D. Planning Group LLC Grows Stake",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdFVXQUtVLTk3bGZVZFpETXQ1bkliZS11Q2hyb2ZqM0FxSjlLYlByTXdVWDNvTXRmMGgyVHVJNy04aUhYMDdJdzhTdlN6bXFadDZQdEZ5S0FPVnZJYUF2NkoydklvZk9hcmpwQnRsd0Y0UjNzQzY5ZlBIMS15ZzlPeGY2eTNGY09xUlVqeHJCVXRhWXlwOVhYS0VtZy1xTjhPb09lM3U3eUNRU2EzMXdnWXZLY1YwRnR0V1VGc2JR?oc=5",
+          "title": "Amazon.com, Inc. $AMZN Stock Bought by Bath Savings Trust Co",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSnpJU1NlX0J1VkhjdmM5bWp2TVhlUkZLTl9ocnVybVk1VC12S2tUbEJrSzU4WlJfX2h1TG05cnA1TldCeGFrLTI4ZTdYbnAxZnI5MjM0UW5lZEUwcjFvMW5QbFZ3TXlVd21ka2pKMzFZY3NhelBjekwtX1Zza3FFOVJ3MmpaRkN0UktwMEN1TlQxS3NjZThGWlZLUnVkMXE3TnFlQ1JheGlWZHhJcFQtR21waDZMLWpP?oc=5",
           "site": "MarketBeat"
         },
         {
@@ -391,26 +391,33 @@
           "site": "Yahoo Finance"
         },
         {
-          "title": "What's Going On With Amazon Stock Friday?",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbmhzVFJCaDJRbDZibFh0MXlyMXMzTEtiQ25pcXlHZU5ZSXYwSTRSQ2pLNHNXcXZzNXJaOEpXLWp0VlZ4MTFaVzdyQkd1NnJVOEpkY2EyWXJJODVBV2RqczVuVENFd2dkT2xabmVDbEpIMHFIWWJEdENUOHpiYm4ySThMcjBKM3FnVnA5UnBQSV9rVWRxYl9TWjhhV01EeFoxSnI3aUYxLUo0NFZ2YWJPRFV3VnVDV052UXVqRGs4bHJXN0k?oc=5",
-          "site": "Benzinga"
+          "title": "Amazon.com Inc (AMZN) Stock Price, Trades & News",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTm1kVFR1RnU3eHdSVWRoZ05PU1g2WVRXNHVsMjlPdjBUS0RKc2dvMXN0SGhSVzEyOW5KTHZCMTlMQ01xUWNETDk2V2djQ194cnRGd21pcDBGUHo1VHp2SF9jMkZWOUFyY3lTR0gycHdiaFJMbjg4Yjg0NmZnYi0tcGFPMHlhMnY0WjNEZDdxV3hwVmpkR1E4dUlnZkhfcG8?oc=5",
+          "site": "GuruFocus"
         }
       ]
     },
     {
       "ticker": "GS",
       "name": "Goldman Sachs Group Inc",
-      "price": 894.8,
-      "change": 0.85,
-      "changePercent": 0.0951,
+      "price": 879.12,
+      "change": -12.79,
+      "changePercent": -1.434,
       "priceTarget": {
-        "mean": 1069.0952,
+        "mean": 1052.6666,
         "high": 1250.0,
         "low": 730.0,
         "numAnalysts": 21,
         "recommendation": "hold"
       },
       "analystActions": [
+        {
+          "date": "2026-10-14",
+          "firm": "RBC Capital",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
         {
           "date": "2026-10-08",
           "firm": "TD Cowen",
@@ -438,52 +445,45 @@
           "toGrade": "",
           "fromGrade": "",
           "action": "main"
-        },
-        {
-          "date": "2026-09-28",
-          "firm": "HSBC",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
         }
       ],
-      "summary": "Goldman Sachs is currently trading at $894.80, sitting **16.3% below** the consensus analyst target of $1,069.10 \u2014 a notable gap that suggests analysts see meaningful room to the upside from current levels. The stock is relatively flat on the day (+0.10%), though recent momentum has been positive following an earnings beat that sparked a rally and renewed attention to what some are calling an undervalued narrative. With the stock still well beneath its target price and strong top-line results in the rearview, investors tracking GS will be watching whether that gap begins to close \u2014 or whether broader market headwinds, including Goldman's reported move to limit exposure on a $5 billion AI startup loan, introduce new caution.",
+      "summary": "Goldman Sachs is currently trading at $879.12, sitting **16.5% below** the consensus analyst target of $1,052.67, suggesting the market is pricing it at a meaningful discount to where analysts collectively see fair value. Today's 1.43% pullback comes amid a mixed backdrop for big bank earnings and some institutional selling pressure, even as GS itself posted record advisory revenues in its most recent quarterly results. The overall picture is one of strong fundamental performance running up against macro caution \u2014 with analysts bullish on the long-term target but near-term sentiment tempered by questions about where the capital markets cycle goes from here.",
       "news": [
         {
-          "title": "Stock Market Today: Dow's Losses Start To Multiply; Meta Approaches New Entry (Live Coverage)",
-          "url": "https://finnhub.io/api/news?id=86053c9cc156f0e9c968ed50a5151d32f30ed539f8d83b68c4ac690df716c5d8",
+          "title": "Who's up and who's down among big bank earnings reports",
+          "url": "https://finnhub.io/api/news?id=7523c9fd1c515c38e62dfb37248582b9334dae789cf4a778e292f1e372b67063",
           "site": "Yahoo"
         },
         {
-          "title": "Update: Market Chatter: JPMorgan, Goldman Limit Exposure on $5 Billion Loan Sale for AI Startup Volta",
-          "url": "https://finnhub.io/api/news?id=b6eb0e458f25f21a3c8d91b2369ecc4e6eca1fd84c84e5eafa7805c304d94c3a",
+          "title": "Simbe Honored by Goldman Sachs for Entrepreneurship",
+          "url": "https://finnhub.io/api/news?id=d04fa64e3c35dd829d304529a15ff678c1fad8e10c167a7413e5499516da22b7",
           "site": "Yahoo"
         },
         {
-          "title": "Goldman Sachs Group (GS) Earnings Beat Brings Its Undervalued Narrative Back Into Focus",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOGxyMXhrMHBMV1Q1cmkzWWlSR3cwTUF3d0pxU0I1UVlpbzdYQnFPbDVvdDFQa3Zibml3RHBGNnNKUzBMdHR6QzdvUTZmZC1PRUR4U3BsSS1Kc3BzVUk1VFJ6VXdUd19GZTNEU013ZjZGQlljY1B1RDdONkdWMkNPbXQ0SG9BOFB0MHY2ZmlSSEF6R182YS0ydmhQaEE?oc=5",
-          "site": "Yahoo Finance"
-        },
-        {
-          "title": "114,994 The Goldman Sachs Group, Inc. $GS Shares Sold by First County Bank CT",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQTTZQeFZrbDZlNlBZM3FPTkJZNmljbnpVMnRzRWlUOW4tRGtrXzhCS0N2eFY0SHB5cjFjb284YXlodnc1U2dmR1gyOVc1ZlBDaWxnMXFnTTViRmxxTVVuT1EzRDBpeFpwTkJtTTlObTFBZVQyaXBka3l0MDhpeWcybWRpa0pvQXhnRnpuQWp6aEdsNkZmeGx0Q3FwR01GVW5QdEZYb3RyTk5vaEhDUDJFQ1V1Z1M2RGRwSFlUQmUtMWV3Ni1EOGZRaWYxUkdfaWM?oc=5",
+          "title": "The Goldman Sachs Group, Inc. $GS Shares Sold by Perpetual Ltd",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVl9fZ0FYc3FWNHVucFVjRXJESlp6bmpsMTM3UFZRVnVnMjdNWGoweDVFdGoyb3ZrLUNRbld3OGVwWG1MSnNFQmRaamNTTTFsV3dwekNjREdiSjFQX2dkY0NsdHpZY245Y1JybjRBenNKMjZzU1Z6VlV1U2h4dnhJeXpuc3pYYnFfajZhMXZyWFJZcEJQdk0tWlBPcU4zNkpWX2FsX0JqN1cwUGt1VU94aXdDZHBYajFfaUljXw?oc=5",
           "site": "MarketBeat"
         },
         {
-          "title": "Goldman Sachs Stocks in Rally-Mode After Top-Line Beat",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQmpFT0g2a0s4M2VRUjlDU1hjbGJCOUlpWHdFSi1xWmxQRDV0RGFqZFZsQ2dWOTN6R085UEZmRDNlV1M0azdoWDltaDVmMVJKZXNkbHNTTEhTZWVjTlRCWF9hMmt0bnNGR2Q1OElDXzBoeXhTaWZoQ21kSHVzbGlpTXF4cmhMaWVaQ2hVMEdBM2VMdFBiUDUzZ2ZwejlOWkxhTVdJRG4wYkgwMDQteHI2V0lROA?oc=5",
-          "site": "Schaeffer's Investment Research"
+          "title": "The Goldman Sachs Group Inc (GS) (Q3 2026) Earnings Call Highlights: Record Advisory Revenues ...",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVDlQV2NWUDFNVWNyLTZsMXkzbGF4ZEpVU2x6MEh5MnRCdmVEYmlVVXpiTEc4QjZTbHpmZkpEaFotRlRha3VDNjVPQ3ZRckxzYmJMMlNmNHBtSnl1elUySWN5OUwxRXZzS1drdlV2Y25ZLVczY0FXZHoyM1Z2UFNuVE82c1J6MTZ4VkFLT0NUQ2FrUDMtbFE?oc=5",
+          "site": "Yahoo Finance"
+        },
+        {
+          "title": "Goldman Results Remain Fantastic, but Capital Markets Cycle Looms",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMklXOHJkdF8wY09lZ0VIcUVfZk5ENFhiR01hbDd4UnlTOC0wS0lPX2hnd1dGeW9LT1EzSWliLUVFeG1kTDBUZnZucS1SMkRlY280UnAyOEhtN2lRN1RjX0lMWXl4OGhrRGgyM1VqZ0Jxa3A4ZXhTTFFUNmhWMnpkM3NmLVJsbUtqSnNuNXVnNEVSeUVuZ01nTnBMVWpvMUppWmpRTF8xZkxKLWFxWVRpNDROMEVUXzA?oc=5",
+          "site": "Morningstar"
         }
       ]
     },
     {
       "ticker": "META",
       "name": "Meta Platforms Inc",
-      "price": 761.6,
-      "change": 18.64,
-      "changePercent": 2.5089,
+      "price": 739.82,
+      "change": -22.68,
+      "changePercent": -2.9744,
       "priceTarget": {
-        "mean": 798.9952,
+        "mean": 813.32275,
         "high": 1050.0,
         "low": 580.0,
         "numAnalysts": 58,
@@ -491,51 +491,51 @@
       },
       "analystActions": [
         {
-          "date": "2024-09-30",
-          "firm": "Cantor Fitzgerald",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "reit"
-        },
-        {
-          "date": "2024-09-30",
-          "firm": "Monness, Crespi, Hardt",
+          "date": "2026-10-13",
+          "firm": "Pivotal Research",
           "toGrade": "",
           "fromGrade": "",
           "action": "main"
         },
         {
-          "date": "2024-09-26",
+          "date": "2026-10-13",
+          "firm": "Truist Securities",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "date": "2026-10-13",
+          "firm": "Keybanc",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "reit"
+        },
+        {
+          "date": "2026-10-13",
           "firm": "Rosenblatt",
           "toGrade": "",
           "fromGrade": "",
           "action": "main"
         },
         {
-          "date": "2024-09-26",
-          "firm": "B of A Securities",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
-        },
-        {
-          "date": "2024-09-26",
-          "firm": "JP Morgan",
+          "date": "2026-10-12",
+          "firm": "Cantor Fitzgerald",
           "toGrade": "",
           "fromGrade": "",
           "action": "main"
         }
       ],
-      "summary": "META is trading at $761.60, sitting **4.7% below** the consensus analyst target of $799.00 \u2014 a gap that suggests analysts see meaningful room to run from current levels, backed by a strong-buy consensus across 58 analysts. Today's 2.5% gain, which saw shares swing across a wide $734\u2013$771 range, comes alongside the launch of Meta's \"Muse Wonder\" frontier AI model, reigniting the familiar question of whether its heavy capital expenditure bets will ultimately pay off. For anyone tracking this stock, the near-term picture is one of momentum building toward that analyst target, though the capex-versus-return debate remains the central tension to watch.",
+      "summary": "Meta is currently trading at $739.82, sitting **$73.50 (9%) below** the consensus analyst target of $813.32 \u2014 a gap that, with 58 analysts aligned on a strong buy consensus, suggests the street sees meaningful room to recover from today's pullback. The stock slid nearly 3% today, with broader pressure possibly compounded by a piece questioning whether Meta's AI bet is being mispriced by the market \u2014 a narrative worth watching given how central AI spending has become to the bull case. For anyone tracking this name, the setup is one of near-term weakness against a backdrop of still-intact long-term conviction, making the current discount to target the key number to keep an eye on as sentiment around AI valuations continues to evolve.",
       "news": [
         {
-          "title": "Stock Market Today: Dow's Losses Start To Multiply; Meta Approaches New Entry (Live Coverage)",
-          "url": "https://finnhub.io/api/news?id=86053c9cc156f0e9c968ed50a5151d32f30ed539f8d83b68c4ac690df716c5d8",
+          "title": "FBI arrests OpenAI employee for planting listening device in office",
+          "url": "https://finnhub.io/api/news?id=15ad7789a845bc2208a1660ab9adbf19c8c2cb36161772afe1b707e9ae84baa2",
           "site": "Yahoo"
         },
         {
-          "title": "Meta Launches Muse Wonder, Its First Frontier AI Model: Can It Pay for the Capex?",
-          "url": "https://finnhub.io/api/news?id=79f38ef88dbaebd95c9b20db0feb6d0768acbd47745e0940c9aa23791350b1a2",
+          "title": "Why Meta's AI bet could be mispriced",
+          "url": "https://finnhub.io/api/news?id=e025de8310d3d838517ca92b0f6eb8418a87f10cb4b97ae66395b04db583bc6a",
           "site": "Yahoo"
         },
         {
@@ -544,23 +544,23 @@
           "site": "Yahoo Finance"
         },
         {
-          "title": "Meta Platforms Inc Stock (META) Moved Up by 3.19% on Oct 13: A Full Analysis",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOc251Rnh6amsyTkRpQnBfNUt3d1ZRNTQwRlVSUWFzdzlKME1OM3BGVUlTNkdrbmExUUdIVG5vanhJSlNZeWt3RnNaaEpKc3VKSnYxcnVLRVFsaC1heXNDUV9oU2dTY0lNX2xhY2c1aDBOcjF4eU11ZUNqTTlwdzlEaUR5cjdrZWJvaUpF?oc=5",
-          "site": "TradingKey"
+          "title": "Meta Platforms, Inc. $META Stock Bought by Citrine Capital LLC",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVU5UR1NzYTlNOEQ1Mzlsc2RrQlJ6NHB1eFhBcDRoM19KMlpkNGJlLVExRnc0ZGdpNzVMd2dmUzBwaU1JY2VEak53R2N1cGNJajlKSlJBNEhuLUVDMHZyOG9YeFZ5RmRKSm5KSDROMUdjS3p0ZnVNUFdFWWZGbThNNmoyNmFFMGtoYUotWDRaOWV6Vzd2WlpLZXZUUGptOWNfQTBfYkxESVJnOWR2UzZsWUFXSHc1blZRdXJVVQ?oc=5",
+          "site": "MarketBeat"
         },
         {
-          "title": "Meta Stock Is Gaining Tuesday: What's Going On?",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQM3loZzhNYTFmenA1Rk9oWU1aTEpjVXFfZWhDb2lJQUQxbi0xVEVnYlJYU0VTcWRHdXRaVEUyc0JFQ2ZHVV9lWGM2a3ZwaTJFcVc2QjZlVVJDTy03UWpxTnIyeE1DQnNKbkk1NUtIdWRHaTcwM1NndVlFWUdkLThrTUlaR3lxSDdwMGtodnViQ2Jtdm9YRTVhTXZQUWdSVmF3S00xUEdjMXdRSlRROFdWNmwwck1KbVBsVFE3REVwMDZwQnE1TGF3YlJwZE9GYXE3bDl3?oc=5",
-          "site": "Benzinga"
+          "title": "META|Meta Platforms Inc|Price:762.500|Chg%:+19.540",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4wY1hVRHlmc1NBUnpQMzAtd0xmUkZuTkkxamF4RVpHN09tZDZLVEZKYnJlRC1sT043VjNwMEpzTlNHS0t1UnZYT2l1MHFwUVRZeE9nank4RHdVZw?oc=5",
+          "site": "TradingKey"
         }
       ]
     },
     {
       "ticker": "MSFT",
       "name": "Microsoft Corp",
-      "price": 546.34,
-      "change": 5.19,
-      "changePercent": 0.9591,
+      "price": 537.24,
+      "change": -6.21,
+      "changePercent": -1.1427,
       "priceTarget": {
         "mean": 589.59607,
         "high": 870.0,
@@ -605,41 +605,41 @@
           "action": "main"
         }
       ],
-      "summary": "Microsoft is currently trading at $546.34, sitting **$43.26 (7.3%) below** the consensus analyst target of $589.60 \u2014 a gap that, with 53 analysts aligned on a strong buy consensus, suggests the street sees meaningful room to run from current levels. Today's 0.96% gain kept shares within a tight intraday range, while investor attention has been drawn to questions around Microsoft's custom Maia AI chip and whether that silicon bet could materially shift the company's operating margin profile going forward. For anyone tracking MSFT, the combination of a notable discount to analyst targets and an active AI infrastructure narrative makes this a stock where the near-term debate centers less on growth potential and more on how quickly margin improvements can materialize.",
+      "summary": "Microsoft is currently trading at $537.24, sitting **8.9% below** the consensus analyst target of $589.60, where 53 analysts maintain a strong buy outlook \u2014 suggesting the market is pricing in meaningful upside relative to professional expectations. Today's modest 1.14% decline appears to reflect some skepticism around AI spending, with Michael Burry publicly questioning whether Microsoft's aggressive investment in artificial intelligence is inflating its valuation beyond what fundamentals support. For those tracking MSFT, the gap between current price and analyst targets is notable, and the ongoing debate between AI optimism and spending discipline will likely remain the central tension driving the stock in the near term.",
       "news": [
         {
-          "title": "Discover which dow jones stocks are making waves on Tuesday.",
-          "url": "https://finnhub.io/api/news?id=40d2c5297662fe6576264f21cdd4db7fc189e73028158a4128a0960d9c568eed",
-          "site": "ChartMill"
-        },
-        {
-          "title": "Does The Maia Chip Bet Materially Alter Microsoft's Operating Margin Outlook?",
-          "url": "https://finnhub.io/api/news?id=fa0533907fd3e276e91c04e9329eb011c55b5382d8deace1d954e888621ab38d",
+          "title": "Michael Burry Questions Microsoft\u2019s AI Spending. Is Its Valuation Misleading?",
+          "url": "https://finnhub.io/api/news?id=6611a34617e832086d10b37c0c489589fce6c9e1baa6b826997a88f1a2747555",
           "site": "Yahoo"
         },
         {
-          "title": "Investors Heavily Search Microsoft Corporation (MSFT): Here is What You Need to Know",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNME5nYTR1b3EyTHlWQ2NBYk44NmhKYUhsbE4yYmVaSXN6dVEtcHhqNG16N2EyelVGYWd2VjJCX2l5SDRmeUFNVGM2QjVDczhoN1FIT1ZQM3JnMWtwYU9BNlBnZG1idEZsZ3ZqdFJsaXkxMENPb0I5WWk2Q1RCSlFGS05QbjBFM3Y4RmpMS2ZSSzg0akQyMHRzZVVrZ1F2dDVzQ0l1RHlKUUpCUE9WNksyXw?oc=5",
+          "title": "Chevron\u2019s Big Rally Couldn\u2019t Erase a Decade of Underperformance",
+          "url": "https://finnhub.io/api/news?id=79f6321784279084a5dcb9683e24399e37e2f708bf81b3b5b3f150b9c5c7fa25",
+          "site": "Yahoo"
+        },
+        {
+          "title": "Claude Was Right About Microsoft (MSFT): Can The Stock Keep Rising?",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbDBHbEJMRE1McHBRd3VsMGp6RTFWQmdXeGNpWkJVY0UwZ3FiaTdIakd5TWd0RHZoaDljUVRyUVN6ZGJfTGNkTVlOMzgwTmFGRU82aWNkU1NMU0owQm5WVDFKOVg0VVJ6RU1JeGFtSzlKY2c2TWFPSl84NldnTWllZEpSTHUtVm94eGhhMjdRMXlBTi1aOVl4ckNMNXJHZw?oc=5",
           "site": "Yahoo Finance"
         },
         {
-          "title": "What's Going On With Microsoft Stock Thursday?",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNF9lOGZGR19YSUItYngtQktyR1BTT1RtbHhIakFrY0lPdjRtN0VRLTdlN0xsVHdKNXZ0U3poOEZERWFaNUZ3NGIwemNNYkUzVEhJMDlUbzljc0RodFhfTDAzbk83OVNHeWpXZHZYb18wRXk5WTBDRVI2dzRoSVRrR1dVRUdkY1pQd1lUUTFzVmc0aXR6UWxzQjAtTHVjQUwx?oc=5",
+          "title": "Microsoft Stock Moves Higher Monday: What's Happening?",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQVlQMFNxelRGT08zajBvZkFqSk1OdWhFRDlCXzFOUkdtV25xVjRBWGx6aGw2TFdXZjhXcUlNcU9qSU9JaEpBSW4tY20wUEtxNV9jSkNuMEU2YzFLVUY1LTk5S3JWU05yZDlkaFk0akpFSVlxcFdvcVhpM0h2eGVCbGdEdFBtYXlveWJxUVpydkIxMzQ0dEMxOEtpMjItVE1TWkY2S1lNcGJoSGEza1p4dllR?oc=5",
           "site": "Benzinga"
         },
         {
-          "title": "Microsoft (MSFT) Stock Price, Quote, Forecast & News",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5lN3VCQ2pqbi04WE5ncW1xMlVWWkczZXlaSmduMFVYTVJHZC03Z0dtYXQ4UWdYYS1Yc3dGVnNRTjRwSVhrRlFIWA?oc=5",
-          "site": "techi.com"
+          "title": "Microsoft Corp (MSFT) Shares Surge 0.4% -- What GF Score of 99 T",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPckgwcDFOZ3ZUa2phYUdHS0l4UUhlcTVmX2tmWTJFU2pMQVBMa0RyRUFoak45NGVoYld3YU5WMGxacDUxT2ZzUzEtdXVaOTBZNF9SUVNrRjZFelFreWNSM3NpU0Z4cUdmdXI0ZkVMZjNhTlNsRmNId2lncXJqTi1wSlpMd1dsVDEtbG42cXhoRG5TRkpNQ1g2ZEc1VF9OZWZLRERIV2kxdUlJU1dJb1FN?oc=5",
+          "site": "GuruFocus"
         }
       ]
     },
     {
       "ticker": "MS",
       "name": "Morgan Stanley",
-      "price": 187.14,
-      "change": -2.88,
-      "changePercent": -1.5156,
+      "price": 180.6,
+      "change": -6.04,
+      "changePercent": -3.2362,
       "priceTarget": {
         "mean": 222.13635,
         "high": 262.0,
@@ -684,49 +684,63 @@
           "action": "main"
         }
       ],
-      "summary": "**Morgan Stanley (MS)** is trading at $187.14, sitting **$35 below its consensus analyst target of $222.14** \u2014 a 15.8% gap that suggests analysts see meaningful room for appreciation from current levels. The stock slipped 1.52% today, likely as investors position ahead of tomorrow's earnings report, with attention focused on how the wealth management and asset custody divisions have performed \u2014 key segments analysts will be scrutinizing alongside broader market trends seen in JPMorgan's recent results. With earnings on deck and the stock still trading well below analyst fair value estimates, tomorrow's report could be a significant catalyst in either direction for those tracking this name.",
+      "summary": "Morgan Stanley is currently trading at $180.60, roughly **19% below** its consensus analyst target of $222.14, suggesting analysts see meaningful room to the upside even after today's pullback. The stock dropped 3.24% on the session despite a strong Q3 earnings report that beat expectations \u2014 most notably with equities trading revenue surpassing estimates by a striking $909 million. For those tracking MS, the disconnect between a blowout quarter and a sharp single-day decline may reflect broader market rotation or profit-taking after a strong run, though the wide gap to the analyst target keeps the longer-term thesis worth watching closely.",
       "news": [
         {
-          "title": "Bumble to go private in $1.3 billion Ithaca Holdings takeover",
-          "url": "https://finnhub.io/api/news?id=1bcb3bf5310f7bede1765e5302a262aaca8226a4ef91285183fcff2d9ec3ccd6",
+          "title": "Who's up and who's down among big bank earnings reports",
+          "url": "https://finnhub.io/api/news?id=7523c9fd1c515c38e62dfb37248582b9334dae789cf4a778e292f1e372b67063",
           "site": "Yahoo"
         },
         {
-          "title": "JPM Q3 Earnings Lag on Lower Fixed Income Markets, IB Offer Support",
-          "url": "https://finnhub.io/api/news?id=2ae012004f59503df51f17f10079f5388808776504e1c6e4d5f3a6898e39401c",
+          "title": "Bank of America, Morgan Stanley, BlackRock: Key takeaways from bank earnings",
+          "url": "https://finnhub.io/api/news?id=7af2f95676783e2dfb01f999bde2415f5d840e7d7e95381ea1ddf93da40d02ff",
           "site": "Yahoo"
         },
         {
-          "title": "Morgan Stanley (MS) Reports Earnings Tomorrow: What To Expect",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNSEhUUFFodzRycDRaWjRyMHg4WlJRSzJzTkxwcmxpeXdBSEJvRGU2NUVDRkpSMFdJZldZdW8zZ0JhbFI3QXZQUEZ6aWJlV2ZpbFZocWFQSEI5Vm1DLW1HOXhiZW5Bd1JTTEJpSTZhWnJnLWU0aFI1Rkt5WGRXaGdiOGFjXzM4dm0yeklxcGo5X1R4UDJrSUZpTzFOaGo3Q2tE?oc=5",
+          "title": "Morgan Stanley (NYSE:MS) Exceeds Q3 2026 Expectations",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRklQR0w5VVVTRFRJM0ZoMG1vZ0Z3dHgyTE5tb1FfM21hVThQM00tY1p3ME5WeExUQ0ItYWw3ay1Xc21MSEJBVUZWVy1LV0NSTHprN1VpTXhydlQ1NWxqRGJQajFTY000Mm9UMWJUQ3ZhaUZpS1BHSWk2cjFSMVM3VDdHcWhBYUt2VFlBcFcyLXpsS0ZRNFpXYmtEZw?oc=5",
           "site": "Yahoo Finance"
         },
         {
-          "title": "Morgan Stanley (MS) Nears Earnings, Is The Stock Still Below Fair Value?",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOThxS0NndG5jOVlkWmJ6UlRiamQ1SzBNLXowTWcyN1pGaktqXzZKellDNVZYelhjejhCS25HS2RRRWxOcEpUS2NCRDZvTGtUdFlfT1U5QUZTQlVRQmQxOWFJdTlUM0pxWWFOSTBTbW9sUkRUbG9BNDRrbjB1T3lacnhaZWhVT2g2NE9pUUlxb19MNlFZRkhhQ1l5MV8ta3RhU2Z1MElZZy0yc2c0Rmt0YlFtbDZWaGdHblh6UjVadzQyeWlJYjRTTlYzXzNkNjlSOG9NRmlMN3pSdzDSAeABQVVfeXFMTkZoUDUwN1RrZ3lTZjE4Y1c1OUpyX2dxcTBuNHUtOTE2Z2t5UVp3a3JaY0laNjJ1eDlLS1RhZ0hkQm9iTFVpZ09CMFVWVHd0bXJvd2w2VFRmWlpUdTVzamlrbkJaLWpySUJMUW9xeFRyQndvaDM0RExCNmhBTzc2MTlDdzlidlBWMWRWcU1ZUEtkMXlRQ0N2ZFR3SHBkMjVkbWhkMGduUXg1emQzYy03TVlKbmZJamJlQUNvX1kyU3d2ZjZ3T3pSWjhvZFNJS3BRYU9VR3JHeDloV0lMdzFCaFQ?oc=5",
-          "site": "Simply Wall Street"
+          "title": "Morgan Stanley Stock (MS) Moved Down by 3.23% on Oct 14: Facts Behind the Movement",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOeWM1S2pLcjg0eFMxUXA2Slc4ODBtUTRLQTIxcUJnMkt4U0p6TWVXWWw2aTNvX1RnLWdhdkNrajQ4UkxpQlFvcDljaTVJSjk1UG5uaGt6cjNuUk9ZTzFfUFkzVUhONmxlN0xLYXpQcWtoclpFbnlsTVZnUnExYnRjdFNPQUhMUGRLR1RxOVdCdHJJVW1BeU53ZVMtaUlfb1BhcHpTd0RidnhtR3lqenY3RTF4akFVR2s3eTc3N0ozT3l1UFlxY2Vvb2R2cllyVXI3V2d4akx3?oc=5",
+          "site": "NewsBreak: Local News & Alerts"
         },
         {
-          "title": "Wealth, Assets and Custody: What to Watch When Morgan Stanley, BlackRock and State Street Report",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOX3V0ZTI4QjU2S2hPSG51OWo0Y1ZSYkdGcUpGZ3ppMXg0d1A5a25LSkowYmR3ZFNoUmk5U0Q1VkpBTU85bHRxMHVDTXZHSE13aTlPbUY3UHJER0J0eVV3LVF6T0lGcEV0bTI1RnNpWnRlM25wREpxZ3BGLVF1M3d4bXJJd1hRSWM1MXh1bU02cmJGb2k1R1dmaWJfWDZ5T0p4bnA4WFNTejVQXzE2T2FDM2VQT3RQOFZIdVBLRnFWVXR0elFTMmhJTy01Qml2amNEeEhZ?oc=5",
-          "site": "24/7 Wall St."
+          "title": "Morgan Stanley tops estimates as equities trading revenue beats expectations by $909 million",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9icDREeUpWYi1TMEZvdVI1d3VncENvMDlWSmE4ajlkYzIySTkzM0hjSm1qZVNoZzNTZHRfRTNnOEJ5Mi05TjB3UngwUWlYeWthY29yX0RlUHZyejRSVTY1NE44N3gydUJxbE12Z0o3aVJubjZ5RXN6VGdJQdIBgAFBVV95cUxNWjROMXo2VllzTW9ybGxaRmJkUGVPVzI3WEdyLVFxSGFueGFJTFdGT1NWZUR1dkcxN3NaSDc2ZVdyRERjS2h4Q1duLVdMdklBNUZGZ1lzd3I4MFFrNDJfcFRfZng5M1dwLXNRYTN1elR4QnNJQk9mZUNvYmI1Z01VZg?oc=5",
+          "site": "CNBC"
         }
       ]
     },
     {
       "ticker": "C",
       "name": "Citigroup Inc",
-      "price": 126.4,
-      "change": -5.52,
-      "changePercent": -4.1844,
+      "price": 122.83,
+      "change": -1.7,
+      "changePercent": -1.3651,
       "priceTarget": {
-        "mean": 152.19048,
+        "mean": 150.7143,
         "high": 170.0,
-        "low": 130.0,
+        "low": 127.0,
         "numAnalysts": 21,
         "recommendation": "buy"
       },
       "analystActions": [
+        {
+          "date": "2026-10-14",
+          "firm": "TD Cowen",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
+        {
+          "date": "2026-10-14",
+          "firm": "RBC Capital",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
         {
           "date": "2026-10-05",
           "firm": "UBS",
@@ -747,57 +761,43 @@
           "toGrade": "",
           "fromGrade": "",
           "action": "main"
-        },
-        {
-          "date": "2026-09-28",
-          "firm": "HSBC",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
-        },
-        {
-          "date": "2026-08-03",
-          "firm": "UBS",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
         }
       ],
-      "summary": "Despite beating third-quarter earnings expectations and raising its full-year net interest income outlook, Citigroup is sliding today \u2014 currently trading at $126.40, roughly **$25.79 (17%) below** its consensus analyst target of $152.19, suggesting analysts see meaningful room for recovery that the market hasn't yet priced in. The stock is down over 4% on the session, giving back recent gains even as the underlying earnings news was broadly positive, a dynamic that may reflect broader market pressures or profit-taking after the initial reaction. For anyone tracking C, the combination of a solid earnings beat, an upward guidance revision, and a still-wide gap to the analyst target presents an interesting tension between near-term price weakness and longer-term fundamental optimism.",
+      "summary": "Citigroup is currently trading at $122.83, sitting **18.5% below** the consensus analyst target of $150.71 \u2014 a notable discount that suggests analysts see meaningful upside, though today's 1.37% decline adds to recent pressure. The stock is pulling back amid a broader cautious tone on Wall Street, with Royal Bank of Canada issuing a pessimistic forecast and multiple major firms downgrading their price targets for Citi. For those tracking the stock, the picture is mixed: the gap between current price and analyst consensus is wide enough to be intriguing, but the wave of target cuts and a challenging macro backdrop \u2014 with Jim Cramer noting much of the market is already in bear market territory \u2014 warrant close attention.",
       "news": [
         {
-          "title": "Participation notifications by Citigroup Inc.",
-          "url": "https://finnhub.io/api/news?id=b5041395799206e96fd6a11e426f1740e215d5c0a1835b010c1f7e1962eb4118",
+          "title": "Here Are Wednesday\u2019s Top Wall Street Analyst Research Calls: Albemarle, Alcoa, Brinker International, Dell Technologies, Garmin, Hewlett Packard Enterprise, Lockheed Martin, NetApp, Trane Technologies, and More",
+          "url": "https://finnhub.io/api/news?id=fead6939f6297cd1d9d57e6b2c1d3eca8973390ea6d20eb55530cfd3bb98deef",
           "site": "Yahoo"
         },
         {
-          "title": "Citigroup Beats Third-Quarter Views, Lifts Full-Year Net Interest Income Outlook",
-          "url": "https://finnhub.io/api/news?id=1bf9be39d26651416d1e94eb1dcb1d3ffa96487462dc6262b0fe616fd9b2dbc7",
+          "title": "Jim Cramer Says Most of the Market Is Already in a Bear Market Despite S&P 500 Rally",
+          "url": "https://finnhub.io/api/news?id=3c0ffba97a93c4e663a1ea59eb6e35977c92f5e5c1ffe1c080d977c2cd23645d",
           "site": "Yahoo"
         },
         {
-          "title": "Citi will discuss its third-quarter results at 11 a.m. ET today",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVXEyMnVIdGt5MGQyUzU0cklNeFdpbDRhWFljM3c0djdKOGNldFBRaktaa3JlbDdNN25EUm9zcldXTDFGVFVPUFBuZ1hVV3Y5NFZzUm00WkZldTdCOTZvbEtsYnRhdjhoX0x1SllrRU0zQVVjbzNHeXNwcmlKT2c1OHZ3azVwN1NFOVl4OW0tRTd1UQ?oc=5",
-          "site": "Stock Titan"
+          "title": "Why Citigroup (C) Stock Is Trading Lower Today",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRzNNNmZFQW9ZSzFZdGtqeDNFeHpERmVlWW5YZUtWNjgwb3VTMnQ1Y1NZZUdnUldoa2cxWldmM0tnTExLTmZ2TVBEM1hFaU9CaTkxSUluNmhrX0tZNGp6cFVTMWoycU51Tkp5QWx5Z3VxMGwzNWVtQ1NkQXl2RE9odFowVU5Xc3hVZFdqcW9FSDktc3FRazNnZ2d3?oc=5",
+          "site": "Yahoo Finance"
         },
         {
-          "title": "Citigroup Inc Stock (C) Moved Down by 3.46% on Oct 13: What Investors Need To Know",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM3dCQmJTQ3VKS1JNblZuV0tMcVFRRUwtNXBLNnpOTVVIR3V2M1BrNGc3VDZIQnY5VUxhXzh6RlFpRllTX3NzSHkzZ2J1c2Nwb25ySWloSVROaUJUMXkxQTRIbHZJb0UzeTU2cngzeldFZWNNRVFDYmJ1TmE5Z0t5QmlIODFwUVk?oc=5",
-          "site": "TradingKey"
+          "title": "Royal Bank Of Canada Issues Pessimistic Forecast for Citigroup (NYSE:C) Stock Price",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUkFfaHpadkZ4N0oyMFR5eHQ5bzJXd1l0ckd2dWV0djhGSGlhRVp4M3pueFUxUmJwYVEyaGExd0hxNDBwX0hhOGlXSFNXZ0tiUmMyZVpUbmFqc19uWHZiRjkxWnRPZlgxVkxja0RkR2xqZkI4dUtJdFhiSGstLUpwVTJRVjNramRvN2dZckR0SFM3cktsdzZYSWtFYUpvTHVXQ0lkamRwTWhVZ25VUnlFMXA2Q1NCUEh4bm56WkxMeVpkWjkyNV83cGE1Y3EtRzdLVDRyWlZMbzdtdWc?oc=5",
+          "site": "MarketBeat"
         },
         {
-          "title": "Crude Oil Edges Higher; Citigroup Earnings Top Views",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM1lucTlYb0RFdExqblRMdXoxSWE3T2lsZTlyczdhal9FWVpnNHFjTEozYzF5U2lrX1lqdGh0akJCcGxZakw2V1VfWC1LcWN5MS1XNEgwNDg3WUlBS3NvaXozTHhTdlpSRlhHYzR4bVU2bU9mS1JQMm5WVUpTa2xjSFp1NVVZeXNUSnN4dU5NUkZvMVdkaTJXTjdhenBTM0NCMjNwN3BLeUYwazJqSWZiYjBsUUg?oc=5",
-          "site": "Benzinga"
+          "title": "Citi Group (C) Stock Price Target Downgraded by Major Firms",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQX3lvYVJwcEVEek5feFhQUnBhU2JfUk5GNTJsNXI2bTJDX0YzRnIzM3Y5RE5xb1FtcG54WjJDOG5Nc09ucFA0WWlVcXJIRlNvMzJIeTB5Z3dmWTZzMzgxZS1yZWdmU2pldmZneGhjdk5ObEFMV3MwQ2o0VlBaOEQxdDRWdzdpTm5wNzBVVnpiZzIwTXlhc3d3dGNacEM?oc=5",
+          "site": "GuruFocus"
         }
       ]
     },
     {
       "ticker": "MU",
       "name": "Micron Technology Inc",
-      "price": 936.72,
-      "change": -52.32,
-      "changePercent": -5.29,
+      "price": 929.84,
+      "change": -23.35,
+      "changePercent": -2.4497,
       "priceTarget": {
         "mean": 1560.5652,
         "high": 3000.0,
@@ -842,45 +842,45 @@
           "action": "reit"
         }
       ],
-      "summary": "**Micron (MU) \u2013 $936.72 (-5.29%)**\n\nDespite a strong-buy consensus among 46 analysts with an average price target of $1,560.57, MU is currently trading a striking 40% *below* that target \u2014 a gap that suggests either significant long-term upside or that analyst optimism hasn't yet been validated by the market. Today's drop extends a multi-day losing streak driven by a combination of mounting AI skepticism, a bruising ITC patent dispute, and spillover pressure from a broader sell-off in AI-memory trades seen in South Korea. For anyone tracking this stock, the picture is one of heightened near-term turbulence against a backdrop of still-bullish analyst conviction \u2014 the wide gap between price and target makes the disconnect hard to ignore.",
+      "summary": "Micron is trading at $929.84, sitting **40% below** the consensus analyst price target of $1,560.57 \u2014 a gap that reflects either a significant undervaluation or serious near-term headwinds that the market isn't ready to look past. Today's 2.45% drop came amid a broader market pullback driven by hotter-than-expected inflation data reigniting Fed rate hike fears, compounded by renewed China-related concerns that have rattled the memory chip thesis \u2014 though Jim Cramer dismissed the selloff as overblown. With 46 analysts maintaining a strong buy consensus and at least one bold target of $3,000 on the table, the bull case remains intact on paper, but the China risk and macro pressure are clearly creating a wide divergence between Wall Street's long-term conviction and where the stock is actually trading right now.",
       "news": [
         {
-          "title": "Explore the top gainers and losers within the S&P500 index in today's session.",
-          "url": "https://finnhub.io/api/news?id=7a19a3877cfb0a66a454cc78dcbca0f2fa76447119c7e87a164ed3c33cb12dcc",
-          "site": "ChartMill"
-        },
-        {
-          "title": "SpaceX stock slammed as AI-memory trade crumbles in South Korea",
-          "url": "https://finnhub.io/api/news?id=496462345c91d8ba8dd097574d681e06049e81e9b848d074b36e5dca123a80fa",
+          "title": "10-year Treasury yield rises following hot inflation data: AlphaCheck",
+          "url": "https://finnhub.io/api/news?id=6deea603964f7fb3da70ceca7472a47cc6371c62c8fcffaed57051ee38d6e177",
           "site": "Yahoo"
         },
         {
-          "title": "Why Micron Stock Dropped Again on Tuesday",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTUJibjRMU1RmZXRsd2xEVDl5WTRjbktnNjc4X0JRUzM2bGp5aE5HTi1Lb2NkN3RDc1YtajkyNDlabnlka0VuRksxY2taNHN2ekFacGdGOG12Q3dvbjB1WTF2c1pubFMySklYSXhvcm8xQno4V20zNFRiZ0xMODB0UVY1cm94MzRsUGVjU0t1TXFUOGdES3BLNnpkSQ?oc=5",
-          "site": "Yahoo Finance"
+          "title": "Stock Market Today: Stocks Head Lower as Hot Inflation Puts Another Fed Rate Hike Back in Play",
+          "url": "https://finnhub.io/api/news?id=c59d3b40b3b742be2ea1ad634c4a92089fecfcf0a94933b5230e3cc505bf9a54",
+          "site": "Yahoo"
         },
         {
-          "title": "Micron Stock Extends Multi-Day Losing Streak: What's Going On?",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY21oSzZld3hCam8wQ0VlTHMzMGZEaWVaVkt0cnFTWnl1MUR3c0NWYnRFa3JfMkdUM0dRUTl3Uzg0N3ozM0pncFBqcmdyWERoUzlDMENDUUVnZlRFSHJ0X0lzWUJpbktKQkZUa2VfVFRob2twbGFRWjhXV00wSFlzdlV5T2ctUzkxOHJmd0xwd05ISlNfaUVTQ0NsbzNQUnhLTGZnbWZnRzBxUHlsc245QVlvalhTU2gwcENLcQ?oc=5",
+          "title": "Micron Stock Gets Hammered Over China Fears \u2014 Jim Cramer Calls the Selloff 'Nonsense'",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQVm9qVjlySG1MbGd0eWdWeXdNOTFvQldRNnp0OU5FQ3FPYzhpMUlLS2RINVZ6T00zZVNwNTlxOWQtSnZWOGE1MHZQRE5iU3hpc0lXU3hLNEswTloxTWZCVFFlSnpQQmR5Rk5QOC1RU1Q5cTJURTU0c1hoUHpEM3RlZjJPb2libHU4bWFUMm1hTnNqa2c0MnM3aUhtU0t0ZmUxdnA1T0lKQkxHbFFEQXdzNGp0aWtPc3BrWmlyd3d1dFNjUDRkempKanpRQVJDQ0k?oc=5",
           "site": "Benzinga"
         },
         {
-          "title": "MU Stock Slides As ITC Patent Fight And AI Skepticism Mount",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTmVqUnA1d1JkMC1pX3dqeExVMV9BaV9HNnlBTTNiZEZvYlpqck0wUU5qY1NQMjRBQ1NnVFlRUUVNQWllR1hTNU92eXJnOVdiRGt1dnYzTHY1UUF0Z1FpRjRtaVBTTWJYZFFQNEpfNU50MXZTNXY5em9xOHZmMnp1eQ?oc=5",
-          "site": "Timothy Sykes"
+          "title": "Micron to Hit $3,000? That's How High One Analyst Thinks the Stock Could Go",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSEN6SWE5a29wNkpnTjBaUmQ4YjIxdVdKWGJoZmlmbExFSGI3Y3JyWktJXzd5bF9nLXM0RGhsMGhkLWFWLTFVeGFEUkoyd3dnSl9qRkttUjdWbzB6YTVoOU8xWW1FX292Q3g4R1dGTk1jd1F3c1VDcW42cnF4UWdOR0NPUHdybDQ0M2lRR0l1TzA?oc=5",
+          "site": "Yahoo Finance"
+        },
+        {
+          "title": "Micron: China Just Broke The Memory Supercycle Story (NASDAQ:MU)",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcHVWaC1pVVRlNkd5ZjNMZWdsSHp6cHQtUHp2YVFSaUxiai1yM2RGdk9ldEdWbVpMRUlyWW9za2xEMzd5UlJnd0tkS0RKd1dBbEJWNTcxa2lDejR1VWtKVWc1ZWJRbExnX0J1bGszMnZublFDTkQzOTNNRmVkU0VVLTY0Y25kUERxZDlvMFhFV1NpSHE2MkRJ?oc=5",
+          "site": "Seeking Alpha"
         }
       ]
     },
     {
       "ticker": "ASML",
       "name": "ASML Holding NV",
-      "price": 1700.81,
-      "change": -49.43,
-      "changePercent": -2.8242,
+      "price": 1703.18,
+      "change": -14.58,
+      "changePercent": -0.8488,
       "priceTarget": {
-        "mean": 2110.7559,
-        "high": 2897.3755,
-        "low": 866.2412,
+        "mean": 2097.1506,
+        "high": 2840.8267,
+        "low": 860.84344,
         "numAnalysts": 16,
         "recommendation": "strong_buy"
       },
@@ -921,41 +921,41 @@
           "action": "main"
         }
       ],
-      "summary": "ASML is currently trading at $1,700.81, sitting roughly **$410 below its consensus analyst target of $2,110.76** \u2014 a nearly 20% discount to where 16 analysts think the stock should be, suggesting the market may be underpricing it relative to professional expectations. Today's 2.82% drop appears tied to pre-earnings nerves, with options traders actively building downside hedges ahead of the company's October 14th earnings report, even as analysts broadly remain bullish on ASML's unrivaled monopoly in EUV lithography equipment. For anyone tracking this stock, the tension between a compelling valuation gap and near-term earnings uncertainty is the story to watch \u2014 the October 14th report could either validate the analyst optimism or explain why the market has been skeptical.",
+      "summary": "ASML is currently trading at $1,703.18, sitting nearly **19% below** the consensus analyst target of $2,097.15 \u2014 a gap that suggests analysts see meaningful room for appreciation from current levels. The stock dipped 0.85% today, likely caught in broader market turbulence following a surprise CPI inflation reading, though it remains in an elevated range after recently surging 9.4% on growing confidence that AI-driven demand will sustain strong orders for ASML's critical lithography equipment. With Q3 earnings due October 14th generating significant buzz around potential upside, investors tracking this name are watching closely to see whether the upcoming report can begin closing that nearly $400 gap to the analyst target.",
       "news": [
         {
-          "title": "ASML Q3 Earnings Preview: We Still Like The Big Dog",
-          "url": "https://finnhub.io/api/news?id=bf47c7085e54bd868b09fb935b52bf8785c26cda095aaca277f41eda63e0141c",
-          "site": "SeekingAlpha"
-        },
-        {
-          "title": "ASML (ASML) Has EUV to Itself. Is 41 Times Earnings Too Much?",
-          "url": "https://finnhub.io/api/news?id=93290341c897aa87a3bd0361e50ff8015157a0b2f5453354264a37cf0ceeed41",
+          "title": "ASML Holding N.V. (ASML) Gains 9.4% as AI-Driven Demand Boosts Confidence in Lithography Equipment",
+          "url": "https://finnhub.io/api/news?id=e4bea8fbf0268656f212c6274a6d30fc51e7670d6d849ac71857c1a29335a04e",
           "site": "Yahoo"
         },
         {
-          "title": "ASML (ASML) Has EUV to Itself. Is 41 Times Earnings Too Much?",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGhYOU5naFJiRVBKRkt0czdKR3p4d0xPNlZ3bWJWT3kxUjdiVURyb2NHZ0RsUGxlQnVUTEZhcTFyTU5pclZoc3g2YU9fT3J6eC0tTWhZb3dvXzJLdFg2U3NqdUc1TFg3UnBQQnFYdUhzQmdOZTNYX0w5Qld1UFNtRXZSYzVOdGZRUWdsb1BmUFZ6UQ?oc=5",
+          "title": "Stock Market Today: Dow Wavers On Surprise CPI Inflation Data; Bank Of America Sinks On Results (Live Coverage)",
+          "url": "https://finnhub.io/api/news?id=652a71e1ecdfc844e780cdd085b28a5d9f1147ac86cbc380879d3edc06dec046",
+          "site": "Yahoo"
+        },
+        {
+          "title": "Here\u2019s How Much ASML Stock Is Expected to Move After Earnings",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWk91VjJuNmVYb1ItTE1lV2MxalpLaE00Z1ZxSG9XemU4UXgyTW9JV0NTbHNIVzlZYzhiOGFQRGFRa3RRazNsLXROUWZjemxjZUN1SEpuQ1hYMnJ5Y0ZWY05WVDNXV2Q3MjYtVFVmUVgzSE5oQjgzR29aQlVrTXVLTlJ3WjRad3pHN3dXZEVqbXREOVk4YUxOc0lR?oc=5",
           "site": "Yahoo Finance"
         },
         {
-          "title": "ASML options traders build deep downside defenses ahead of earnings (ASML:NASDAQ)",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORW45Q2M2NlExeU81REU1X2FGUS1CR0sxUnZQTGY1SVBoVTEyZ25vdlhISm1oSGx3ZUU4MWctaHBHMDdtNG41RmxGMjJwbG5RaDVYOWdzaFdYTGZNYWQ5ZExGZXNTYmlkRXhBdWhUV2dCUkdvX2gzNUJ2Z0gzdU5rb0VnLVBwdEp4ZHF4elRBdnFXZ0Z3S2Q2US05c1dNWXNDWGZ0LW43Ylo?oc=5",
-          "site": "Seeking Alpha"
+          "title": "Is ASML Holding NV's Stock a Buy Ahead of Its Q3 Earnings Report Wednesday?",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSWFaS2NNV0NKSkpwbEM0Wk5aMUNSMG1Wd3V6RDFwSHZBTV9FVzRMOF9PR3NoM28yRm01UTNGc0I3a2tObzBLMnZjU2hvcFlSWE1tSW1NRkFZT3oyTS1XeHA3clhTbW96Ums1YTFEYkt3UTF2TjA3MnN2OXljOXBtRW82eXdjbUJGdGlQc055dVBCZXp0bnlEcGNUZWhTb3JGSjNadUpYNi1qbHJ6RmE0bEpVYzJ6UQ?oc=5",
+          "site": "The Motley Fool"
         },
         {
           "title": "ASML Holding's Next Earnings Report on Oct. 14 Could Send the Stock Soaring. Here's Why.",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQaHkzSng2LURBUGdWZFZVV2tuckp2U1NxdTFlUVZoejFwOXFuWjdyaTFIclNrZU9JY1NMbm5uLVU5SHVYdGVhdm1pX2M0Qm01TUtBdW45LWVrLV9jcXBZdldZcDlXempzWTFCallMc2hudFBONTlnaHQyTVlqelZULW5tMlVNWjRqQmlRb3J6eEtMS3hDVVphZEhZOGRkZXprQ3htVkFESWFrOU9hUU0yV29OYWl1b1JtN09raFZ2M21LdWQ0cl9RaU9CSnpOMGM?oc=5",
-          "site": "The Motley Fool"
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVkJLMkg4M0JIOVdrSk14VGNsYVgwRlJrSF91UGY3WlRzVnpHZnFwa0ZEUnZ3TlViLWljNnBJeVp4TjFzTDBFaTBnTkVfZnhlWTlfN1paa0VuN2dkUzJiTEtYMDdtSXdZdHJJQk96bWZIWXQxVDh5eko3WFNpMWdzYlZtRVp4ZXhWelYyNzZjVHVZdWpXUEpHZkRoS0RPdEVZ?oc=5",
+          "site": "Yahoo Finance"
         }
       ]
     },
     {
       "ticker": "WMT",
       "name": "Walmart Inc",
-      "price": 113.21,
-      "change": 0.13,
-      "changePercent": 0.115,
+      "price": 114.56,
+      "change": 2.28,
+      "changePercent": 2.0306,
       "priceTarget": {
         "mean": 126.775,
         "high": 155.0,
@@ -1000,41 +1000,41 @@
           "action": "main"
         }
       ],
-      "summary": "Walmart is currently trading at $113.21, sitting **10.7% below** the consensus analyst target of $126.78 \u2014 a notable gap that suggests analysts see meaningful room to the upside from current levels. The stock saw minimal movement today (+0.12%), though recent news flow has been active, with Walmart announcing it will cover GLP-1 weight-loss drugs and insulin at no cost for employees \u2014 a headline that signals the company is investing aggressively in talent retention while competitors like Kroger lean into AI-driven cost cuts. With the stock carrying a 36x forward P/E and still trading well beneath that $126.78 target, investors are weighing whether Walmart's premium valuation and rising benefit costs are already priced in, or whether that ~$13.50 gap to the analyst target represents a genuine opportunity.",
+      "summary": "**WMT \u2014 $114.56 (+2.03%)**\n\nWalmart is currently trading about **$12.22 (9.6%) below** its consensus analyst target of $126.78, suggesting analysts see meaningful room to run from current levels despite today's modest gain. The stock caught a lift today amid broader positive sentiment, with Walmart also drawing attention for its move to offer U.S. associates 250-plus free prescription medicines \u2014 a headline that reinforces the company's cost-of-living narrative and employee investment story. That said, the picture isn't without tension: the stock carries a lofty 36.32x forward P/E, and at least one valuation model (GF Value) flags it as overvalued, so investors tracking WMT are weighing a gap-to-target opportunity against a premium price tag that leaves little margin for error.",
       "news": [
         {
-          "title": "Walmart to cover GLP-1s, insulin at no cost for workers in benefits push - report",
-          "url": "https://finnhub.io/api/news?id=2ff4753f6076df55fb644a028f9dfaca3053e50f1086a97994376eefb51d31a1",
+          "title": "The Zacks Analyst Blog Highlights Walmart, Visa, Novo Nordisk, Village Super Market and Empire Petroleum",
+          "url": "https://finnhub.io/api/news?id=64af186e732451d0aed12840cd81b2f8c6debea9ac205812b02e4cf0bd415bae",
           "site": "Yahoo"
         },
         {
-          "title": "Kroger to lay off 3,000 corporate employees over 3 years as it leans into artificial intelligence",
-          "url": "https://finnhub.io/api/news?id=103d776b7584b566262ba36bb0a96cf633176b708bee18d79fe10f69fe7f1631",
+          "title": "Walmart to offer US associates 250-plus free prescription medicines",
+          "url": "https://finnhub.io/api/news?id=b84b0739baea66f92ae402155b7f37b2a1bfdfe58a5889b09caf8fc9d11e296e",
           "site": "Yahoo"
         },
         {
           "title": "Walmart Trading at 36.32X Forward P/E: How to Play WMT Stock?",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbWJOWlVpb2FrZXNnMDFYTWZNdC1fOG5RV0o5SWdXa3ZrbUJOMHNjeGN1VUIzMk96ZmZGb1NYTHYyazloYjdyTFpSQUJlRENmaUp4Z0pGRUFVNGdjOHVseUR2TXNveDNWU3FkdDViVHlOaU1vejc4NHpvX1hELS1jVmlwS3FUN0tQbmdXZFFraGNvLVM1aEpabEZ6S2cxSFJqQ0t2Z05MVWNLTDMwdnkxNmU0ZzI5Zw?oc=5",
-          "site": "TradingView"
-        },
-        {
-          "title": "Walmart Inc. (WMT) Stock Forecasts",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQWHRIekpmZWRRa0pnRlM5SDZMMFJCY2V5SW12VVV6THdGN0dyT19RczBiN0hTaDNncVFpTEdxU1E2ZFZvNVN4MHpJRjR5UjhTc3Jzdm1zVEZDMXFNQ0wyTmFOMGloaVJ2Vl92VFh1X2ItQUVHbzJGek5MOWhJbGFNd3dKZk96Uk1oNzVMZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWlM4VjRIcDB5SDVESjZqTkxUWVQ3UWh1UW5UMi1peFRySGpXNjRTSEZ6ZFFKSTdZY3hTTWdFa1FPeVFlLXp3Mnp2NTl4LXNkRUtQSXo3TnhGY296cWdOTDlmRXJIcWEzdXZUQ3gwcEplTDBZOG03LTYyNzdMN21QMWVpXzNrQmxiak1YVHlZSWJwMTlUYzRLS21jaw?oc=5",
           "site": "Yahoo Finance"
         },
         {
-          "title": "Walmart Inc. $WMT Stock Acquired by Farther Finance Advisors LLC",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPV1o3a25ST2RPcVRNaWNzX19kWlN4SWU0a0hVZFVwQjJSM0E3bk03ZUdpa29mWDhoZ21PMXBVMEtJTjB1YTQxbktlMU42VzlfYlJJQVZPNEhnU3dXZWVVU1FGWWw3TDZoS0dQbW1nRXNQNTRpTUJSekdTdTQxMGhxMk1zSE9xcFFfU3JSR3pVeU8zbE52eC1YQ043TUVMbW5ET2tjV21BWTlpSExjVzZmbnpKYmlGOTlJMndpczBqYl8?oc=5",
+          "title": "25,366 Walmart Inc. $WMT Shares Acquired by First Citizens Bank & Trust Co.",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNLWZqdUpKcE84MmRrXzdSYndacUI5M256UGF2YXdKRDBmUmE5c2NDWEpMQk1WUGlvUlZnZmJkcGF4aE41MVVmNjlXUjMtV1lhX0NvTEFRa2NKeFhiTUdjMG9UMWZ5clBrZmd1Q01lZDBlVjYxR1VXSXBKLXI0V01EYncwUjNyRUZCZlhSTXN0ZDBpRy1hQ2preC1UeUc2SDhRUEdscEd6T2Y1MzJEU1hGOVpyR25xQ3N3MTBzSGYweTJaZ2xYUmNrX2Rn?oc=5",
           "site": "MarketBeat"
+        },
+        {
+          "title": "Walmart Inc (WMT) Shares Fall 0.7% -- GF Value Says Still Overva",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYkhEVlFQSmg5ZmI4VmxKRUJBYVV5MWF5eXBpc1I0WTJaN0FJYjVqdHUtRlYydW1fd2pNalN3eFJreWRibmN5QmJHV2pZU0RWOE1DZGxjMFZEZldXSldCM0N5MFdySXJVMlpQamF1R0ZxcmttbXNpU19xX01ObUxaUEZzdEdZcE9RcmdPY01yZ2xHWGtpMlp6YVRIQjhxMU9tanc?oc=5",
+          "site": "GuruFocus"
         }
       ]
     },
     {
       "ticker": "TSM",
       "name": "Taiwan Semiconductor Manufacturing Co Ltd",
-      "price": 442.7,
-      "change": -1.65,
-      "changePercent": -0.3713,
+      "price": 433.88,
+      "change": -11.24,
+      "changePercent": -2.5252,
       "priceTarget": {
         "mean": 578.222,
         "high": 1000.0,
@@ -1079,45 +1079,45 @@
           "action": "main"
         }
       ],
-      "summary": "TSM is currently trading at $442.70, sitting **23% below** its consensus analyst target of $578.22 \u2014 a gap that signals analysts see meaningful room to run even after the stock's recent strength. Today's modest 0.37% dip came amid a broadly mixed tape, though the underlying narrative remains constructive, with headlines highlighting surging AI-driven demand that keeps beating expectations and a potential market shift away from cheap smartphones that could further pad TSMC's margins. For anyone tracking this name, the combination of a strong-buy consensus, a wide discount to target, and persistent AI tailwinds paints an ambitious fundamental picture \u2014 though a headline warning of a \"major bombshell\" and at least one institutional trimming of their position serve as reminders that not every investor is leaning in at current levels.",
+      "summary": "**TSM** is trading at **$433.88**, sitting **25% below** the consensus analyst target of **$578.22** \u2014 a gap that suggests analysts see substantial room to the upside that the market hasn't yet priced in. Today's **2.53% decline** comes amid broader semiconductor sector noise, with mixed signals surrounding equipment supplier ASML's demand outlook through 2028 casting some uncertainty over the chip ecosystem. For those watching TSM, the combination of a high GF Score of 98, a strong-buy analyst consensus, and that wide discount to target price paints a picture of a fundamentally well-regarded company going through a rough patch \u2014 though supply chain dynamics and macro sentiment remain worth monitoring closely.",
       "news": [
         {
-          "title": "TSMC: 'Strong Buy' As AI Demand Keeps Surprising",
-          "url": "https://finnhub.io/api/news?id=e656ecc5fc8032229bf3a8aed700514262da5c7e92d488ebe8e7298130328e57",
+          "title": "ASML: Supply Constraints Through 2028 Still Support My Buy Rating",
+          "url": "https://finnhub.io/api/news?id=815f849457b8e75dc7851bb753f49ada7f7dc145dc00caa5694fb1d18e305bd7",
           "site": "SeekingAlpha"
         },
         {
-          "title": "Cadence Design Systems: It Seems That The Customers Are Gaining Leverage",
-          "url": "https://finnhub.io/api/news?id=306a799cf878b9c6f1971f73dc45c0bcee5666bb37d132b5d00af2d616e5004b",
+          "title": "ASML Q3 Overview: Sold Out Until 2028, But I'm Not Buying",
+          "url": "https://finnhub.io/api/news?id=776f700831fe39464545dd48b7d42b51309a6705aa12b4da9fc4d77903369f66",
           "site": "SeekingAlpha"
         },
         {
-          "title": "Taiwan Semiconductor Manufacturing Just Dropped a Major Bombshell Investors Must Be Aware Of",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZ1ZMNlp0SGtFN1hyQVBHS1lnZExnR3RQdVItWFoxZkJKSzExLXNoQ3hCNHNTcFJ3TXZpMWdVZnV6LU9jc0VIYnJQNTJZcV9zczVxLXBWdnl5OUFnekZrZVllcnZFSG9FeFlpeXhfUF9YaG93emt5ZkhMNEtJa2M0Mkk2U0t1aERCaTdxM01vQUQxMnFzZE1KTjU5U0dLdTB0aldRTHZ5QWN4WXBKczU2U193?oc=5",
-          "site": "Yahoo Finance"
-        },
-        {
-          "title": "The Death of Cheap Smartphones? Taiwan Semiconductor Could Profit From Major Market Shift",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOMy1WbEZpYVFncTZCSElZdVpGNVlpRnJUdXNWekZBdlRGekFXbFNaY0R2Tk9VRTkwSmdMc2VLaWVaTThsNG1XOFBvYUlXRFVRNEtyX3FQdWtZUkp3UUppeXktSUg2dGx3TWhSTWEzVW9keDFZbURJQlJfMzUxYnFiX0RZbkNwendmVklpMW9lbGRWd3F1emZGeV83LUZ6UzJxcU42TVNSb1hRNzIxU29LNHhCVWJIZ3ZkOVdOZVhCQlVNLXNlbXBrVEI3YkZrTUYxMkUyeG92QjZCS1hmNGxLdjhsREMydkZhOVFvMlBTWkZra3pCd0ln?oc=5",
-          "site": "Benzinga"
-        },
-        {
-          "title": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Stock: NorthCrest Asset Manangement LLC Cuts Position",
-          "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOM2hoQWdWWTFwSEFmWDlOanB0dGtBQlZlcUdjRXNVeU8wWVZ0ZjluN1ZLLXVCZTEyUXZMVlR1ZnR6bVE2REx5ajI0bFBMM1VGaGlxTjRrRzdHYTUwRy1rbEdyRlJBYTcweU9KU3M0Z0JuY0hUcDhTek9DQTNOeEFqbXJCUFZoUUVvMmFjZXFsam05WWZBOGJId0dsWXY4X3lJeFNTWVRQS1NickhGaDJOX3h2ZzQydVBUSWsxRmlSeXIwYXlHdTJWejFLc1pvZkFqLUk4R0RteDcydzFlQTJCd2xwUURybHZ2bGZxNG5LOFlvR2tweFRZ?oc=5",
+          "title": "Taiwan Semiconductor Manufacturing Company Ltd. $TSM Stock Sold by Salem Investment Counselors Inc.",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPRkNYUHlDcnBvWEVBWHQ1TmdodmFXb3BqQlcxRVVlQWxsSDlGcjZxNzNtdUpwVlVmX3d1bWoySzFMdF9jWE0xTzhBeDYxYnY1Tmlrd0FvZ1RoWURtRjE2dk84aXdJNkVURlFoRk5qOFgtZUFMZVVzOE50dk1kXzN3NTE0NGZWMnRrMjNBVTNuaFVIVE5sd0tKSS1mZTNGblRCbEluLVlDNW1YUWZQcXlXRllzcUU0TkNWRXhhSFc5Y25ucmpkZldSQUFUQ2FCREs3NFFhVjRGU09RaU5wVDlTREFDV2M0ZFQ4cVRETkN3?oc=5",
           "site": "MarketBeat"
+        },
+        {
+          "title": "Taiwan Semiconductor Manufacturing Co Ltd (TSM) Shares Surge 0.2% -- What GF Score of 98 Tells Investors",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPUzlyXzNXRmFpWm9IV3hGMG5nbTZDcXdNY0VxRUhzakFHR0dxdXFtSnF4d3lCdkcwQWs0NEd4dDdTdmdjam5nZ2Nxa19Zc3RzMzhjaU5SWGxJbDE0MmhjNGNqMHRlSUhBWlhlN1JrV0F5anVoM0E0Wmx4NVNTdWxoMTg3c0EtVjBpOXdOeW1ENXYtY205S2FQbzRYa1BxdEh2T01CLWUxYU1wZW91dmpnalJwaFpHdHlTZDc0bFZ0U2VVa3owWkdodURrRnNMTnJ5Z1E?oc=5",
+          "site": "GuruFocus"
+        },
+        {
+          "title": "We Asked 3 AI Chatbots for the Week's Top Stock Picks",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOZC02ZTF6ei1SMS1rTmQzcjJIOW9oTzFTVFB5ekRXR3MybklFZW81WVA2VldQRjZxQ3phSlI1d093am5XQVRISnNmVzVkTWJxQWRjdFdZQVFNd1pTRjVheGI5TzZUUU0zdUt3el9BTnlYUnkzVTd6b2JIeUtmWFFMM0dSTUVlYzBuNXd0RXJMVE11Tmw5WUcxcFlPN0dldEtwX0ZEclBGMHZwZUNFZXlSRTFkVVlDaExva3djRVVXVUN6ZnVCbGN6WmZ3VmJaMkJFS3E1ZWs5TQ?oc=5",
+          "site": "Benzinga"
         }
       ]
     },
     {
       "ticker": "ASND",
       "name": "Ascendis Pharma A/S",
-      "price": 223.26,
-      "change": -3.74,
-      "changePercent": -1.6476,
+      "price": 225.82,
+      "change": 2.61,
+      "changePercent": 1.1693,
       "priceTarget": {
-        "mean": 307.1091,
-        "high": 349.3987,
-        "low": 261.86765,
+        "mean": 305.1615,
+        "high": 347.18292,
+        "low": 260.20694,
         "numAnalysts": 20,
         "recommendation": "strong_buy"
       },
@@ -1158,7 +1158,7 @@
           "action": "reit"
         }
       ],
-      "summary": "**Ascendis Pharma (ASND) \u2013 $223.26 (-1.65%)**\n\nASND is currently trading **$83.85, or roughly 27%, below** its consensus analyst target of $307.11, a gap that signals analysts see meaningful upside the market hasn't yet priced in. Today's modest pullback of $3.74 came with limited headline catalysts, though a recent warrant exercise adding over 210,000 shares at ~$123.36 introduces modest dilution worth monitoring. Overall, with a strong buy consensus across 20 analysts and a wide spread between current price and target, this is a name where sentiment remains firmly constructive \u2014 though the stock still needs a clear near-term catalyst to close that gap.",
+      "summary": "Ascendis Pharma is currently trading at $225.82, sitting **26% below** its consensus analyst price target of $305.16 \u2014 a gap of nearly $80 per share that suggests analysts see significant room for appreciation from current levels. Today's modest 1.17% gain came amid relatively quiet news flow, though a recent warrant exercise added over 210,000 shares to the float at roughly $123.36, a reminder of ongoing dilution dynamics worth monitoring. With a strong buy consensus across 20 analysts and a wide discount to target, the stock remains a closely watched name, though the distance between current price and target also reflects the uncertainty and execution risk still baked into the story.",
       "news": [
         {
           "title": "Here\u2019s How Much You Would Have Made Owning Ascendis Pharma Stock In The Last 10 Years",
@@ -1185,12 +1185,12 @@
     {
       "ticker": "GE",
       "name": "General Electric Co",
-      "price": 308.76,
-      "change": 0.12,
-      "changePercent": 0.0389,
+      "price": 308.05,
+      "change": 0.42,
+      "changePercent": 0.1365,
       "priceTarget": {
-        "mean": 394.66666,
-        "high": 450.0,
+        "mean": 391.1905,
+        "high": 435.0,
         "low": 305.0,
         "numAnalysts": 21,
         "recommendation": "buy"
@@ -1232,22 +1232,22 @@
           "action": "reit"
         }
       ],
-      "summary": "GE Aerospace is currently trading at $308.76, sitting roughly **$86 below** the consensus analyst target of $394.67 \u2014 a gap of nearly 22% \u2014 suggesting analysts see meaningful room to run from current levels. The stock is largely flat today (+0.04%), though it's coming off a notable 3%+ pullback last week, with recent buzz centered on a potential $11.75 billion foundry deal that raises questions about whether the company can justify its premium valuation. For anyone tracking GE, the picture is one of a high-momentum stock \u2014 up over 333% in three years \u2014 now pausing near support, with insider activity, a bullish analyst consensus, and deal-making headlines keeping it firmly in focus.",
+      "summary": "GE is currently trading at $308.05, sitting **$83 below its consensus analyst target of $391**, a gap of roughly 21% that suggests analysts see meaningful room to run from current levels. The stock is nearly flat today (+0.14%), though recent news is providing some tailwinds \u2014 the UK government backed an expansion of GE's Prestwick facility in Scotland, which would grow its jet engine operations and workforce there. For anyone tracking GE, the overall picture is one of a stock that has already delivered an extraordinary three-year run of over 300% yet still trades at a notable discount to where analysts think it belongs, with fresh aerospace catalysts like Prestwick potentially supporting the bull case going forward.",
       "news": [
         {
-          "title": "3 Big Reasons to Love GE Aerospace (GE)",
-          "url": "https://finnhub.io/api/news?id=a7c7aea43109e2784ab617d41494e88232254ed55f30e6f5dffc96ae85ee26dc",
+          "title": "Government\u2011Backed Prestwick Expansion Might Change The Case For Investing In General Electric (GE)",
+          "url": "https://finnhub.io/api/news?id=77047ec90f3ae25351bdefdf4bc993eda4e516f5a3681ec433d6cefa76149b52",
           "site": "Yahoo"
         },
         {
-          "title": "GE Aerospace (GE): Can an $11.75B Foundry Deal Defend Its Premium?",
-          "url": "https://finnhub.io/api/news?id=aae4dac7e89aff2e9618cac8e749236af6210f96bb67928c7028def1d1dd79b9",
+          "title": "General Electric (GE) Wins UK Backing To Expand Prestwick Jet Engine Jobs",
+          "url": "https://finnhub.io/api/news?id=0e640c4c0ae680cd563937f773f3f2cd6d5c9caf7186e3b1dc27facdeb4d275d",
           "site": "Yahoo"
         },
         {
-          "title": "General Electric Co Stock (GE) Moved Down by 3.16% on Sep 28: Drivers Behind the Movement",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON3cxY2p0cVo4S0FsY2hQTFE3bE5jcUhNUjNNQ3VyaXhtaHhUYy1ZRTkxR2ZWVy1ZVHJ4QTlid3BoZ0RwdWRQR2NQNnBrOW55OWZvaDNFS01DcWl0N2VlZHNMT09WZ245ZE0zbHhjYk1hTWFMSW5RZHEtWGVWY0hDcHlYYWttVDVS?oc=5",
-          "site": "TradingKey"
+          "title": "General Electric (NYSE:GE) Stock Forecast & Analyst Predictions",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZGpFSERpWktKSXBNSHJIWEVteWN0Vk5tajZKTF96LVlrbVpLQU1IbEp0czdRaVcwa1dMeE55MjZUclNVYmxSRGd5RmVIXzJqWFdqU1BIRHZHWHI0dGVHM1NTRWVTbW1TVE5hQXpNcHgwTkJBVHdpcVd2X1BxUktocnBiWQ?oc=5",
+          "site": "Simply Wall Street"
         },
         {
           "title": "General Electric (GE) Stock After 333% Three-Year Surge Is It Too Late To Buy?",
@@ -1255,20 +1255,20 @@
           "site": "Yahoo Finance"
         },
         {
-          "title": "Director Wesley G. Bush receives 120 stock-linked units at $321.80 each from General Electric (GE).",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUmdpRmJlOURGTUp2a1dlNjhSN1R2dHl4b1BQWEdFV3VYTU5sU3JKOFl1M2lXZ1NHb2s3Rmp3aDM1YVNDdzRTYU94alo3N1RMb2FIblN0dEpMTm8yT1NzTEFadXhHeHlMNFhvdlZRV2hOOGlQSy04c3hteHVYb3J0QjctX0pkX0paQ0tSdEJ4OF9scnJlem4xQmdHb2RDLWhGWm5CVjFEaGI5ZUx4OVFLdg?oc=5",
-          "site": "Stock Titan"
+          "title": "General Electric Co Stock (GE) Moved Down by 3.16% on Sep 28: Drivers Behind the Movement",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON3cxY2p0cVo4S0FsY2hQTFE3bE5jcUhNUjNNQ3VyaXhtaHhUYy1ZRTkxR2ZWVy1ZVHJ4QTlid3BoZ0RwdWRQR2NQNnBrOW55OWZvaDNFS01DcWl0N2VlZHNMT09WZ245ZE0zbHhjYk1hTWFMSW5RZHEtWGVWY0hDcHlYYWttVDVS?oc=5",
+          "site": "TradingKey"
         }
       ]
     },
     {
       "ticker": "V",
       "name": "Visa Inc",
-      "price": 392.22,
-      "change": 2.95,
-      "changePercent": 0.7578,
+      "price": 393.21,
+      "change": -2.85,
+      "changePercent": -0.7196,
       "priceTarget": {
-        "mean": 420.4427,
+        "mean": 420.46973,
         "high": 466.0,
         "low": 330.0,
         "numAnalysts": 37,
@@ -1311,43 +1311,43 @@
           "action": "main"
         }
       ],
-      "summary": "**Visa (V) \u2014 $392.22 (+0.76%)**\n\nVisa is currently trading about **$28 below its analyst consensus target of $420.44**, leaving roughly 6.7% of implied upside according to the 37 analysts who cover it with a strong buy consensus. Today's modest gain appears tied to broader Dow Jones momentum and renewed investor interest, with headlines noting that high-profile names \u2014 including Bill Ackman and reportedly Donald Trump \u2014 share a position in the stock, adding some buzz to an already widely followed name. For anyone tracking V, the setup is straightforward: a blue-chip payments giant with meaningful room to its analyst target, steady institutional conviction, and a stock that keeps drawing attention \u2014 the key question is whether today's positive drift builds into a sustained move toward that $420 level.",
+      "summary": "**Visa (V) \u2014 $393.21 (-0.72%)**\n\nVisa is currently trading **$27.26 (6.5%) below** its consensus analyst target of $420.47 \u2014 a gap that 37 analysts with a strong buy consensus appear to view as meaningful upside left on the table. Today's modest pullback comes amid mixed signals: the company made a goodwill gesture by lowering interchange fees for tens of thousands of small businesses, while simultaneously signaling new credit card fees on the horizon \u2014 a balancing act that may be tempering enthusiasm. With a recent analyst upgrade driving a 1.6% climb in prior sessions and headlines noting that Berkshire's successor selling V in Q1 may have cost $823M in hindsight, the overall picture is one of a fundamentally well-regarded stock experiencing short-term noise while sitting noticeably below where most covering analysts think it belongs.",
       "news": [
         {
-          "title": "Discover which dow jones stocks are making waves on Tuesday.",
-          "url": "https://finnhub.io/api/news?id=40d2c5297662fe6576264f21cdd4db7fc189e73028158a4128a0960d9c568eed",
-          "site": "ChartMill"
-        },
-        {
-          "title": "Takeaways from Q3 bank earnings, & how United Airlines is betting big on Starlink",
-          "url": "https://finnhub.io/api/news?id=e35f5a2d7c7e88f82476d83910abdb87a55cbc08e66c9acf68474edf0a64f767",
+          "title": "Prove Unveils The Trust 25, Recognizing Leaders From Uber, Citi, PayPal, Visa, and 20+ Other Organizations Solving the Hardest Problems in Digital Identity",
+          "url": "https://finnhub.io/api/news?id=251fc8f4e91d405d72de67fcd8a43bc144941cc728a80bbef68a517cbf94d2e8",
           "site": "Yahoo"
         },
         {
-          "title": "Here is What to Know Beyond Why Visa Inc. (V) is a Trending Stock",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObXBBcEhEbmlERjlCeUh6eXBKX3NzT3JTcWRyZ3BxNGFBbG0tNncxWEdxMVo0bEc4LTNKbDlWbk5jNTZUV0hDeDMydjNVdjZyZ1NwM3pWWVNuYTNMaXRRRUxEV2JXWmtOWEIzQzFnX3hVTk82NmpNeFowVW4wX1VwY3cwS25GNkpyVENGbXRpUUZJODg?oc=5",
-          "site": "Yahoo Finance"
+          "title": "Visa lowers interchange fees for tens of thousands of small businesses, but new credit card fees are on the horizon",
+          "url": "https://finnhub.io/api/news?id=144d12417ab3ba841e8f1f0922cece535d7adfaa94d9474ae1ec3101f3f87c7d",
+          "site": "Yahoo"
         },
         {
-          "title": "Why Is Visa Stock Gaining Tuesday?",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWNjd05TVzlsTnhDVjB1WXVFR3hDYmkwbG5iYnNyMnh1NkxBV09RYWt5QWVVaXoydkdiWkJVM2dMNzE1WXJ2UWFKejBJTnJRdk81V1NlZnA2cWZDVDhDcEZVS0JEcnlPRUJ6b0VUbFlBSHBnOFE1QkFZdDVzbmNiYmE3NHZHRDhFNnYtSjRXaXRTSmdqbnF1NkxlQmg3N1dzNHl6aXRkd1NmdE1MazlxRm5QVlR6Si1makZOYUV0bmE5VHBmMzJPYWdHYks?oc=5",
+          "title": "Visa Inc. (V) stock price, news, quote and history",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9qNnlhc0taNGxsSzJ1OXlkdW4wQmhHa3Z1a1h6eDd6Z25KazV6TjBXOGtyOHpvRHJRb2l3aG9INWR3U1ROZnhGZUZvUC1iQQ?oc=5",
+          "site": "Yahoo Finance UK"
+        },
+        {
+          "title": "Buffett Successor Sold Visa Stock in Q1: Why That May Have Been an $823M Mistake",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX2hyOUtuTk1FQ0lBMlBNanJyTFRzLXVFTVludjYwVUR1ZmRrQ3BjNDFDTFZfSldqaHdnU0pfTE9lVGlTMlBsN2NkMllwUURPRGxYZURSTHp4UDNBMFJhOUx3MERDZ3JHY3p0TUt4SjFnemZBTjZickFPN1RVelZCVmhmci12bV9qa0ZjeFpkR25ZQVhUd24wMVVBZXBfRXhPcXhaeG9NeUJPckdtN3BGcElqUFFmbHo4eXh4MkhveXBEczBMT1RjQ3ZQZ3A3ZVNkbkhsUkgzd045c00?oc=5",
           "site": "Benzinga"
         },
         {
-          "title": "Claude, Bill Ackman and Trump\u2019s Common Stock Pick: Visa (V)",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRzM0OVRwZC0wb3FMbU0wcENFMzJqVC12S3QydUpOVkdKY0FjZjRwazczZFc5NkNPaVBRR3RoNTZ5UTVEakQ4dU1ZbUZka1BuaG1WaXVockF3SUpLLW1TQ0tRemxnRWxjSXVROTQtMk90LTlZdUxxQ0E1UVlmeVZaZVVxckJhQTZ2MVRqaEl6bFVQODFobjFycnpkaE8?oc=5",
-          "site": "Yahoo Finance"
+          "title": "Visa (NYSE:V) Shares Climb 1.6% Following Analyst Upgrade",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUXVTY1hRLU92SDRGMldPN3pZUFlNa0dQNDU1VEx6djZZWUJvZG0tNEpGVUlHZWM4S0JUdFJiTVE0RWxJb2hoYUtmTnRpajh5T3VNNjJOOWJfYzdDWXZoSHdRQ3hMN1g3dTU1ZXQ5ZnN5azRZZXYza21QSTNWdXE5TG9FMkozZXk2QjRSX2tlR3l1ejBiM3pHZ0FjU2k1a1dZbnY5YXFPOTZpVGhZR29vbkk3QQ?oc=5",
+          "site": "MarketBeat"
         }
       ]
     },
     {
       "ticker": "NFLX",
       "name": "Netflix Inc",
-      "price": 70.97,
-      "change": 0.36,
-      "changePercent": 0.5098,
+      "price": 69.54,
+      "change": -0.92,
+      "changePercent": -1.3057,
       "priceTarget": {
-        "mean": 92.54889,
+        "mean": 92.06,
         "high": 135.0,
         "low": 57.0,
         "numAnalysts": 45,
@@ -1390,41 +1390,41 @@
           "action": "main"
         }
       ],
-      "summary": "Netflix edged up modestly today, gaining 0.51% to close near $71, but remains a significant **23% below** the consensus analyst target of $92.55 \u2014 a gap that suggests Wall Street sees considerable room to run from current levels. Recent buzz around the stock appears sentiment-driven rather than news-catalyzed, with trending coverage highlighting institutional accumulation and bullish long-term outlooks heading into the next earnings call. For those tracking NFLX, the story is one of a stock that analysts broadly favor but that hasn't yet closed the gap to their targets, making the upcoming earnings commentary a potential catalyst worth watching closely.",
+      "summary": "Netflix is currently trading at $69.54, sitting **24.5% below** the consensus analyst target of $92.06 \u2014 a notable gap that suggests analysts see meaningful room for recovery from current levels. The stock dipped 1.31% today against a backdrop of headlines including a 6% workforce reduction, the company's largest round of layoffs since 2022, which may be weighing on sentiment despite some institutional interest, with First Citizens Bank increasing its stake and Sirmium Capital highlighting growth opportunities beyond subscriber metrics. For those tracking NFLX, the picture is a stock under near-term pressure from cost-cutting news, yet sitting well below where a broad analyst consensus thinks it belongs \u2014 making the next few weeks of earnings and subscriber data particularly worth watching.",
       "news": [
         {
-          "title": "My Netflix Stock Prediction for 2027: Why I'm Not Selling a Single Share",
-          "url": "https://finnhub.io/api/news?id=ae94f749b9a7eb7f7328f6f0321c04ed0671d689d7f934bce64a510fa98c613c",
+          "title": "Netflix lays off 6% of staff in biggest job cuts since 2022",
+          "url": "https://finnhub.io/api/news?id=952f4e55000b67c8c637b1fe323f70b7a57def06d00d1cedf38d7e82f8d4f1ca",
           "site": "Yahoo"
         },
         {
-          "title": "What the Street wants to hear from the next Netflix earnings call",
-          "url": "https://finnhub.io/api/news?id=392b9cfb0ec46a3da2e38df468fdb40143aa3578aecf2d49a9071b3d86d0c81c",
+          "title": "Skydance Falls 16% as Shares Begin Trading Without Warrant Entitlement; Netflix and Disney Tick Up",
+          "url": "https://finnhub.io/api/news?id=c6aca207a20cc42b5d6d37dcd45c2ffff129af175bb993067a58178948c26a0a",
           "site": "Yahoo"
+        },
+        {
+          "title": "Netflix, Inc. (NFLX) Has Growth Opportunities Beyond Subscribers, Says Sirmium Capital",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNnNENkhmajVzYTRRVXh6QlhLS3ZmTXdzNUNVSkp3X1lVYUQ1TVZuM0ItRjJPSllYZFJwNjVpNXVFYjh2RzdMS0pKdEVDbzlENWk1Z0pEQmhuaFpseDVqbVFEc28zQ0JZam5UNVJKOEdkT2JhbW1reVltb2pNUVp3TnNjMjlkX0EwWGtYMFB0RGFMV0FkNlhuUGxJc2VTYVNnVkxIWg?oc=5",
+          "site": "Yahoo Finance"
+        },
+        {
+          "title": "Netflix, Inc. $NFLX Stock: First Citizens Bank & Trust Co. Increases Stake",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNb2d0TlJPQWdqTHZLdUlCZkFHOE0tc0JPRjhLa0RvTGZraHFSZ05TTDZPWG8wcnZXSXFoTFVIR1FkSTVOUVREYXY3Q2t5eVFGTjY2NEpJT1VnSFE5eGZiOHlWUk9lU3RMdEdzcFNNNzFTZkVuWFVqRjQyenlCU2Nrbm44SEUyanBQRFVyVmRaMFVuVFItNE9iNGpSNUdxaUNxanI4cG14OU45R3RtY3hLRkZRWlY3NkVoMFZOSEpkRHZDVUt4T08w?oc=5",
+          "site": "MarketBeat"
         },
         {
           "title": "Netflix Stock Is Trending: What's Going On?",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ2M1Zlp6T1F3M0pyczlvbFdGSk1qdWIwQmxoLXYxWTlqSEFNZDBuY0NFNTNGU2UtS1g3NjN3b1VVajN0cldDXzQybUFWUFVPUXd1WV9ra1NBN3ExaUlheWZ0WFhTeGh3UTVNN2ZaVmJsSjR6NFIzejBlWVVkd3ZyQXdYUVM3WmlaRFFMOVBEZkg1YTZKTmRmQWJYNmZwbDJERTVR?oc=5",
           "site": "Benzinga"
-        },
-        {
-          "title": "Netflix, Inc. $NFLX Stock: Vertrix Wealth Management LLC Increases Holdings",
-          "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQanVhWjYyLWd3Ry1IRktuN2h3Qy1CUWRPVFZNeVFaeUFXWmszcXhCQUVfTmI2M0dJd2VySXBVSGZMQ0pkVVBxeVgzd25kbG81M0F4UVl5cF9kTjQwcXpud3FZbmZrM2dFVVVHczlzS0N0bDN4YmFJVXF3VWNzcUpBb0x3bkUxT1NDTWt1OUk3b1p5UlJhRkJ4eGpCTUY3dVRsUm9WZkRaakdKRmZYci13eC12NTM4TzB0eHZQbjB0NTQwYU9LZmVuMjZaS20?oc=5",
-          "site": "MarketBeat"
-        },
-        {
-          "title": "Netflix, Inc. (NFLX) Is a Trending Stock: Facts to Know Before Betting on It",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNS1F5TmJLSGppWXNoX19hXzhpM25PNXBJeWg3bjlZbXNRcjR2cWJsZkFjTGlRSmhzNjEzQkZ2RUZLNl9kbms0RHpPVU13ajI1ODRFZ0xWZFdpOUlQTEZOQmdGaGw4YUFQNXF1RnBiSzlaOW5NWjA4SjlETGRMdi12NTRPMXJob3pmdl95TVN2MDhDem9HS1dyRU9XbXc?oc=5",
-          "site": "Yahoo Finance"
         }
       ]
     },
     {
       "ticker": "GEV",
       "name": "GE Vernova Inc",
-      "price": 993.88,
-      "change": -2.92,
-      "changePercent": -0.2929,
+      "price": 932.63,
+      "change": -71.41,
+      "changePercent": -7.1123,
       "priceTarget": {
         "mean": 1224.8864,
         "high": 1450.0,
@@ -1433,6 +1433,13 @@
         "recommendation": "buy"
       },
       "analystActions": [
+        {
+          "date": "2026-10-14",
+          "firm": "Susquehanna",
+          "toGrade": "",
+          "fromGrade": "",
+          "action": "main"
+        },
         {
           "date": "2026-10-13",
           "firm": "Guggenheim",
@@ -1460,26 +1467,24 @@
           "toGrade": "",
           "fromGrade": "",
           "action": "init"
-        },
-        {
-          "date": "2026-07-27",
-          "firm": "Mizuho",
-          "toGrade": "",
-          "fromGrade": "",
-          "action": "main"
         }
       ],
-      "summary": "GE Vernova is trading nearly 19% below the consensus analyst target of $1,224.89, a gap that signals analysts see meaningful room to run even after the stock's dramatic run-up this year. Today's modest pullback of 0.29% follows a rougher open earlier in the week, with the stock touching as low as $963 intraday before recovering toward the $994 range \u2014 a sign of some volatility but no collapse. With a $176 billion backlog, a JPMorgan buy reaffirmation, and tailwinds from the energy transition narrative, the bull case remains intact, though the 66x price tag noted in recent coverage is a reminder that a lot of good news may already be priced in at these levels.",
+      "summary": "GE Vernova is currently trading at $932.63, sitting nearly 24% below the consensus analyst price target of $1,224.89 \u2014 a gap that suggests the market is pricing in meaningful uncertainty despite broad analyst conviction in the stock's longer-term value. Today's sharp 7% drop, which follows a 4.5% slide earlier this week, appears to reflect broader sector pressure and profit-taking, while Susquehanna maintained its positive stance but trimmed its price target to $1,270, signaling some tempered near-term expectations. For those tracking GEV, the stock remains a high-conviction name among analysts tied to the AI power infrastructure and energy transition themes, but the recent back-to-back selloffs suggest volatility hasn't subsided \u2014 and the wide gap between current price and target leaves plenty of room for the debate between optimists and skeptics to play out.",
       "news": [
         {
-          "title": "GE Vernova (GEV): A $176B Backlog Meets a 66x Price Tag",
-          "url": "https://finnhub.io/api/news?id=3c99c1bd705902378f105e875724b899a18f4e57a90d3338ed4b15847bc552de",
-          "site": "Yahoo"
+          "title": "Meta To Rally More Than 11%? Here Are 10 Top Analyst Forecasts For Wednesday",
+          "url": "https://finnhub.io/api/news?id=2721b7e4ef809f1c61b0bba7a22e2de9705c4af5b33dd60d3e423fe4b63e9b90",
+          "site": "Benzinga"
         },
         {
-          "title": "Latest News In Energy Transition - Renewable Growth Drives Future Power Mix Transformation",
-          "url": "https://finnhub.io/api/news?id=1a4eaf8e25295b45fc63753fc91fe49d917a6c4b3bbb289e272d50ac612c89a1",
-          "site": "Yahoo"
+          "title": "Susquehanna Maintains Positive on GE Vernova, Lowers Price Target to $1270",
+          "url": "https://finnhub.io/api/news?id=c2cb223035f7e78829e742f78c04763f9152583831f8183a59a6e8c3d4d2ab3c",
+          "site": "Benzinga"
+        },
+        {
+          "title": "Ge Vernova Inc Stock (GEV) Moved Down by 4.48% on Oct 14: What Signal Does It Send?",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUWRNcmFEdkZWWmhnMTJvNElkcnJDQ081c3ZLZkt3aUJ3WEQtUF9jdlVFT04zYUxWOW5rM3ZYU3UzWHB4c0ZYYjc2cFlHRkJhQ1BoWGQybEd5b1R5REZvZjlKcTRxUkdZUFJERnVoNG4zWUhsOHhwWUpuaDd5OHBiOS1OLXJaTnppQVE?oc=5",
+          "site": "TradingKey"
         },
         {
           "title": "Jim Cramer On GE Vernova (GEV) & Vertiv (VRT): Two Stocks To Buy Due To The Jobs",
@@ -1487,23 +1492,18 @@
           "site": "Yahoo Finance"
         },
         {
-          "title": "J.P. Morgan Reaffirms Their Buy Rating on GE Vernova Inc. (GEV)",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNE13TGsyR0dvYTBhYkZFN0ZSNl9EUngzTXluTmxkUUVRbEVHcEF3amRGaGR4WU5iWUJ5T3g5TkY1U2xqZXhIeXdSWDNvM2FnQktZLUJ1S0Y0QllBOXNLR0txSzZIS2VXZW1OaFhUbGROc3I2RnVpOXFTV0kxeURvbWUwOTVieWRZamkwUThuVVp2TEFlbVpDNy1palhRZ1psOGNtT0JVVC1HVWVydDAtUjFrZUJvXzN2LUFGdUthZERjODN2d1A3MXAzQW5BemxiTDlUbXVWWThwUQ?oc=5",
+          "title": "Stock-Split Watch: Is GE Vernova Next?",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNU13Wmo3cEpNVG8tVFRwWHEyWGRnR0YzMFdoSWRPcDhpeGhvRXliNXdnUFBRRzg5el9FN0FRUmJRSFdISnBBME1IODhpOU9SRVlFRlpYTnA5T21WSHdMZWZMak1pSVFuYm8xODY4OFN1YjRZRV9QaVFLdFlvb1h6a3hoOWpodTljZ3F2Qm9VdUNpNnVxRUV3b08tX0J3OFFyM2J3dEZEejN5eTU3MjBYS2hIYzJWaUZvRHJDVQ?oc=5",
           "site": "The Globe and Mail"
-        },
-        {
-          "title": "Ge Vernova Inc Stock (GEV) Opened Down by 3.48% on Oct 7: Drivers Behind the Movement",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOHk4NU5YcXE3LUlnckw1azdJTWszTktmcmM2eHllQm11MTN0MzQ2amNTVEFNTTlZMVBsM1BEdmhyaFZEZlF2Skt6blhXR2l4STRmbzJxaWNiSmZpM2lpbG9NNFBvQ1NMQTRSZDJ2THUtdjFqX05EQUpjT2g1aWlWQVdHUGdHbENqeFE?oc=5",
-          "site": "TradingKey"
         }
       ]
     },
     {
       "ticker": "UBER",
       "name": "Uber Technologies Inc",
-      "price": 71.23,
-      "change": -0.27,
-      "changePercent": -0.3776,
+      "price": 69.01,
+      "change": -2.31,
+      "changePercent": -3.2389,
       "priceTarget": {
         "mean": 100.85522,
         "high": 150.0,
@@ -1548,17 +1548,22 @@
           "action": "init"
         }
       ],
-      "summary": "Uber is currently trading at $71.23, sitting **29% below** the consensus analyst price target of $100.86 \u2014 a gap that suggests Wall Street sees meaningful room to run from current levels, assuming the business executes. On the news front, some leadership turbulence is in focus, with the head of Uber's autonomous vehicle division departing amid broader organizational shifts \u2014 a notable development given how central AV strategy is to the company's long-term growth narrative. For anyone tracking UBER, the picture is one of a stock that hasn't kept pace with analyst expectations, trading near the lower end of today's range, with leadership changes adding a layer of uncertainty even as a strong 46-analyst buy consensus keeps the longer-term thesis intact.",
+      "summary": "Uber is trading at $69.01, sitting **31.6% below** the consensus analyst target of $100.86 \u2014 a gap that suggests the market is pricing in considerably more uncertainty than the 46 analysts covering the stock. Today's 3.24% decline comes amid broader conversation about competitive pressures, with headlines drawing direct comparisons to Tesla's autonomous ambitions and pitting Uber against rivals like DoorDash and Coupang in the race for consumer spending. For those tracking the stock, the wide disconnect between current price and analyst targets is notable, but the persistent competitive noise \u2014 whether from robotaxis or food delivery alternatives \u2014 appears to be keeping sentiment cautious despite what the Street sees as meaningful upside.",
       "news": [
         {
-          "title": "Uber autonomous head Maredia to depart as leadership shifts continue - Bloomberg",
-          "url": "https://finnhub.io/api/news?id=63c0d5ec50480f240fdb4e7884561a043afa189a7a3cab2e45ec184e10ab6f5b",
+          "title": "Tesla Stock Dips. Uber Raises a Trillion-Dollar Question.",
+          "url": "https://finnhub.io/api/news?id=4d56dafdb987b2cd84a3fca5493e5058c6ca7b0fb2bf47ec502ac1871bc97a50",
           "site": "Yahoo"
         },
         {
-          "title": "Empiric Earth Names Former Uber Chief Business Development Officer Jen Vescio President",
-          "url": "https://finnhub.io/api/news?id=f94a6577bdfa6de42171002528a68dd1871135d3f104d6c2c53d9e083e5ea097",
+          "title": "Prove Unveils The Trust 25, Recognizing Leaders From Uber, Citi, PayPal, Visa, and 20+ Other Organizations Solving the Hardest Problems in Digital Identity",
+          "url": "https://finnhub.io/api/news?id=251fc8f4e91d405d72de67fcd8a43bc144941cc728a80bbef68a517cbf94d2e8",
           "site": "Yahoo"
+        },
+        {
+          "title": "Coupang vs. Uber Technologies: Which Consumer Stock Is a Better Buy in 2026?",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcDJwQmNsR3ZNazdRVGl4cjVFeTZtdkZnQjBJUlRJZk1VandKNlNLcHE3bS1zc01BZXlhUmluZmEzN1IyVXZGVTlzUHp6VHVvMG1iLXAzaGp2S2pjZlBkeFFPNFJ4dXZyendlb0czbnJCdWtvcVZWdTZMWTdrVWVPTWlnZzZBNG9ldlgyaWZXVkpXd3AwVWFReGtNMFF6TWVGWnFCNXZvOW04U01SbzRkTlhsOTR3Mklvbk9wV3dyN2sxa0My?oc=5",
+          "site": "The Motley Fool"
         },
         {
           "title": "Uber (UBER) vs. DoorDash (DASH): Is Faster Growth Worth Paying More For?",
@@ -1566,23 +1571,18 @@
           "site": "Yahoo Finance"
         },
         {
-          "title": "Uber Technologies Inc. stock underperforms Friday when compared to competitors despite daily gains",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOd21sbVBTMmlqbHNPSkREVWp0QmRkbWRmdjFpUkRUakxxcGVTZkdWYUJrT2g2R1I1aTBDc0NaZFBHT3lZSG9qNDBwVkpZZU10UnNSOHN0ZHJKM1FmR2V4SFA1UGEwaENKQV9DTS1lN0hJaTZUWHd1SU1EbnFwUUx1OTljVVRTYllMaDA0U3BzTzhqT293cllIR3M4aDhuc0pUcDlncFVrd2N5TDV1N1BJTzZISHBMWFhyTW5TY24zUlRWd0NpNkF2aTVjb0dGU1pwNVlqZWtVcEVYVWhSQlE2cEdlNjZZaEEwLURORS1n?oc=5",
-          "site": "MarketWatch"
-        },
-        {
-          "title": "Uber Technologies Inc. Stock Grades | UBER",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLWJFWXJpTzNObTh2QXBFRGlEVkFobnJnUlpfbldKTHpZeXYycTRETHljWG9mbWhCaVBENFVLeTRGQnZ4enFoVWoxMy1uclk4RF83VXFKMXFQSEtiWERwX01RWnFwSEd3b2ZYMUN2NUpKQmVRUmZsdmlJLWptMDcyak0xNXZ6SHh4cDhjdGk0bTA1NkpPQVVqT0xIVFdrNXc0X0d2M0R2ZnJDNkF5VGNZTXA1ajlEeVVsS040QzhtLUFKUGRpT2VvTDE4T05LOERNOTY4SkVRVTU?oc=5",
-          "site": "Barron's"
+          "title": "Analysts Offer Insights on Technology Companies: HubSpot (HUBS) and Uber Technologies (UBER)",
+          "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNU2R3YUpjcUpaMHBwTGpnVE1zMzhSZHdfcVpQdzU0OGdaTWVUNVlLZTE1X0JVU3BObWR5WG5DY0xTYU1YeWV6QXhpNDZlX0tyODdza0VGY1liRlllOWJfS1RBVVNDREphSWpXZGgtMnhYT1B6SWpDUGpEYUlCNlNEODdvd0ExV3hUOWk0X25SbkliTHpoMC04aTY2SE1SRUVTQUxqVTFlbjJFT1hIS1hZc1phZElKMzZ3ZnZBakdFeTV1NGM5UVNnWGdIUHVpWkhwX3ZjcmVIOHdEOW1rLTZpV1EwdGpHVnlVWUFWS3NlMlNwM25zS0JVcTF6VGNoQXdtRXc?oc=5",
+          "site": "The Globe and Mail"
         }
       ]
     },
     {
       "ticker": "REGN",
       "name": "Regeneron Pharmaceuticals Inc",
-      "price": 752.85,
-      "change": -9.96,
-      "changePercent": -1.3057,
+      "price": 771.41,
+      "change": 18.29,
+      "changePercent": 2.4286,
       "priceTarget": {
         "mean": 859.6923,
         "high": 1030.0,
@@ -1627,17 +1627,17 @@
           "action": "main"
         }
       ],
-      "summary": "Regeneron is currently trading at $752.85, sitting **12.4% below** the consensus analyst target of $859.69 \u2014 a gap of nearly $107 that suggests analysts see meaningful room for recovery from current levels. Today's 1.3% decline appears tied to broader pressure on the stock, though recent headlines are largely constructive, including promising 84-week Phase III data for Pasatru in FOP (a rare bone disorder) and reports that the new drug effectively halts abnormal bone growth. For investors watching REGN, the setup is one of a stock trading at a discount to Wall Street's expectations with a potentially meaningful pipeline catalyst, against the backdrop of a biotech sector that some analysts expect could see increased M&A activity this winter.",
+      "summary": "Regeneron is currently trading at $771.41, sitting **10.3% below** the consensus analyst target of $859.69 \u2014 a gap of roughly $88 per share that suggests analysts see meaningful room to the upside from current levels. Today's 2.4% gain appears to reflect positive sentiment around the company's pipeline, with news that a new Regeneron drug effectively halts rogue bone growth adding to the constructive backdrop alongside a partner company approaching a technical breakout. For investors tracking REGN, the stock is showing near-term momentum while still trading at a notable discount to where analysts think it belongs, making the coming weeks worth watching closely.",
       "news": [
         {
-          "title": "Why A Biotech M&A Wave May Hit This Winter",
-          "url": "https://finnhub.io/api/news?id=d6cc5a18341120b4042d9c7782d95ce246363cae42d5930c60a8044f46d2e33f",
+          "title": "Biotech Stocks To Watch: Regeneron Partner Has Breakout In Sight",
+          "url": "https://finnhub.io/api/news?id=a3f2fab0fe8cf0c3c08140592360ce9c537164de8862f41573d4d377aedba88f",
           "site": "Yahoo"
         },
         {
-          "title": "Regeneron reports 84-week Phase III data for Pasatru in adult FOP",
-          "url": "https://finnhub.io/api/news?id=08b7af3fc403da7b33bf4caa37f8c24d79b7e441c76506d5e0a00d60781d5931",
-          "site": "Yahoo"
+          "title": "Longleaf Partners Fund Q3 2026 Portfolio Review",
+          "url": "https://finnhub.io/api/news?id=3d81aef4afb7edd2d60e3c81f1f561bc77f0f09163647dc78f5bc8452a6df2dd",
+          "site": "SeekingAlpha"
         },
         {
           "title": "Regeneron Pharmaceuticals Inc. stock outperforms competitors on strong trading day",
@@ -1659,14 +1659,14 @@
     {
       "ticker": "LLY",
       "name": "Eli Lilly and Co",
-      "price": 1164.65,
-      "change": -17.97,
-      "changePercent": -1.5195,
+      "price": 1212.28,
+      "change": 45.77,
+      "changePercent": 3.9237,
       "priceTarget": {
-        "mean": 1330.1442,
+        "mean": 1328.0547,
         "high": 1600.0,
         "low": 930.0,
-        "numAnalysts": 29,
+        "numAnalysts": 30,
         "recommendation": "buy"
       },
       "analystActions": [
@@ -1706,41 +1706,41 @@
           "action": "reit"
         }
       ],
-      "summary": "Eli Lilly is trading at $1,164.65, sitting **12.4% below** the consensus analyst target of $1,330.14 \u2014 a gap that suggests Wall Street sees meaningful room for recovery from current levels. Today's 1.5% pullback came amid broader sector noise, though the spotlight is increasingly on the company's upcoming October 29th earnings report and the longer-term narrative around retatrutide, its next-generation weight-loss candidate that some analysts believe could be more consequential than any single quarterly result. With RBC and BMO both reaffirming their positive ratings, Walmart's move to cover GLP-1s at no cost for employees adding a demand tailwind, and LLY still trading well off analyst targets, investors are watching closely to see whether earnings \u2014 or the pipeline story \u2014 becomes the next catalyst to close that gap.",
+      "summary": "Eli Lilly surged 3.92% to $1,212.28 today, though it still sits roughly $116 (8.7%) below the consensus analyst target of $1,328.05 \u2014 suggesting analysts see meaningful room to run from current levels. The bounce appears tied to broader market momentum and renewed GLP-1/obesity drug enthusiasm, even as competitor Viking Therapeutics advances its own obesity pill into Phase 3 trials, a development worth watching for potential competitive pressure on Lilly's Mounjaro and Zepbound franchises. For those tracking LLY, the stock is recovering from recent underperformance relative to the broader market, and the gap to analyst targets keeps it on the radar as a name with potential upside \u2014 though the competitive obesity landscape is clearly heating up.",
       "news": [
         {
-          "title": "Walmart to cover GLP-1s, insulin at no cost for workers in benefits push - report",
-          "url": "https://finnhub.io/api/news?id=2ff4753f6076df55fb644a028f9dfaca3053e50f1086a97994376eefb51d31a1",
+          "title": "Viking\u2019s Key Obesity Pill Enters Phase 3 Trial \u2013  Here\u2019s What Investors Need To Know",
+          "url": "https://finnhub.io/api/news?id=d8e88dbcb5bcb16d6c9f5cd292b8282a693d209595d3872840cce81f74486310",
           "site": "Yahoo"
         },
         {
-          "title": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter.",
-          "url": "https://finnhub.io/api/news?id=1be5bdb11756d458dec4cc6421c0708fb51b03187c26b9ce4aa436210f407c1b",
+          "title": "The Open Question Under Johnson & Johnson Stock's Price",
+          "url": "https://finnhub.io/api/news?id=e7ee454d06681d6eed59a914146d59e967214b8f3d686043bbcc75da682651e9",
           "site": "Yahoo"
         },
         {
-          "title": "RBC Capital Sticks to Their Buy Rating for Eli Lilly & Co (LLY)",
-          "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdEZlRWUya0p1dkMzWnMzaDE1RGhFNjVyRnlwZFphR2l1ek13dzU4YV96OUNKajN0Z25EcXRSMGl0WXA4SGVFZ084V1pKczBOU3ZFOS1YdkdJVmVzSW1DeTlaa1RsTmFRX1Z1ZzVybF9vRkdVT25hOURkLWlHNklMQVdMc2JwTGFraHBacjdoODhKay01Y21OT0YzVDZhTXhNby1uUVJrRlpZUmZGSGFNZTIxaVRFQzRac0hBT1dCNWZ5dWEyMnFrQWlIT0pCZHBYZHVmU2pxQzkzdFpUZnc?oc=5",
-          "site": "The Globe and Mail"
-        },
-        {
-          "title": "AbbVie vs. Eli Lilly: Which Healthcare Stock Is a Better Buy in 2026?",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObGljT0tLUjdEcFRsM083TkJOUzZQdXdfUXRfVTNROGNPZTNmM3RtTFVqY2JDOTd6Vm9saWYxUjdfaWN1ZnJWT2Rmb2w4THQxN0VycnFRcnUwS2dndm9jd0o1OVhjdzVwbWhhR2VmUEl5X3N4S0VCb3RZODlpTy1qR2ZtRXFET0hYTGVubXJFdEJTUEE1LXc?oc=5",
+          "title": "Here's Why Eli Lilly (LLY) Fell More Than Broader Market",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOF80WGhST1VqTjVOVVFvWDVmLWhqSjZZWkM2U0gyREJKWm8xbGdCWmxvcXI2Vkwzc3BGaHJxT1lVbFgtTWMybGRjVDUxdUhKQUFUZ2lKVmQyWVozWFlsNTZJUEpkYXR6c1pZMm00VXl3SHBhLWZibWQxVXNXeXo2ZEdoeDRxNGpTREp4MFpua0FXUQ?oc=5",
           "site": "Yahoo Finance"
         },
         {
-          "title": "BMO Capital Sticks to Its Buy Rating for Eli Lilly & Co (LLY)",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPekN3R0NRb0FXRXhMcEktMVZZRF9lRDhaMkhib3phY1lDcDBYU3BBTjZsb3JCdjZiZVZoNWFDX0VJQll4aV9ZVTFRR25MeEU1T3ZtbmlueHNXYnNZZ1YwMklITlRfRUp2a0w1RjZfZXZLd2hxV29MclZLZkN3YkpMUVo1SGViNjlGSDB0c0VkUzhhVm1adFdwU0RnV2ZadUtMMTZHQVFMcE9nTUJNal9qUHJHSy11T254c0FXQkxWUzFBMHVaWkFqbmNDZHNDNHU2UmtHWkhkRTY?oc=5",
-          "site": "The Globe and Mail"
+          "title": "Eli Lilly and Co Stock (LLY) Opened Up by 3.70% on Oct 14: Key Drivers Unveiled",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQnB2eENzQ3VzaDIxWkwwREpwb1lvdXBiRW1ieWxTQzBoLWNiTXFoQ2M0Q1NuR2ozc0diRXRqMTNWZ2lWVTZmZUkyc2FDUVJFZ2U2dFQ1REs5eEw1aVA0OUw5TkdvX2o4dmRKcXpnZ0VYaEd0SmpvRTBsNldWUE5NbmdxTDNYTGtKbEE?oc=5",
+          "site": "TradingKey"
+        },
+        {
+          "title": "Eli Lilly, Arm among market cap stock movers on Wednesday",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPanJQMFM2YTdkdktBRklnajd0bWFpUlF2TEtONkM4LU5fNDNxdVltZ180TUw3eTJiU0FOMUZXc3BnS1docUNCMENmbVJJNjlWTjJscGoyejcxU0lRUV9BbTN1aUxacDNMaEg2OEFMaG9zRjk0dVdwNFlvU3psNTByM0FRMTFrSHlGdjhMRkZKZ0FnbFN5TEdWeUQzRWFnZXZPR21VV3ZFLUx4X1dNcm1xQng4QldqekxmLXc?oc=5",
+          "site": "Investing.com"
         }
       ]
     },
     {
       "ticker": "ISRG",
       "name": "Intuitive Surgical Inc",
-      "price": 420.33,
-      "change": -7.31,
-      "changePercent": -1.7094,
+      "price": 417.61,
+      "change": -4.45,
+      "changePercent": -1.0544,
       "priceTarget": {
         "mean": 478.1,
         "high": 685.0,
@@ -1785,16 +1785,16 @@
           "action": "down"
         }
       ],
-      "summary": "Intuitive Surgical is currently trading at $420.33, sitting **12.1% below** the consensus analyst target of $478.10 \u2014 a gap of nearly $58 that suggests analysts see meaningful room to the upside from current levels. The stock slipped 1.71% today, though recent headlines point to underlying interest, including a fresh analyst upgrade and the stock being flagged as a sales growth pick heading into Q3 earnings season. For those tracking ISRG, the combination of a notable discount to analyst targets and earnings season on the horizon makes this a name worth watching closely in the coming weeks.",
+      "summary": "Intuitive Surgical is currently trading at $417.61, sitting **$60.49 (12.7%) below** the consensus analyst target of $478.10, suggesting the street sees meaningful upside from current levels despite today's modest 1.05% pullback. The recent news flow is mixed, with one notable piece flagging that ISRG could be as much as 31% overvalued following an earnings outlook upgrade \u2014 a bearish counterpoint to the broader analyst consensus that may be contributing to some near-term hesitation. For those tracking this stock, the tension between a bullish 30-analyst consensus and valuation concerns worth watching makes this a name where the gap between price and target deserves scrutiny rather than assumption.",
       "news": [
         {
-          "title": "3 Sales Growth Stocks to Buy as Q3 Earnings Get Underway",
-          "url": "https://finnhub.io/api/news?id=660c3b80c295fcaba4c9421b3a4a66da4ba71d105660608b3e9db3af49a563f4",
+          "title": "Zacks.com featured highlights include Chipotle Mexican Grill, BP and Intuitive Surgical",
+          "url": "https://finnhub.io/api/news?id=12c0cbf3f5dcfe6506779b2f7c642f0f8476ff11b7ea185cba807dcfb53f7235",
           "site": "Yahoo"
         },
         {
-          "title": "Investors Heavily Search Intuitive Surgical, Inc. (ISRG): Here is What You Need to Know",
-          "url": "https://finnhub.io/api/news?id=a925f9847a29c64c841d3b6df7f3a4977b7675212cd4b70ca52516fc5d590bf0",
+          "title": "Intuitive Surgical (ISRG) Could Be 31% Overvalued After Earnings Outlook Upgrade",
+          "url": "https://finnhub.io/api/news?id=be72b4137093491a94b01709e7a08dca52310dcfb8761a6c088cd7b245769cf5",
           "site": "Yahoo"
         },
         {
@@ -1803,23 +1803,23 @@
           "site": "Yahoo Finance"
         },
         {
-          "title": "Of Gary Loeb\u2019s vesting shares, 1,296 were withheld for taxes at Intuitive Surgical (ISRG).",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbmdDNERGV2x1ajhDeHJUaUF3RnZlMVhWX2RQczJwSmVXVTJlS2g2N3haOUdxZVluaEUtcG91RUE4YlJFQXlsZXdMZ20zd0tHVTVuQWd0YWxza1FGWmNVZ0ZLSGRZYXkwQjVWWnFXNmk0UlREb1J1bG44eHJnYU84ck90Tk42Mi1fUmVmQ0x4cmRZdHMtcUsyM2FWRkgwNG1ndUJlSkV5dy1TSzEzUkVTVWUwVTJLZTg?oc=5",
-          "site": "Stock Titan"
+          "title": "Zacks.com featured highlights include Chipotle Mexican Grill, BP and Intuitive Surgical",
+          "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNdlBpWnBMTUlBLXY3eEF6WDVsc3FmS0xMODJmOW5jeDhWODgycjE1VUVDek9vWDFKOEVaSXBtNHY5RTBjTUV6dXJmNGhmSUhDczEzbHVfQUhVaVgzUnpGQVJuNVNqSUlWMjBYem8xZVJtdmI0YVh2cUJqb25KclU4b1V3Q2t4amhDWFdZRnBpUEtIb09sT0dxMU1hT3NDSFpiY1pnXzFEeUh1b2haVFNuUXJGSmZwU3AwclNtcVY3bGIzTFJidldEcjhOMWhYUXhQcVZvS2FMSHFYMV9Ebm9qTjhiUVBXdGxwa0FCRldWNXZCQjB0SnMzNFp5OWlSSmc?oc=5",
+          "site": "The Globe and Mail"
         },
         {
-          "title": "Intuitive Surgical (ISRG) Upgraded to Buy: Here's Why",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPV3VTTzdQbml5R2RjRVMyVEN2TU1uam53ZFowT0QyVDRmVkxkV0ZwQ085MlUtZlUzZEh1WXVlQkt5UFEwT0UwZy1ORTRGOVdPU3hVb1A3ODllZEF2MmtQbUJDX2FGUDlkRHB2LXhIVmtmUlV2VVQtVlh2ODMzRjRuR3ppLWhVQ1dtd05nNWFuMUdoaHc0SXJNOVhFeHRoY1hFeTVv?oc=5",
-          "site": "Yahoo Finance"
+          "title": "1,062 shares withheld for taxes as Intuitive Surgical (ISRG) executive converts stock units.",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNGZpWkx3NzY4elU1enJwa0V4bEFEMWZOd1hNdEx6dEFXSjlPV1hSdFUtRFNlc01DUkdMWmFLX0lBaGhfSHdFbFU5dVNkMVZqb2xHeDVUR05hcmhqX2V2eTJxZVFfenZvUUJISkxGdURuSzV3UDdFa2d5NTdSZU5CYVJqMHFSLWFvR2NfWElfc2NWNDZPaXZVbDFYeHoxT1M2TU5acEtLZFNWMEtwRi1lRmQ2OFIxbE0?oc=5",
+          "site": "Stock Titan"
         }
       ]
     },
     {
       "ticker": "ORCL",
       "name": "Oracle Corp",
-      "price": 143.42,
-      "change": 6.03,
-      "changePercent": 4.389,
+      "price": 133.11,
+      "change": -10.09,
+      "changePercent": -7.0461,
       "priceTarget": {
         "mean": 237.97415,
         "high": 400.0,
@@ -1864,43 +1864,43 @@
           "action": "reit"
         }
       ],
-      "summary": "Oracle is currently trading at $143.42, sitting roughly **40% below** the consensus analyst price target of $237.97 \u2014 a wide gap that suggests analysts see substantial room to run from current levels. Today's 4.4% gain, which pushed shares from a low of $135.55 to nearly $144, appears tied to positive momentum around its infrastructure ambitions, including a proposed $55M annual power bill credit arrangement that reaffirms Oracle's commitment to Project Jupiter, its large-scale AI data center initiative. For anyone tracking ORCL, the picture is one of a stock that has been gaining traction on AI-related catalysts but still trades at a meaningful discount to where 41 analysts think it belongs \u2014 making the pace and sustainability of that gap closure the key thing to watch.",
+      "summary": "Oracle is trading at $133.11, a striking **44% below** the consensus analyst target of $237.97, suggesting the market is pricing the stock well under where 41 analysts think it belongs. Today's sharp 7% drop appears tied to broader weakness in AI infrastructure names, with CoreWeave and Nebius also selling off amid rising bond yields and market jitters pulling sentiment away from the sector. For anyone tracking ORCL, the picture is one of a stock caught between a deeply discounted valuation relative to analyst expectations and near-term selling pressure \u2014 a wide gap that investors will want to watch closely as the dust settles.",
       "news": [
         {
-          "title": "Oracle Proposes Up To $55M In Annual Power Bill Credits, Reaffirms Bloom Energy's Role At Project Jupiter",
-          "url": "https://finnhub.io/api/news?id=a9ac98d760c90fb96b959ede450f8fd1e367ecb7fee336a03ca6099c13b12c53",
+          "title": "These S&P500 stocks are gapping in today's session",
+          "url": "https://finnhub.io/api/news?id=a78342fabdb99b41234efe2b802c0c5151f1ccfe807efcaaede744a50c74596b",
+          "site": "ChartMill"
+        },
+        {
+          "title": "CoreWeave Falls 10% as Bond Yield Touches 15% and Elon Musk Says \u2018Yikes\u2019; Nebius Drops 6%, Oracle Slips",
+          "url": "https://finnhub.io/api/news?id=0662c412d01a130a511c64c1d4d47419d86e5d62afced52a0af376d36c795860",
           "site": "Yahoo"
         },
         {
-          "title": "Nucleus Research Releases 2026 Transportation Management System Technology Value Matrix",
-          "url": "https://finnhub.io/api/news?id=0418efb147bbb3e0f2c74a564de233335e996e010d6ce26ae44c18bd477a3d6f",
-          "site": "Yahoo"
+          "title": "Is Trending Stock Oracle Corporation (ORCL) a Buy Now?",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYUtnLTlIVXRQaDN1a0pNVE50R2lnYVY5T3ZBN2JEX0lTWkNQTXFRTmlzQ3JUNnlvQWhrQzBkRGYyNVBwZXp1NU1MWldlMTMzdUt4NjhvYjVQNkI2NnNsWUFub3dSWlZtM05nUmQ5RF9yREpESm0xUDkwazRDY0NRYTFodDJFaU0zWXpOZTV2NTNfUUgzYlI4cE81Rzl5SUtNN0Y5VlBR?oc=5",
+          "site": "Yahoo Finance"
         },
         {
-          "title": "Oracle Stock Moves Higher: What's Happening?",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPd3hiamZuTHREcG9oWXktYlMzbWVqUVplQkVFdnNRVmxHbTVLeWxQNTlxUS1sZDlGR2g4OWtFeTVGWFpiSVMtQzhhaUtuQmVzNV9TV0w0eE1Dc2x2S3JjMGU2UUlxeXd6SWJPeEI5WkRWSGFXcjFPMHVIdFBWTTQ3UEtLRUM2Tl9nQ05BTTB5cEpFOUs2SHJubXdxZ0FvaGNGYzhkVA?oc=5",
+          "title": "Oracle Stock Tumbles: What's Going On?",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkExUm81MjZ3bHFacXhXOFBDc3VLcU90YktiSmtnY2k0OFBFNVBqNmo0aWJidXpRZzR6ZVFJalZXX1o3NXVoWmRqUEE0WFJQRFdyZFN2WkVtUFVuSGFfRkRQd2dxS0ZIRXZfQWw1NlpvdExHWjlJY1FUQW9XRXdEWXpEOUFDUE01SncxMXlrZTFUTXZPR0o0NGN4RVU?oc=5",
           "site": "Benzinga"
         },
         {
-          "title": "Oracle Corp Stock (ORCL) Moved Up by 3.11% on Oct 13: What Signal Does It Send?",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOODhhcWc1blpJeUExNTFid2FiSmw2d1dRM2lPMFh0bnpFcFBwWU5OcXJMTkdTSFNRUEJ6d1VKVzE1MlJsYXdhR3ZoYVZLalEyeUFILUJySHNGWGx6Qjdvdmk1WmxHUGh4SHJFdmJRMUJlQUlNNlVSQXVkM1ZYWW5kX2s1TVIyTXVKWHNn?oc=5",
+          "title": "Oracle Corp Stock (ORCL) Opened Down by 6.61% on Oct 14: Key Drivers Unveiled",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPQ2xjcTM5VlplUmpRVVNYemRnSzdKWXFQNnJnM2RVU1kwa2ZBQW55dEFRWlFSUl94b0w2ckp6V2RUQmIxczRJakNyT2lCY1NvNUhwMk9iTUUwcFJzcVpqQ2oyUUdfNEJKWW5OMGRfLXJJZ0F2NEE5WDZoNVRqU29Ld3Q5S2x0OG1xRFBJ?oc=5",
           "site": "TradingKey"
-        },
-        {
-          "title": "Oracle (ORCL) Stock Gains Amid Rising Implied Volatility and Opt",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNS29ZMHdGQXlOVWJsMExHWDF1WExIc3VIbnNvRkJxbUNpbHVjX252dUtkOFRSd2JnUHYzQzFucnpOQkJXcWx0UU83eFBaZEY4ZXVvdW8yUGY5b1h5dHhGb09VbkFCSmNqa1Y0bFV5S0o0SElJWUlzNmxneE1TTzg1cTdyaThqRjl6X3lBZzRHNUJEZXJhWGxWeVpzbDlpQl8wWTM2U2M3TS1vaEJRZEE0dFd4ZFJOR1pjdkFEOVJxR0IwaTg?oc=5",
-          "site": "GuruFocus"
         }
       ]
     },
     {
       "ticker": "MRVL",
       "name": "Marvell Technology Inc",
-      "price": 267.18,
-      "change": 1.32,
-      "changePercent": 0.4965,
+      "price": 252.85,
+      "change": -15.875,
+      "changePercent": -5.9075,
       "priceTarget": {
-        "mean": 337.9938,
+        "mean": 339.35742,
         "high": 450.0,
         "low": 210.0,
         "numAnalysts": 44,
@@ -1943,41 +1943,41 @@
           "action": "main"
         }
       ],
-      "summary": "Marvell is currently trading at $267.18, sitting **21% below** the consensus analyst target of $337.99 \u2014 a gap of nearly $71 that suggests the street sees meaningful room to run from current levels. The stock nudged up 0.50% today, with analysts citing MRVL's positioning within a **$90 billion AI opportunity** and renewed enthusiasm around AI infrastructure spending helping sustain buying interest after a recent 3.4% pullback earlier in the week. With a strong-buy consensus across 44 analysts and AI connectivity demand continuing to expand \u2014 as evidenced by competitors like Credo pushing deeper into the 1.6T networking space \u2014 MRVL remains a closely watched name for investors tracking the AI semiconductor buildout.",
+      "summary": "Marvell is currently trading at $252.85, sitting **$86.51 (25.5%) below** the consensus analyst target of $339.36 \u2014 a gap that suggests analysts see significant room to run even after the stock's massive 214% surge in 2026. Today's 5.9% pullback appears tied to broader chip sector weakness, with ASML's strong earnings paradoxically doing little to stem a sector-wide slump as traders reassess valuations across semiconductor names. For those tracking MRVL, the story remains a tug-of-war between a compelling AI custom silicon growth narrative \u2014 anchored by what one report calls a quietly dominant $37.5 billion business \u2014 and the natural turbulence that comes with a stock trading at these elevated levels after such an extraordinary run.",
       "news": [
         {
-          "title": "MSFT Stock Gets A Thumbs Up From Barclays \u2013 Firm Expects Quarter To Start Showing \u2018More Differentiation\u2019 In Software",
-          "url": "https://finnhub.io/api/news?id=4579ff14b197bbd8a50945d031d8ab4bdd23e4ff79b27b68881630e5114b0b84",
+          "title": "One Stock Could Benefit as AI Spending Moves Beyond Nvidia",
+          "url": "https://finnhub.io/api/news?id=104ee6ca431256bfc0caa6a8678116f9ed9af46ddb47caed70fe19ab89c3b661",
           "site": "Yahoo"
         },
         {
-          "title": "Credo Expands AI Connectivity Portfolio With 1.6T ZeroFlap ALC",
-          "url": "https://finnhub.io/api/news?id=2568185f1bca30b49f4c612caf8ed40cc7d58c670b6d1e1c8f718bdf99385b59",
+          "title": "Why the Chip Stocks Slump Is Deepening After ASML\u2019s Strong Earnings",
+          "url": "https://finnhub.io/api/news?id=6fad9b0cdee9bb86ae7ed98ee61de48ede9d16c518db45b54acda627d1b3045a",
           "site": "Yahoo"
         },
         {
-          "title": "Marvell: A Strong Buy With A $90 Billion Opportunity (NASDAQ:MRVL)",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTTdDMTN2VnBBZ1RXcDVYMEc4cEdnRnZ0TlM3U2dxeVpyWVlRZkI4S2pESDQ3UEJfRXBma1V4NDB5QkM5dDJLZ0dDLTVST3J0NjBhMjY1azh2RkZvdmxJSTVoS2ZldUMycDRmaU90T0Q3SEZBT2FIRGRmd3hnTGxDbjdaZThjSUhTeUZJeXJXNHhqTUxwWkE?oc=5",
+          "title": "Marvell: A $37.5 Billion Business Is Quietly Carrying The Growth Plan",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQcDBHNHZQMnFpaThhNnVzYjRLeWFzU0ptOHM5MHA1VXBsUkVuRlJYNXk1cE1zZk9EdHBpbHR3d19MMkoyakNWSXRDVERBUDNxWWo2dkxtNU5uZjRiVnRNdmZ2UG1leUJtRFZuR2xFazBfQ3JUS2FhaHBqYkxIUTdUN1p6akJEcVNVUjdTdlE2TXJ6UXZsVHIxN2V3RWFiaUxlNWhNRWJHNXZmM2pq?oc=5",
           "site": "Seeking Alpha"
         },
         {
-          "title": "Why Is Marvell Technology Stock Gaining Friday?",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY1gzRi1TWi05RGR0WjJiTGxEejJnaWUzZ3dNa1Zma3h2YjZSS3VKS0VyclNHU1FrSGZfaHI0WW9oZ2tCQWpuVWxfQlZuN1dONDdfZzR5LTlnVU9xcWVNTUR2Z2htUm1oTDB6OUNrTzdCbUlWR0lVTXVKal9mT3A0bWEtdVFndG9YbEhmOWd1ZlRwMlVkclJ3SU9kUGlHZmp1?oc=5",
-          "site": "Benzinga"
+          "title": "MRVL Stock Grinds Higher As Traders Track Tight Range",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMXdTcUdvMzNDNzFfcC1lUktzMHJfMzZoRVN2M3NKamQtck1uZlZQaGlhLVl3UjF4N2pocUZrbWdTaUF2TC1NbllxN0pTbC1paXJodkVFODlWQ0NPRFNhZzVQYjloMHpNczlPNjhsdXVSOUhTT2kwT1N2S0J4UmNROQ?oc=5",
+          "site": "StocksToTrade"
         },
         {
-          "title": "Marvell Technology Inc (MRVL) Shares Fall 3.4% -- What GF Score of 74 Tells Investors",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNQmN1UUdaS3JRTWdWWUNIQnJRQVZzYXRIejVzMEdGMnNDcm9YUkRJbHNhRmU3RFJBVXZtX0JZUXotMEVYVVBIcUwxaHRMWlloZEl5RE45ZE03eW43M3JmV2JleHp6RVZ2WW53VzBmMmhNeDRXVEpQZ2ZHLTlaczVkSGtrZHhkNm5MYzRETGg5MGlnTVd3QU9lcm8xQ3JGVmVERmtic0NKZ2RDcE81OGw3WktKNXIzck11?oc=5",
-          "site": "GuruFocus"
+          "title": "Marvell Is Up 214% in 2026 While Broadcom Is Only Up 3%: Take Profits on MRVL Stock, or Hold On for the Ride?",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOV2VRYVNrUUp6MG0yUzdWOHhTMVA1UWF5dndUZm82d182bjNMYkRvZGN6azZhOHhSNG5aSTV3WDFfeWVoakZyakVVM2trRTF1WTE1dWQzNVMxYmdJQzNfTDkxblJJZURheHNmZFlTVG9HWGdKdnVtWi1CQlJsUzBEUFdqbV93TzVrRkRFMzBRVjhmNnZTSEM4UjVoQnY?oc=5",
+          "site": "Yahoo Finance"
         }
       ]
     },
     {
       "ticker": "TOL",
       "name": "Toll Brothers Inc",
-      "price": 133.12,
-      "change": 0.97,
-      "changePercent": 0.734,
+      "price": 128.86,
+      "change": -3.79,
+      "changePercent": -2.8571,
       "priceTarget": {
         "mean": 170.29411,
         "high": 195.0,
@@ -2022,27 +2022,27 @@
           "action": "main"
         }
       ],
-      "summary": "Toll Brothers (TOL) is currently trading at $133.12, sitting **21.8% below** its consensus analyst price target of $170.29 \u2014 a gap that suggests analysts see meaningful room for appreciation from current levels. Today's modest 0.73% gain offered little in the way of a catalyst, though the stock is attracting broader investor attention, and the company continues expanding its luxury homebuilding footprint with new community announcements in markets like Celina, Texas. For those tracking TOL, the combination of a sizable discount to analyst targets and steady business activity paints a picture of a stock that hasn't yet reflected what Wall Street believes it's worth.",
+      "summary": "Toll Brothers is trading at $128.86, sitting **24% below** its consensus analyst target of $170.29 \u2014 a notable gap that suggests analysts see significant room for appreciation from current levels. The stock slipped 2.86% today, with no major company-specific catalyst driving the decline, though broader market pressure appears to be weighing on shares as TOL continues routine business activity like its new model home grand opening in Castroville, Texas. For those tracking the stock, the combination of a deep discount to analyst targets and steady expansion activity paints a picture of a company executing operationally while the market applies pressure \u2014 a divergence worth watching closely.",
       "news": [
         {
-          "title": "Toll Brothers Inc. (TOL) is Attracting Investor Attention: Here is What You Should Know",
-          "url": "https://finnhub.io/api/news?id=bda576212bd02ac88fcb0b146c3f61eaaf299c276f3004323dd7c3ac16afb70e",
+          "title": "SKYX Announces Closing of Merger with Leading AI Smart Home Technology Company Deako, Positioning the Combined Company to Become a Leader in the AI Smart Home Market",
+          "url": "https://finnhub.io/api/news?id=9523a83c92dccb4bef15a048eea131afc72514b43cce84c59cc2e812283698b5",
           "site": "Yahoo"
         },
         {
-          "title": "Toll Brothers Announces New Luxury Home Community Coming Soon to Celina, Texas",
-          "url": "https://finnhub.io/api/news?id=12be6ab01cd40bdf70d722c42dc3fd173d93820e21db5b98e814f1a29610ed36",
+          "title": "Toll Brothers Announces Model Home Grand Opening at Toll Brothers at Flat Creek in Castroville, Texas",
+          "url": "https://finnhub.io/api/news?id=fa30e64b6df2bc3e75b1a65e6b19f6969e12c9f2390a2a239318aaeac74c1d1e",
           "site": "Yahoo"
-        },
-        {
-          "title": "The final home in this Marietta community has 5 bedrooms, 5 baths and a loft.",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZnphSlBpT1pSOTEtc29Ud1JnZjJjYzR0TFdOVXZ0VFFydUs1WkQyVnZ2Zl9BVVJTN0VBT3dONXFhM2gtWndlcFVaTVQxYVJvTTVpSUFha3ZMcG1WODdHWWJpNUt5THJEN3JpYkRaZjhybE5qRVRVbHJlRjA1ZC1XZ3RweDcxZnhqSEMxcFZqUldta2NIaUx1b1VUUzZDbVdhMXRLNHhwOEVmS1pMVEFFWFNVUlhiUFo5SmpWaGMtQQ?oc=5",
-          "site": "Stock Titan"
         },
         {
           "title": "Toll Brothers Inc. (TOL) is Attracting Investor Attention: Here is What You Should Know",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUm9FNjk1dmZKXzdFVHVwVzhrYnZTOGlSeER3STlTTm5aa2dVZDBxVXd4WExBZFllWmFiX3dobGMwZU55dVlEalotZGRiZGNkZ2RCQlZ4am5mU2hqSWFrT0NuX3puU1BBLWF4Z0xTdVBMWmN4MnZQRWhjNXNfZ08wdU54MWt4RXo3MFFFTVhqU1pwOTUyMlNJUDV5S3JnZw?oc=5",
           "site": "Yahoo Finance"
+        },
+        {
+          "title": "Homes start in the mid-$500,000s at a Texas community where a model home debuts Oct. 17-18.",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPY01pSDVTSDJUNVN2eWZtMm0wRDFLeEJNWk00bEQtSF9WeHJra1RTLW56anJaMnNfZ0Rtdmx1Q3ZuSUJWZkJsSXdmMDRuUk9kUGxxUmZ3YzRTMGd2U2pKN09yNEViN1N0WDY0NkdaYWNRTHdEOFhNcW1Fa1hjVkJsQnVyWjJBdERVaVpXODlKWlZKSlVDYVFjQTVFTGpqTFl0YlJDMExUSmJqcWoyUE1GUGVEQjlnSlZ0NUhraDJzSQ?oc=5",
+          "site": "Stock Titan"
         },
         {
           "title": "$1000 Invested In Toll Brothers 10 Years Ago Would Be Worth This Much Today",
@@ -2054,9 +2054,9 @@
     {
       "ticker": "IBM",
       "name": "International Business Machines Corp",
-      "price": 231.78,
-      "change": 4.76,
-      "changePercent": 2.0967,
+      "price": 230.57,
+      "change": -0.21,
+      "changePercent": -0.091,
       "priceTarget": {
         "mean": 240.56435,
         "high": 297.0,
@@ -2101,16 +2101,16 @@
           "action": "main"
         }
       ],
-      "summary": "IBM gained 2.1% today to $231.78, but still sits $8.78 (3.7%) below the consensus analyst target of $240.56 \u2014 leaving meaningful room before it reaches where 23 analysts collectively think it should be priced. Today's move appears tied to broader attention on Dow Jones movers, with institutional interest also in focus as NorthCrest Asset Management raised its position, signaling continued confidence from at least some professional investors. For those tracking the stock, the setup is one of gradual momentum toward a well-defined analyst consensus, with IBM increasingly framed in retirement and long-term value conversations rather than high-growth narratives.",
+      "summary": "IBM is currently trading at $230.57, sitting **4.2% below** the consensus analyst target of $240.56, suggesting the stock has some room to run before reaching the level where analysts broadly see fair value. Today's session was essentially flat \u2014 down just $0.21 \u2014 with no single dramatic catalyst, though headlines circling the stock include questions about whether its customer financing structure may be flattering its cash flow metrics, a topic worth watching for anyone assessing the quality of IBM's earnings. With an institutional investor growing its position and the stock holding steady near recent levels, IBM appears to be in a quiet consolidation phase, but that cash flow question looms as a potential variable that could matter when the next earnings report lands.",
       "news": [
         {
-          "title": "Discover which dow jones stocks are making waves on Tuesday.",
-          "url": "https://finnhub.io/api/news?id=40d2c5297662fe6576264f21cdd4db7fc189e73028158a4128a0960d9c568eed",
-          "site": "ChartMill"
+          "title": "Siemens (XTRA:SIE) Teams Up On Nanostack Transistors For Next Generation Chips",
+          "url": "https://finnhub.io/api/news?id=18e0a52b26507fded4d8b1923642c83b3892cd23c20be8a2750ff507fbbd5ce7",
+          "site": "Yahoo"
         },
         {
-          "title": "Cisco vs. IBM: Why the Stock Nobody Wants Could Be the Better Retirement Buy",
-          "url": "https://finnhub.io/api/news?id=cdea1e2e949ec5fffd3deb2f743b2874accc7aa82d025ba59e420670afc51d50",
+          "title": "Did The Market Read IonQ Stock Right?",
+          "url": "https://finnhub.io/api/news?id=909450bd0d762dbf8ddff2db744423b7b2801a19725386ec599acd8b803fe28c",
           "site": "Yahoo"
         },
         {
@@ -2119,23 +2119,23 @@
           "site": "Yahoo Finance"
         },
         {
-          "title": "International Business Machines Corporation $IBM Stock: NorthCrest Asset Manangement LLC Raises Position",
-          "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNNGlCZEJ2MXlRQk1zVE1jc3NRMllUUV9PYlFvcGd1aW1YZTFRdElkN3dsSzNocEV6ampYajRQLTd2MGJrUEY5M1pzanJPLXl0U0tZY3hORmxqVEJoQ29PTjVCaWZOZjdHMHU1em1KSVdwdklLU1FKUHdQV0p2elFrTjFTeTRCTHNOd1UtNDVteWRwTWpTVzRPNHZReTlueUZyeVV5Y0hUaHA0SlZqdUtvdDkyLVh1QXM2SEdCamVqSWI4Wkh2Tm1CbGpyMmFGcElTcUNCOGZNVExWcXBNUzUwOVR2X0NiSVBRaGxfbmhmb1RVTkMxU3c?oc=5",
+          "title": "International Business Machines Corporation $IBM Stock: Perpetual Ltd Grows Position",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZWhYb3V1dHNHUVRfdDl6dVlXV3JyYWZhRkRLUDFWZzB4bjlZNC0yaURwbUlGckVOMFVUZk1uT3JCdnNkSXhJcnZwX1R0ZEJpSy1SWXlya0lQc0Y0aTdxMVFKQWdjUmVMWUtXVVoyel83MFJoRnhZNHRIUFBGMnU0WlRMekxsN1BiUk42NS0yTE5DWnJ2dW54ZmFrSlZtMUZMVHlyckxMY0YxaVNJZy05RFVpLWFIdVFPX01pdmFxTkNUdEhnX3J3TFhuOGxSdmR1OU5GSlhXNDBXV0k?oc=5",
           "site": "MarketBeat"
         },
         {
-          "title": "Analysts Offer Insights on Technology Companies: TSMC (TSM), Manhattan Associates (MANH) and International Business Machines (IBM)",
-          "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPbnhvc0NER2cxQmNkNk91ZEtXb2J2STI1QlVJTHdXZkpjR2FKUGZ6Y2NBWWVGQmFhOXVwYklMRjNEUFNIZWVsQUlHVVI1M2xrMHlkQ0sycXB5UHFWTnM0TG5naTkzWmNOeWdQUVdCeERGWEItSFZrYjFvamEzaHc3MndIeFFpeU52dUZuQWVNZVVDRi1MczI1UHlQOGljQjNNMWR0b1ZVTTNkb2FvVHpzeHFvSl9Lb1V0Yzlia091UWJBR2Y1WjJmWW1sY1lXWFhBd1c5YUdjY1RaYWxEVFk1RDNkR3V4WHpJT1lRTm9jVzlGcFVNbkcxUUJGNDdKUmV0dUQ0UlJWVkh0RVpRejJZQmE3NERMa3cwQ3YzdTVPX2sxMUZJV3J2REZBX0dPZWM?oc=5",
-          "site": "The Globe and Mail"
+          "title": "IBM: Is Customer Financing Flattering Its Cash Recovery?",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMHdtWnp3MVhLdEJVY1VKcDFSbndFeHZLMi1vYkZZb2xDZVFGcnVJaFdFdEllLW11VWlaQ0R2WU5RaDJQc0doZkEtdi0zZzdEREk3UWJSNUh6QTVzYUs3YlBpRUdCS29fdlBwZnUtbnFQZ3dwV3QtQ0F6ME5tTUtoVHdMVmJBSHNqOUJ0X0lBTENObVZEajh3RGtzUEFxY3BfeDFZVThR?oc=5",
+          "site": "Yahoo Finance"
         }
       ]
     },
     {
       "ticker": "GLW",
       "name": "Corning Inc",
-      "price": 147.23,
-      "change": -0.05,
-      "changePercent": -0.0339,
+      "price": 142.71,
+      "change": -5.83,
+      "changePercent": -3.9249,
       "priceTarget": {
         "mean": 187.70589,
         "high": 238.0,
@@ -2180,16 +2180,16 @@
           "action": "init"
         }
       ],
-      "summary": "Corning (GLW) is currently trading at $147.23, sitting **21.6% below** the consensus analyst price target of $187.71 \u2014 a significant gap that reflects either a meaningful opportunity or lingering skepticism the market hasn't yet resolved. The stock has been under notable pressure recently, headlined by a brutal 46% single-month drop in July \u2014 its worst in 24 years \u2014 though analysts at Truist and commentators like Jim Cramer have pointed to the company's fiber optics narrative as a reason for patience, even as peer Lumentum's struggles with AI optics demand raised fresh questions across the sector. For anyone tracking GLW, the picture is one of a stock where Wall Street's collective conviction remains high on paper, but where that $40-plus gap to target means the market is still demanding proof before rewarding the thesis.",
+      "summary": "Corning (GLW) is trading at $142.71, a notable **24% below** its consensus analyst target of $187.71, suggesting the market is pricing it at a significant discount to where 17 analysts believe fair value lies. Today's 3.92% decline adds to what has been a brutal stretch for the stock \u2014 including a historic 46% single-month drop in July \u2014 with recent volatility tied to broader market pressure and ongoing uncertainty around its core business. Despite the pain, analysts at Truist and commentators like Jim Cramer continue to point to Corning's fiber optics growth story as a potential long-term catalyst, leaving investors to weigh a wide gap between current price and analyst targets against a stock that has clearly been under heavy selling pressure.",
       "news": [
         {
-          "title": "Lumentum (LITE) Is Down 8.8% After Long\u2011Term AI Optics Commitments Raise New Demand Questions",
-          "url": "https://finnhub.io/api/news?id=caac3bbb2fe2d7936c3801b78a19863dbbca104cbdc91af3ecb06d538846e873",
+          "title": "Corning, Marvell, ASML, BlackRock, and More Stocks That Explain Today\u2019s Market",
+          "url": "https://finnhub.io/api/news?id=0c597c795a7ec84fda81c0065b575f1063c0fb1c7190f8b6c5f6def0c9b360d8",
           "site": "Yahoo"
         },
         {
-          "title": "Can Corning (GLW) Climb 26.12% to Reach the Level Wall Street Analysts Expect?",
-          "url": "https://finnhub.io/api/news?id=c38eea98753428b278a3ef25aa94523011dfe897c2535b919ce2f165ccd8af96",
+          "title": "Global 3D Cell Culture Technologies Market Report 2026-2030 | Capitalize on 19.9% CAGR as Merck KGaA, Corning, Thermo Fisher Scientific, Sartorius, and Lonza Scale Organoids",
+          "url": "https://finnhub.io/api/news?id=05a152b22bd6645e86b554f8c69a9b8127736d70f587b17f2d689b239bb084d3",
           "site": "Yahoo"
         },
         {
@@ -2198,23 +2198,23 @@
           "site": "Stocktwits"
         },
         {
-          "title": "Jim Cramer Backs Corning\u2019s (GLW) Fiber Story After Its Major Stock Decline",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVGpjcjZSUHoySzNpODRabkE0Q2M2MEhvZkcwYU5YemxsYmRWRnVTekRZeEVPMDdoSzVQRTNfSXNHZDZMdXp1bDYxNzQ0aS1jZXhZaEd0V2p2OEotS21OcHctSVUwWWJVNGhaY0p0anRVaDI5eVJzVXZYNUd2NXlzS2toR3VZSWZJVzlOQmw4Y0F1VDcwUFkxMQ?oc=5",
-          "site": "Yahoo Finance"
-        },
-        {
           "title": "Corning Inc Stock (GLW) Moved Down by 3.82% on Oct 12: Key Drivers Unveiled",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYWp3REY0N1dQRnJxVTNCdlBXT3AwemcwdnFZSGgxb2NLcklZNmxaelROUDdxcGZ6RjdnSW1lSmo4TllaTE56amlTWjB4N2VYemlZTGdJZDI2blVubTJGME1sM2o2X2ZocUpZWU1xdW12bVAzdlRlaFEwM3pYNjRBY0pzRXlhbmwwMlE?oc=5",
           "site": "TradingKey"
+        },
+        {
+          "title": "Jim Cramer Backs Corning\u2019s (GLW) Fiber Story After Its Major Stock Decline",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVGpjcjZSUHoySzNpODRabkE0Q2M2MEhvZkcwYU5YemxsYmRWRnVTekRZeEVPMDdoSzVQRTNfSXNHZDZMdXp1bDYxNzQ0aS1jZXhZaEd0V2p2OEotS21OcHctSVUwWWJVNGhaY0p0anRVaDI5eVJzVXZYNUd2NXlzS2toR3VZSWZJVzlOQmw4Y0F1VDcwUFkxMQ?oc=5",
+          "site": "Yahoo Finance"
         }
       ]
     },
     {
       "ticker": "COHR",
       "name": "Coherent Corp",
-      "price": 287.75,
-      "change": -0.27,
-      "changePercent": -0.0937,
+      "price": 269.84,
+      "change": -20.14,
+      "changePercent": -6.9453,
       "priceTarget": {
         "mean": 412.52014,
         "high": 500.0,
@@ -2259,17 +2259,22 @@
           "action": "main"
         }
       ],
-      "summary": "Coherent is trading at $287.75, sitting roughly 30% below the consensus analyst target of $412.52 \u2014 a significant gap that suggests analysts see substantial room for appreciation, though the stock has yet to close that distance. Today's movement was essentially flat (-0.09%), but recent headlines have been mixed, with one notable piece flagging \"one big reason to stay away\" even as the stock draws comparisons to rival Lumentum in what appears to be a competitive optical/photonics sector narrative. For those tracking COHR, the wide gap between current price and analyst targets is eye-catching, but the cautionary headlines suggest there may be a specific overhang or risk factor worth investigating before drawing conclusions about whether that gap will close.",
+      "summary": "Coherent (COHR) is trading at $269.84, a steep **34.6% below** the consensus analyst target of $412.52, suggesting the market is pricing the stock at a significant discount to where 23 analysts collectively think it should be worth. The stock dropped nearly 7% today, with headlines pointing to a specific catalyst weighing on shares, and at least one recent analysis flagging a notable concern keeping cautious observers on the sidelines despite the stock's otherwise strong year-to-date performance. For anyone tracking COHR, the wide gap between current price and analyst targets presents an interesting tension \u2014 the discount could signal an opportunity, or it could reflect the market pricing in a risk that the analyst consensus hasn't fully accounted for yet.",
       "news": [
         {
-          "title": "Lumentum Vs. Coherent: Backlog Quality Leaves Investors Spoiled for Choice",
-          "url": "https://finnhub.io/api/news?id=52a5bbaf5c7d6a986a9c9720855327144dc1872f9de37fc1337a6b4f3989c0f5",
+          "title": "Is COHERENT CORP (COHR) Outperforming Other Business Services Stocks This Year?",
+          "url": "https://finnhub.io/api/news?id=d3e20bf7da3bf0433e399a3704bbbd1618bdc9745aa98fc639a7cfdc802fd940",
           "site": "Yahoo"
         },
         {
-          "title": "Zacks Industry Outlook Highlights Coherent, GigaCloud Technology and ScanSource",
-          "url": "https://finnhub.io/api/news?id=c930ae6df450ac78dc10659e2e6ee514992d490d10901b2be4b06dcd20a3e011",
+          "title": "CIBC to launch additional U.S. Canadian Depositary Receipts",
+          "url": "https://finnhub.io/api/news?id=438120ffde9775af72c243c75dffe1796b2b14de58c6775d05928ecea5d80129",
           "site": "Yahoo"
+        },
+        {
+          "title": "Is COHERENT CORP (COHR) Outperforming Other Business Services Stocks This Year?",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNN0J3OXZCVTF6Y2FOMlJfNkQydDl3N2FCUEpJS0RObDFnaVZTY1RKN29tLXRvU0pRZ3RqODMyVHN6cDM1RGZyQVdxeVJYdTZyR3A0NUlBd0laWGhGNUpUMDJEWWhDUzUwRnlyYllvMUdZRm5GMmpqOExCaWJEUDdCNVcxUC1MSUtsQXQ2eEQ2bVk?oc=5",
+          "site": "Yahoo! Finance Canada"
         },
         {
           "title": "Coherent: A Tempting Buy But There's One Big Reason To Stay Away (NYSE:COHR)",
@@ -2280,22 +2285,17 @@
           "title": "Why Coherent (COHR) Stock Is Down Today",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQWlZd09HdzZYVUVCRldsX212UEZJczVVd1ZuZTFhSGdyZVdQWnRMRmo3MGZXbWdMN1hyS2pfd095U0ZTSFozMTlfUEQ4dDRhLVFGYkIyVkZWZ3hZM0R2eDFPb3d4cXk1N3U4dkVqVjF2SzRFMS16dHZYRmpKVXVxbEVR?oc=5",
           "site": "Quiver Quantitative"
-        },
-        {
-          "title": "Zacks Industry Outlook Highlights Coherent, GigaCloud Technology and ScanSource",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX0paY190ZEZNQm05dTdZM2U5NDFrRWd6T1A4amRhdnNYbWs2Q29aV0hjTDlreTRVMm1NMV9fTm1wRTNQT3JPVHhWdVh1UmstOU9IWmNfVGxJbkdwZUZ1QUtFenh0RGJtaWY0QUJ0VUJQT0J4ZWNUeG50ak1OemNEMHBWbVBBaDhISEd3RFl3Ny1iaHRjeGE0VG1LWnYxSnhrZHlmMVZIdlJBT0F0am90Um5WUEVWSVltZGxsRlpMZXJ1STNyUkRGZk1QamNzb2s?oc=5",
-          "site": "TradingView"
         }
       ]
     },
     {
       "ticker": "LITE",
       "name": "Lumentum Holdings Inc",
-      "price": 976.95,
-      "change": -18.46,
-      "changePercent": -1.8545,
+      "price": 919.3,
+      "change": -68.69,
+      "changePercent": -6.9525,
       "priceTarget": {
-        "mean": 1177.3402,
+        "mean": 1179.071,
         "high": 1500.0,
         "low": 820.0,
         "numAnalysts": 26,
@@ -2338,41 +2338,41 @@
           "action": "main"
         }
       ],
-      "summary": "Lumentum is currently trading at $976.95, sitting **$200 below** its consensus analyst target of $1,177 \u2014 a 17% discount that reflects meaningful upside potential according to the 26 analysts maintaining a strong buy consensus. The stock has faced notable pressure recently, with shares sliding nearly 10% over the past few sessions after long-term AI optics commitments sparked fresh questions about near-term demand sustainability, and today's additional 1.85% decline suggests the selling hasn't fully resolved. For those tracking LITE, the picture is a tug-of-war between a wide gap to analyst targets and a free cash flow inflection thesis on one side, and lingering investor skepticism about whether its AI-driven backlog can translate into durable earnings on the other.",
+      "summary": "**Lumentum (LITE) \u2014 $919.30 (-6.95%)**\n\nDespite a strong recent run, LITE is pulling back sharply today and sits roughly **22% below its consensus analyst target of $1,179**, suggesting analysts still see meaningful upside from current levels even after the stock's stellar 2026 performance. Today's drop appears to be a cooldown following a recent 9%+ surge tied to optimism around Lumentum's business momentum, with Barclays among those arguing there's still room to run. For investors tracking this name, the picture is one of a high-momentum stock taking a breather \u2014 institutional buying, bullish analyst coverage, and a wide gap to the consensus target keep the longer-term thesis intact, but today's volatility is a reminder of how quickly sentiment can swing.",
       "news": [
         {
-          "title": "Lumentum (LITE) Is Down 8.8% After Long\u2011Term AI Optics Commitments Raise New Demand Questions",
-          "url": "https://finnhub.io/api/news?id=caac3bbb2fe2d7936c3801b78a19863dbbca104cbdc91af3ecb06d538846e873",
+          "title": "Zacks Investment Ideas feature highlights: Sandisk, Lumentum and Jabil",
+          "url": "https://finnhub.io/api/news?id=b715ad51068893227e14096de72ee80afae54388a29634556bdb361615e7537d",
           "site": "Yahoo"
         },
         {
-          "title": "Lumentum Vs. Coherent: Backlog Quality Leaves Investors Spoiled for Choice",
-          "url": "https://finnhub.io/api/news?id=52a5bbaf5c7d6a986a9c9720855327144dc1872f9de37fc1337a6b4f3989c0f5",
+          "title": "Was There Any Sign Coherent Stock Would Run?",
+          "url": "https://finnhub.io/api/news?id=8257c512a2309d74c08c248bdaaa7d205c7292944c9876117703ac9625f2d4b1",
           "site": "Yahoo"
         },
         {
-          "title": "Lumentum: The Free Cash Flow Inflection I'm Betting On (NASDAQ:LITE)",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNU0lXdWVUMU1jNlI0MEd1VXZMS2V5R24xVklTaU5VRFQ4RnVnbjdES2RvUkNVT1gyOTZodU9rLVpJMXlhVjlPd0sxRk9OUG1XX2tSejRHMUhJV256Unk3eEZZMjB2NHpsRFVHa3Z0MFB0RmFBekpUZVRuaHA0Q0JRZnhxR1FpSDRJd1l6Rk1oV1gtUHpZb2FkWQ?oc=5",
-          "site": "Seeking Alpha"
+          "title": "The Long-Term Investment Case for Lumentum (LITE)",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYnV4UUVmQWFPU05LNVFBYUZ6UkN3bG52dVR6VmVLd2dRWDctdXRnQXlSVXIyUm5ra2pqcTJpaW9ldTlWTjB2RFg2a0pxMUQ1eW5qQk5IdTZkTVVuYk5LTTllazl5S3RWVzY2TmlDbU93LXJwUWtLcmk2dVFObE41cDRRNDUxZlhUdld6aUI2em1rekh5TmJ4TlRzeUN2T2Ix?oc=5",
+          "site": "Yahoo Finance"
         },
         {
-          "title": "Why Lumentum Holdings (LITE) Stock Is Down Today | LITE Stock News",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQaXlfeEcxdE1uTEk1bTBscjA2dWM1UEx5Y3ZxNGNWRXJ3TXpxU1BzdDNXR0dReVJnamUtOXpTV2VGM2U3eHBUb0k1Ti1UME9yRGhzTnpkcXh1V1gxdS03RVFTREZnNXpGOUJuOGJtaHp0cVllaEx5OVlyUFRuM0JUWktpR0x1UnBB?oc=5",
-          "site": "Quiver Quantitative"
-        },
-        {
-          "title": "Lumentum (NASDAQ:LITE) Stock Price Down 9.8%",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZjNBejM4WFo4MTJJZFVLblNhNXQtWkRUU0pHNWxRWFJQUVlQMkVNVUUycEFidjlWVFlvRUktV2IzMEc3amVmRUhOSzMyTVNtX3pzcFFON05HaExobU9yaDFsWjZva041UmVyY2ItRFRqSmloMzhFbkNhSFlRUkEyTkpCYVQyYkdJeXZTWngxUWMzeGRJUFE4N19Mb05NbzhMRlM2eDBSQVc4VW5PS18xLWlEdWVmQ0U?oc=5",
+          "title": "Q Fund Management Hong Kong Ltd Acquires 7,780 Shares of Lumentum Holdings Inc. $LITE",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMGdxODd2V0xsbFVuVjNDcjFPVDhESVR5YWI1RmJJVU9WRUlseE82allHZFMwekZzRzhuNXlmMlVpb1NkS1QxaWJHaWtVLURXR19yckppNjVJb21KV3JnNFV0QU1XVU9aMlg2cVBMSFdYT3hRSFRFcGh4N0dROUt1UFBZQXNxcFYzVHlveEZicGNkeEpvWlNyaGpPSGxON3lZSE1KeWJVQUlkR0owMi1EWmhobW5VYTk2Nk81NjBzZjNfQS1WZ0ZJMkRkUjRDUVMtdTVHZG9HMXBTdjg?oc=5",
           "site": "MarketBeat"
+        },
+        {
+          "title": "LITE Stock Jumps Over 9% As Lumentum Extends Its Stellar 2026 Run \u2014 Why Barclays Thinks There\u2019s Still Room To Run",
+          "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOMzI1bV9LNXdxemV2RVBTMDZxZHZhQWVJVFdSZjdQdWl5SGR3d0cyaS1JalhnUS02dzF2Ukh3ZHdmbnZlUE8xblcza2YxNVlzbVZIbERHdGJUbnA3R3pnYTZCRHB5SWc0dl9IeXhLNmFVZ3l4SWZYYkNET1pNc202Rkdyd3lvZ09oQTRTZUZ0YU5SNF9UTkNna2FodHVkSFYwSUtuWmdiRi1tdFJ5bnduU0FsdHpMbEczYWlORENnYnNIQWRTdzJDeEQ2YklKMTZlcVdVMUJzbTRzb212ekpMT3FoempIdUN6dVB2U2hWZ1Zrd1pKb2ZKaXBEZlRMRXNwUjF2SzYtU2VzTFFy?oc=5",
+          "site": "Stocktwits"
         }
       ]
     },
     {
       "ticker": "PLTR",
       "name": "Palantir Technologies Inc",
-      "price": 208.95,
-      "change": -0.05,
-      "changePercent": -0.0239,
+      "price": 204.28,
+      "change": -4.39,
+      "changePercent": -2.1038,
       "priceTarget": {
         "mean": 205.27309,
         "high": 265.0,
@@ -2417,41 +2417,41 @@
           "action": "main"
         }
       ],
-      "summary": "Palantir is trading at **$208.95**, roughly **$3.70 above** its consensus analyst target of $205.27 \u2014 meaning the stock has already surpassed what 26 analysts collectively believe it's worth at current levels, a notable sign that market enthusiasm is running ahead of Wall Street's formal estimates. Today's session was essentially flat (-0.02%), with the real action coming from ongoing debate in the headlines around whether PLTR is \"fully valued\" following its Sovereign AI partnership news, while longtime bull Dan Ives continues to make the case for further upside into 2027. For anyone tracking this name, the core tension is clear: the stock has strong momentum and high-conviction supporters, but trading above the analyst consensus target means there's less of a traditional valuation cushion \u2014 making the bull case increasingly dependent on execution and continued AI-driven growth stories holding up.",
+      "summary": "Palantir is trading essentially at its analyst consensus target of $205.27, with today's $204.28 price sitting just $1 below where the average of 26 analysts thinks fair value lies \u2014 meaning the stock has little room for error if it misses expectations. The modest 2.1% pullback today comes ahead of what analysts are framing as a high-stakes earnings report, where nine consecutive beats have raised the bar considerably, and a fresh insider share sale under a prearranged plan may be adding some minor overhead pressure. For those tracking PLTR, the core tension is clear: the bull case rests on the argument that consensus models still underestimate Palantir's AI-driven growth \u2014 particularly around sovereign AI contracts \u2014 while the stock's premium valuation leaves it vulnerable to any stumble when Q3 results land.",
       "news": [
         {
-          "title": "Prediction: ServiceNow Could Be Building Its Next Billion-Dollar Growth Engine",
-          "url": "https://finnhub.io/api/news?id=ca5e14000927113f0a179012e33d5af7e6b1a51e044724cbc933c7766afd2b5e",
+          "title": "Palantir\u2019s Earnings Gamble: Nine Straight Beats Set High Bar for Q3 Results",
+          "url": "https://finnhub.io/api/news?id=b9a48edbe1b1c1bdb0124ef0fbeea19b5464098e4019073f95084e31cc6cdb4b",
           "site": "Yahoo"
         },
         {
-          "title": "California's billionaire tax might now be dead on arrival, according to Polymarket and Kalshi odds",
-          "url": "https://finnhub.io/api/news?id=484a87e3b1f7c2419b9846ceeac6465ba6061be1f0293969fde1c449ae496b7c",
+          "title": "Thrive Advances NextGen 3.0 Platform with Vero AI Fabric to Power Intelligent, Integrated Service Delivery",
+          "url": "https://finnhub.io/api/news?id=cbbd434ce9b647346882b3ec8c7fd23c3bda698fdb9c483e6fb8250f3601a2b7",
           "site": "Yahoo"
         },
         {
-          "title": "Is Palantir Technologies (PLTR) Fully Valued After Its Sovereign AI Partnership?",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxON2sydUxkNnFxMmpvNW5PcVYtNTMwbzlaSnd3aFNZd3pJTExSMVRWdG1pbW1BR2FsbkM4NS1RZ2wwVTVCUHZzUmRJQ1Z3a01DamlpcW1ubEFWZjZmay02MnY2QlA5TWc3TWJZUHVfc3VXckoyZnN2WWFTc1BOODhWTkZBTWM2YmlXSVNtTUJRazlZUDg0SExpU3VsSk1OcVZmd3BLOUhaOF9yX0F0a1pEQlBQUEstX3JmcTNYMFNuZ0c1Q3RVUGFmaG9Fd2RIY2N6THUyVlY0TdIB3AFBVV95cUxOVjJLOTBpYTBqMHhvME5oSmxGdm9xaVNoVURxaTZ6a05KMVdsZWlnYmU5c0xUQXg2TUZNT0VnWTJuSDJpMzU1NGxhSmI0N1I3QzdoQVFPX2l3NmFwM1UxMVExT0xyTmhRVjV4N2NFUXV0SWY1Tmh4RUtFWHYtUmp5R3QtcjlPbDE5VUJlcHVackR2d2RkYUd3VFgtVkRvY1NGdUhndkRiZDF5bGttZEE4RW91V3VqcS1tRFVyeE1vSzBJXzFYOGhCVTAybXZzY21pQ2tCdTJSX3BySEhy?oc=5",
-          "site": "Simply Wall Street"
-        },
-        {
-          "title": "History Says This Will Happen to Palantir Stock by 2028",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdE4xRTU2WVloenl2NDF6X2VKVDA4V3Y0c0piemg5OEZOZjBVX0xBSzhwZkJiS0RSejNZY0huekFhT3FMNlZDNHk4VmhLMlhrXzM5RUQtdS1HOWk2VEp5ZUR5RjUtQTU2QTBWZFdQcmVjWk1WLUlvWlVmQVdPMDJQbVZ4VEhQTk5adzFMUk1qQ25uZEo2SG92b0JQVDVYWGRZ?oc=5",
+          "title": "Palantir (PLTR) Stock May Trade At A Premium Despite Sovereign AI Buzz",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVVI0R0NnbFMzRS1sQ2cyMFlLUmRHZ3NmMDVpZk01TVU0dGsyQmlVd1dSa2pyTEZUVWVwbnE4c1ZsM2ZDbDVDX1Fic2ItMktYV29QSUVIOFZpamE5TlJfTm8xSDFha0dzUnBieE1aMUdXYzdPM0J1dFRJTHFZTjkzbV9Yc3pPVi16eGdoc2ppZ2pSMXpaeS1mbkxB?oc=5",
           "site": "Yahoo Finance"
         },
         {
-          "title": "Dan Ives Remains Bullish on Palantir's Stock in 2027 for This Simple Reason",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV1h6aVM2dDF6ZFlHSkxwcXR1SGxLbmN5cV9KLTdieTd5N1l5aU9RWlRvbTk1VGZGdkktNGY2cE9qUV9vRk9KbmNmVlI0M01VclFWbkdzUDlmdnZTQVhLelNaS0E2cXZ3TlpvTTdzUzZURTl6ZkRMLWpHRWhRUXFoTkdJNGVQRGhVUVdEVHJUNjJDNzFxTG9LZ3RxSnNqRU9SbHlnSzhlQ2hTMl8yZk8walZWcmN4dG8zN2c?oc=5",
-          "site": "The Motley Fool"
+          "title": "Palantir (PLTR) officer sells 18,000 shares under a prearranged trading plan",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdDVoUnlhMGxyXzJMRUNqUHQ0b1JwYnEzUVJmdXRLaWI3RlUtUTI0M1NuSll2WU9QREowMHVWQXJza09TWnV5NzhxeklaRHJhTERpWVAxcDFNcW41ZnZJUlUzV2F3bEhPUlRPWVNxTHZTeTBvZWZ3RnlWZW9KNDZKQ2FXS2c4M2hTa2U2a2FJZmdoX1dzNU9MSXNsbGxLMWdMR0FVcUFxRTdCM3ZPWmZJLXB1YlZxZkxhSVhJ?oc=5",
+          "site": "Stock Titan"
+        },
+        {
+          "title": "Palantir: Keep Buying More As Consensus Still Underestimates It (NASDAQ:PLTR)",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN3ZOUjVBNS0zY3dYUmdzZDBYX0ZsS1MwMHJra2FQN2hHZ0tSQV9mOGVITkxoZEIyMmFLRU85eXkwYmdIWW1YRlJ6MDQ4bzl1M2tQeVFndDNzTFNJMkNnWTV1d0lHcXdrZ29OTlhva0trbTNITFhiRkNxRkx5YXBUMzJzUFgwY3BuN2dOWHQwdXZPcF9HNE0xdGRmUG05VFh1blVTSW1R?oc=5",
+          "site": "Seeking Alpha"
         }
       ]
     },
     {
       "ticker": "TIC",
       "name": "TIC Solutions Inc",
-      "price": 9.03,
-      "change": -0.11,
-      "changePercent": -1.2035,
+      "price": 8.75,
+      "change": -0.37,
+      "changePercent": -4.057,
       "priceTarget": {
         "mean": 12.14286,
         "high": 16.0,
@@ -2496,22 +2496,22 @@
           "action": "down"
         }
       ],
-      "summary": "TIC Solutions is currently trading at $9.03, sitting **25.6% below** its average analyst target of $12.14 \u2014 a notable gap suggesting analysts see meaningful upside that the market hasn't yet priced in, though the consensus rating sits at \"Hold,\" tempering that optimism. The stock dipped $0.11 today within a fairly wide intraday range of $8.91\u2013$9.19, with recent coverage questioning whether this technical services platform's momentum justifies its valuation. For those tracking TIC, the story is a stock with analyst-acknowledged potential that remains under pressure, caught between a significant discount to target and a cautious Wall Street stance.",
+      "summary": "TIC Solutions is currently trading at $8.75, sitting **27.9% below** the consensus analyst target of $12.14 \u2014 a notable gap that suggests analysts see meaningful upside from current levels. Today's session pulled back sharply, dropping $0.37 (-4.06%) after recent headlines showed the stock had climbed to $9.14 and was testing the midpoint of its trading range, indicating that level proved to be resistance rather than a launching point. For those tracking TIC, the picture is one of a technical services platform with analyst conviction but price action that continues to struggle, with the stock giving back recent gains and still sitting well beneath where the pros think it should be.",
       "news": [
+        {
+          "title": "Top TIC Solutions (TIC) Competitors 2026",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5HZW0xejBkV1hUN1RHNjFPYWc5anVjV2ZseXRxRDkzX2pMVDdBMUZfM19vdm9CbmJvUjZHS1pCUUtBZm1SYTJyNFRqb19yQlNwN051VE11Z2VDT2EtY1g5QmhncWt5cEhLVVB1cl9MS0NwcmhNY2dMZm9Jdjk?oc=5",
+          "site": "MarketBeat"
+        },
         {
           "title": "TIC Solutions (TIC): Is This High-Flying Technical Services Platform a Buy?",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNEd3ODRaSDlrUU5obGUwSDJPLUN2TXZHTWEzSFViMTNIbzhINXFCb1VPc3Aya0x3bHpEMnl3dXZzQWY0TE5TSkVteU9OUDV2eTJ5aGZUb2lYRXdIbXZZZEdVakg0ZTdIb09nOTh3UDNGaGQza1BXd1NxOUZVelJMYlJqRjBMel92a1pCZFFQQW9nTEh2a1hrQWxB?oc=5",
           "site": "Yahoo Finance"
         },
         {
-          "title": "TIC Solutions, Inc (NYSE:TIC) Stock Rated \"Hold\" by Sell-Side Brokerages",
-          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPSll1dlI3VXR5ek5ydEFNeFZpWGNoWjVFM3poNFdGbUM0NXNicG1yR1ZXaTI4RUUxMThQVjdNTF9MSUw1LXpNRGNfdGJHNnNSRUJQbFNIdXJSUnRiY20zcjExaVVDMHFlU2UxVURxVTNYeVNkeDhhRnM1Y2FJelNRSFphdG1nU3htRHVDcjNvWHBGNmxEZEIyci15VE85UnI4Mkk3X1A3T294eHMzZkJObldnZGlPbDJxRTkydE5sQWR6STFJQmE3UTFXSQ?oc=5",
-          "site": "MarketBeat"
-        },
-        {
-          "title": "TIC Solutions (NYSE:TIC) Stock Forecast & Analyst Predictions",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRmgxdE9uRFI4ZUtrTHp1UjRXM3FyOXNKeXU0VFhsVFhEZ1FPZHluQk10ZjhnUjBWOU1OOXJOUU1zeTFUS1NLNUpEQmxtWGhPQURGSGVxVnpkaXN1djlvUDUyQmpOV0ZqMnpfSmhqemt6cWlid2dEMmNqak1Xb2FIZGVRUnh3V1VO?oc=5",
-          "site": "Simply Wall Street"
+          "title": "TIC Solutions Inc. (TIC) Climbs 2.58% to $9.14, Testing the Midpoint of Its Trading Range",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUWwxT01laGlKdkdCTXhmN3VwaWlWNEEzOTR1dFhzZy00dlk1WmtOOFktbTdEd1k2U0h1S3JJNW5FS3I4R05WNU9Bb29PUEkxRkVZYXNaSG9uLTJCRkZVOXVWcUZFSGI4V3RXZ0dBQm80ci1ieVMzN2hEdVhmZHFxSGJQTmtqVXlsVUJlYzR0VGEwRkg2blV5MTMtakJVbUxnazJBUTg1dWxHR2EyeW9SSmlxbkdwdkhZNlZXNHNGR3ZMUQ?oc=5",
+          "site": "https://www.siam.in/"
         }
       ]
     }
